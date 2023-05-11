@@ -2,7 +2,7 @@ name: Recon
 
 on:
   push:
-    branches: [ master ]
+    branches: [ "master" ]
 
 jobs:
   recon:
