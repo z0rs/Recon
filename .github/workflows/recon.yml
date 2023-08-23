@@ -17,7 +17,7 @@ jobs:
           
       - name: Get all domains
         run: |
-          curl "https://raw.githubusercontent.com/projectdiscovery/public-bugbounty-programs/master/chaos-bugbounty-list.json" | jq -r '.programs[] | select(.bounty==true) | .domains[]' | grep ".com$" | tee result.txt
+          curl "https://raw.githubusercontent.com/projectdiscovery/public-bugbounty-programs/master/chaos-bugbounty-list.json" | jq -r '.programs[] | select(.bounty==true) | .domains[]' | grep ".com$" | tee Domain/result.txt
           
       - name: Set up Git user
         run: |
@@ -26,7 +26,7 @@ jobs:
           
       - name: Commit changes
         run: |
-          git add result.txt
+          git add Domain/result.txt
           git commit -m "Result scan $(date -u)" --no-verify
 
       - name: Push changes
