@@ -1,0 +1,39 @@
+name: Recon
+
+on:
+  push:
+    branches: [ "master" ]
+
+jobs:
+  recon:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+    
+    - name: Set up Go
+      uses: actions/setup-go@v2
+      with:
+        go-version: '1.19'
+        
+    - name: Install Dependencies
+      run: |
+        sudo apt-get update && sudo apt-get install -y jq curl
+        sudo rm -rf domains.txt .github/workflows/domains.txt
+        # GO111MODULE=on go install github.com/projectdiscovery/httpx/cmd/httpx@latest && sudo mv ~/go/bin/httpx /usr/bin/
+        # GO111MODULE=on go install github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest && sudo mv ~/go/bin/subfinder /usr/bin/
+        
+    - name: Run recon
+      run: |
+        curl -s "https://raw.githubusercontent.com/projectdiscovery/public-bugbounty-programs/master/chaos-bugbounty-list.json" | jq -r '.programs[] | select(.bounty==true) | .domains[] | select(. | endswith(".com"))' > domains.txt
+    - name: Commit and Push Changes
+      env:
+        GH_TOKEN: ${{ secrets.GH_TOKEN }}
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add .
+        git commit -m "Update domains list"
+        git remote set-url origin "https://github.com/${{ github.repository }}.git"
+        git push origin master
+
