@@ -1,4 +1,4 @@
-name: Nuclei
+name: Recon
 
 on:
   push:
