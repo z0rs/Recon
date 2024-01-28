@@ -15,10 +15,11 @@ jobs:
         run: |
           sudo apt-get update && sudo apt-get install -y wget unzip jq unzip golang
           go install github.com/cybercdh/assetfinder@cybercdh && sudo mv ~/go/bin/assetfinder /usr/bin/
+          go install github.com/tomnomnom/httprobe@latest && sudo mv ~/go/bin/httprobe /usr/bin/
           
       - name: Get all domains
         run: |
-          curl "https://raw.githubusercontent.com/projectdiscovery/public-bugbounty-programs/master/chaos-bugbounty-list.json" | jq -r '.programs[] | select(.bounty==true) | .domains[]' | grep ".com$" | assetfinder -subs-only | tee Domain/result.txt
+          curl "https://raw.githubusercontent.com/projectdiscovery/public-bugbounty-programs/master/chaos-bugbounty-list.json" | jq -r '.programs[] | select(.bounty==true) | .domains[]' | grep ".com$" | assetfinder -subs-only |  httprobe -c 50 -t 3000 | sed 's/https\?:\/\///g; s/www\.//g; s/http\?:\/\// | tee Domain/result.txt
           
       - name: Set up Git user
         run: |
