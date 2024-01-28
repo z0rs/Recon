@@ -19,7 +19,7 @@ jobs:
           
       - name: Get all domains
         run: |
-          curl "https://raw.githubusercontent.com/projectdiscovery/public-bugbounty-programs/master/chaos-bugbounty-list.json" | jq -r '.programs[] | select(.bounty==true) | .domains[]' | grep ".com$" | assetfinder -subs-only |  httprobe -c 50 -t 3000 | sed 's/https\?:\/\///g; s/www\.//g; s/http\?:\/\// | tee Domain/result.txt
+          curl "https://raw.githubusercontent.com/projectdiscovery/public-bugbounty-programs/master/chaos-bugbounty-list.json" | jq -r '.programs[] | select(.bounty==true) | .domains[]' | grep ".com$" | assetfinder -subs-only |  httprobe -c 50 -t 3000 | sed 's/https\?:\/\///g; s/www\.//g; s/http\?:\/\///g' | tee Domain/result.txt
           
       - name: Set up Git user
         run: |
