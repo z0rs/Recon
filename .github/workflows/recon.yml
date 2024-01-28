@@ -13,11 +13,12 @@ jobs:
         
       - name: Install dependencies
         run: |
-          sudo apt-get update && sudo apt-get install -y wget unzip jq
+          sudo apt-get update && sudo apt-get install -y wget unzip jq unzip golang
+          go install github.com/cybercdh/assetfinder@cybercdh && sudo mv ~/go/bin/assetfinder /usr/bin/
           
       - name: Get all domains
         run: |
-          curl "https://raw.githubusercontent.com/projectdiscovery/public-bugbounty-programs/master/chaos-bugbounty-list.json" | jq -r '.programs[] | select(.bounty==true) | .domains[]' | grep ".com$" | tee Domain/result.txt
+          curl "https://raw.githubusercontent.com/projectdiscovery/public-bugbounty-programs/master/chaos-bugbounty-list.json" | jq -r '.programs[] | select(.bounty==true) | .domains[]' | grep ".com$" | assetfinder -subs-only | tee Domain/result.txt
           
       - name: Set up Git user
         run: |
