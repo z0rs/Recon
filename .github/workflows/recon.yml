@@ -26,10 +26,11 @@ jobs:
           
       - name: Commit changes
         run: |
-          git add Domain/result.txt
+          git add .
           git commit -m "Result scan $(date -u)" --no-verify
 
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
-          branch: master
+          branch: ${{ github.ref }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
