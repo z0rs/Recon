@@ -19,7 +19,7 @@ jobs:
           
       - name: Get all domains
         run: |
-          curl -s "https://gist.githubusercontent.com/z0rs/971cd0a02f8d9e91de2d43f19e563505/raw/e2a954b8b6568e619bd9d83fd7aa21011c5c3fad/SubDomain.md" | httprobe -c 50 -t 3000 | sed 's/https\?:\/\///g; s/www\.//g; s/http\?:\/\///g' | sort -u | tee SubDomain.$(date +%Y-%m-%d).txt
+          curl -s "https://gist.githubusercontent.com/z0rs/971cd0a02f8d9e91de2d43f19e563505/raw/e2a954b8b6568e619bd9d83fd7aa21011c5c3fad/SubDomain.md" | sort -u | tee SubDomain.$(date +%Y-%m-%d).txt
       - name: Set up Git user
         run: |
           git config --global user.email "${{ secrets.EMAIL_ADDRESS }}"
