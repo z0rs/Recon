@@ -19,8 +19,8 @@ jobs:
           
       - name: Get all domains
         run: |
-          curl "https://raw.githubusercontent.com/projectdiscovery/public-bugbounty-programs/master/chaos-bugbounty-list.json" | jq -r '.programs[] | select(.bounty==true) | .domains[]' | grep ".com$" | assetfinder -subs-only |  httprobe -c 50 -t 3000 | sed 's/https\?:\/\///g; s/www\.//g; s/http\?:\/\///g' | tee Domain/result.txt
-          
+          # curl "" | jq -r '.programs[] | select(.bounty==true) | .domains[]' | grep ".com$" | assetfinder -subs-only |  httprobe -c 50 -t 3000 | sed 's/https\?:\/\///g; s/www\.//g; s/http\?:\/\///g' | tee Domain/result.txt
+          curl "https://gist.githubusercontent.com/z0rs/4d7315dd42336e8dcbcaef7ec6e05f2b/raw/20c86b555382cd4280fb4d0c4e9e474df04e773a/province.md" | assetfinder -subs-only |  httprobe -c 50 -t 3000 | sed 's/https\?:\/\///g; s/www\.//g; s/http\?:\/\///g' | tee Domain.$(date +%Y-%m-%d).txt
       - name: Set up Git user
         run: |
           git config --global user.email "${{ secrets.EMAIL_ADDRESS }}"
