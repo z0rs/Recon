@@ -20,7 +20,7 @@ jobs:
           
       - name: Get all domains
         run: |
-          curl -s "gamma.be" | assetfinder -subs-only | httprobe -c 50 -t 3000 | sed 's/https\?:\/\///g; s/www\.//g; s/http\?:\/\///g' | sort -u | nuclei -silent -nc -attack-type pitchfork | tee gamma.$(date +%Y-%m-%d).txt
+          curl -s "https://gist.githubusercontent.com/z0rs/896454e2804ea5cb8294efbef6b73bde/raw/b44cde84b6966547391e904b593e4799aaea3db2/portofantwerpbruges.txt" | assetfinder -subs-only | httprobe -c 50 -t 3000 | sed 's/https\?:\/\///g; s/www\.//g; s/http\?:\/\///g' | sort -u | nuclei -silent -nc -attack-type pitchfork | tee portofantwerpbruges.$(date +%Y-%m-%d).txt
       - name: Set up Git user
         run: |
           git config --global user.email "${{ secrets.EMAIL_ADDRESS }}"
