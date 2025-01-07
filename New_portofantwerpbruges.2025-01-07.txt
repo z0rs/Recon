@@ -1,0 +1,1296 @@
+[gitlab-saml] [http] [info] https://gitlab.portofantwerp.com/users/auth/saml/metadata
+[gitlab-saml] [http] [info] https://gitlab-d1.portofantwerp.com/users/auth/saml/metadata
+[openam-panel] [http] [info] https://gitlab-d1.portofantwerp.com/users/sign_in [paths="/XUI/#login"]
+[openam-panel] [http] [info] https://gitlab.portofantwerp.com/users/sign_in [paths="/openam/json/serverinfo/*"]
+[swagger-api] [http] [info] http://elink.mail.portofantwerpbruges.com/swagger-ui.html [paths="/swagger-ui.html"]
+[azure-domain-tenant] [http] [info] https://login.microsoftonline.com:443/droneportal.portofantwerp.com/v2.0/.well-known/openid-configuration ["2337dcc6-3a21-4d95-bf72-da5551a9b048"]
+[azure-domain-tenant] [http] [info] https://login.microsoftonline.com:443/event.portofantwerpbruges.com/v2.0/.well-known/openid-configuration ["2337dcc6-3a21-4d95-bf72-da5551a9b048"]
+[azure-domain-tenant] [http] [info] https://login.microsoftonline.com:443/portofantwerpbruges.com/v2.0/.well-known/openid-configuration ["2337dcc6-3a21-4d95-bf72-da5551a9b048"]
+[azure-domain-tenant] [http] [info] https://login.microsoftonline.com:443/portofantwerp.com/v2.0/.well-known/openid-configuration ["2337dcc6-3a21-4d95-bf72-da5551a9b048"]
+[aspx-debug-mode] [http] [info] https://bedrijvengids.portofantwerpbruges.com/Foobar-debug.aspx
+[aspx-debug-mode] [http] [info] https://companyguide.portofantwerpbruges.com/Foobar-debug.aspx
+[aspx-debug-mode] [http] [info] http://fhsp-m1.portofantwerp.com/Foobar-debug.aspx
+[cookies-without-httponly] [javascript] [info] apps.portofantwerp.com ["TS019ef266"]
+[cookies-without-httponly] [javascript] [info] apps.portofantwerpbruges.com ["TS01d85b23"]
+[cookies-without-httponly] [javascript] [info] datasharing.portofantwerpbruges.com ["TS0103fa8d"]
+[cookies-without-httponly] [javascript] [info] digitalspecs.portofantwerp.com ["TS0103fa8d"]
+[cookies-without-secure] [javascript] [info] apps.portofantwerp.com ["TS019ef266"]
+[cookies-without-secure] [javascript] [info] apps.portofantwerpbruges.com ["TS01d85b23"]
+[cookies-without-httponly] [javascript] [info] digitalspecs.portofantwerpbruges.com ["TS0103fa8d"]
+[cookies-without-secure] [javascript] [info] datasharing.portofantwerpbruges.com ["TS0103fa8d"]
+[cookies-without-httponly] [javascript] [info] event.portofantwerpbruges.com ["XSRF-TOKEN"]
+[cookies-without-httponly] [javascript] [info] future-acc.portofantwerpbruges.com ["CSRFP-Token"]
+[cookies-without-httponly] [javascript] [info] future.portofantwerpbruges.com ["CSRFP-Token"]
+[cookies-without-secure] [javascript] [info] digitalspecs.portofantwerp.com ["TS0103fa8d"]
+[cookies-without-secure] [javascript] [info] digitalspecs.portofantwerpbruges.com ["TS0103fa8d"]
+[cookies-without-httponly] [javascript] [info] intranet.portofantwerp.com ["TS019ef266"]
+[cookies-without-httponly] [javascript] [info] login-accpt.portofantwerpbruges.com ["TS014487d3","TS01a3ce07"]
+[cookies-without-httponly] [javascript] [info] my-accpt.portofantwerp.com ["TS18becda0029","TSde8bea2d027"]
+[cookies-without-httponly] [javascript] [info] my-test.portofantwerp.com ["TS18becda0029","TSde8bea2d027"]
+[cookies-without-httponly] [javascript] [info] media.portofantwerp.com ["TS019ef266"]
+[cookies-without-httponly] [javascript] [info] login.portofantwerpbruges.com ["TS014a5a41"]
+[cookies-without-httponly] [javascript] [info] login-test.portofantwerpbruges.com ["TS018cbd26","TS010e8fe8"]
+[cookies-without-httponly] [javascript] [info] media.portofantwerpbruges.com ["DEFAULTLOCALE"]
+[cookies-without-httponly] [javascript] [info] my.portofantwerp.com ["TS019ef266"]
+[cookies-without-httponly] [javascript] [info] my-test.portofantwerpbruges.com ["TS018cbd26","TS01d85b23"]
+[cookies-without-httponly] [javascript] [info] my.portofantwerpbruges.com ["TS01d85b23"]
+[cookies-without-secure] [javascript] [info] intranet.portofantwerp.com ["TS019ef266"]
+[cookies-without-httponly] [javascript] [info] s3.portofantwerp.com ["TS0103fa8d"]
+[cookies-without-secure] [javascript] [info] my-accpt.portofantwerp.com ["TS18becda0029","TSde8bea2d027"]
+[cookies-without-secure] [javascript] [info] login.portofantwerpbruges.com ["TS014a5a41"]
+[cookies-without-secure] [javascript] [info] login-test.portofantwerpbruges.com ["TS010e8fe8"]
+[cookies-without-secure] [javascript] [info] login-accpt.portofantwerpbruges.com ["TS01a3ce07"]
+[cookies-without-httponly] [javascript] [info] register.portofantwerp.com ["TS019ef266"]
+[cookies-without-secure] [javascript] [info] media.portofantwerpbruges.com ["DEFAULTLOCALE"]
+[cookies-without-httponly] [javascript] [info] register.portofantwerpbruges.com ["TS01d85b23"]
+[cookies-without-httponly] [javascript] [info] register-accpt.portofantwerpbruges.com ["TS014487d3","TS01d85b23"]
+[cookies-without-secure] [javascript] [info] my-test.portofantwerp.com ["TS18becda0029","TSde8bea2d027"]
+[cookies-without-secure] [javascript] [info] media.portofantwerp.com ["TS019ef266"]
+[cookies-without-secure] [javascript] [info] my-test.portofantwerpbruges.com ["TS01d85b23"]
+[cookies-without-secure] [javascript] [info] my.portofantwerp.com ["TS019ef266"]
+[cookies-without-httponly] [javascript] [info] share.portofantwerp.com ["TS019ef266"]
+[cookies-without-httponly] [javascript] [info] share.portofantwerpbruges.com ["TS0103fa8d"]
+[cookies-without-secure] [javascript] [info] my.portofantwerpbruges.com ["TS01d85b23"]
+[cookies-without-httponly] [javascript] [info] webapps-accpt.portofantwerp.com ["TS18becda0029","TSde8bea2d027"]
+[cookies-without-httponly] [javascript] [info] webapps.portofantwerp.com ["TS019ef266"]
+[cookies-without-httponly] [javascript] [info] wiki.portofantwerp.com ["TS019ef266"]
+[cookies-without-httponly] [javascript] [info] webapps.portofantwerpbruges.com ["TS01cc02e4"]
+[cookies-without-httponly] [javascript] [info] www-accpt.portofantwerp.com ["TS18becda0029","TSde8bea2d027"]
+[cookies-without-httponly] [javascript] [info] www-test.portofantwerp.com ["TS18becda0029","TSde8bea2d027"]
+[cookies-without-secure] [javascript] [info] register.portofantwerp.com ["TS019ef266"]
+[cookies-without-secure] [javascript] [info] register.portofantwerpbruges.com ["TS01d85b23"]
+[cookies-without-secure] [javascript] [info] register-accpt.portofantwerpbruges.com ["TS01d85b23"]
+[cookies-without-secure] [javascript] [info] s3.portofantwerp.com ["TS0103fa8d"]
+[cookies-without-secure] [javascript] [info] share.portofantwerp.com ["TS019ef266"]
+[cookies-without-secure] [javascript] [info] share.portofantwerpbruges.com ["TS0103fa8d"]
+[cookies-without-secure] [javascript] [info] webapps.portofantwerpbruges.com ["TS01cc02e4"]
+[cookies-without-secure] [javascript] [info] webapps-accpt.portofantwerp.com ["TSde8bea2d027","TS18becda0029"]
+[cookies-without-secure] [javascript] [info] webapps.portofantwerp.com ["TS019ef266"]
+[cookies-without-secure] [javascript] [info] wiki.portofantwerp.com ["TS019ef266"]
+[cookies-without-secure] [javascript] [info] www-accpt.portofantwerp.com ["TSde8bea2d027","TS18becda0029"]
+[cookies-without-secure] [javascript] [info] www-test.portofantwerp.com ["TSde8bea2d027","TS18becda0029"]
+[graphql-alias-batching] [http] [info] https://gitlab-d1.portofantwerp.com/api/graphql
+[graphql-alias-batching] [http] [info] https://gitlab.portofantwerp.com/api/graphql
+[graphql-alias-batching] [http] [info] https://media.portofantwerpbruges.com/graphql
+[graphql-field-suggestion] [http] [info] https://gitlab-d1.portofantwerp.com/api/graphql
+[graphql-field-suggestion] [http] [info] https://gitlab.portofantwerp.com/api/graphql
+[missing-sri] [http] [info] https://login.microsoftonline.com/common/oauth2/authorize?client_id=00000002-0000-0ff1-ce00-000000000000&redirect_uri=https%3a%2f%2foutlook.office365.com%2fowa%2f&resource=00000002-0000-0ff1-ce00-000000000000&response_mode=form_post&response_type=code+id_token&scope=openid&msafed=1&msaredir=1&client-request-id=cd319ec0-d7b4-9a93-7aa2-a02f359e5c77&protectedtoken=true&claims=%7b%22id_token%22%3a%7b%22xms_cc%22%3a%7b%22values%22%3a%5b%22CP1%22%5d%7d%7d%7d&domain_hint=portofantwerp.com&nonce=638718624282338007.acb305c9-2654-4103-9669-02bb03812378&state=DctBDoMgEEBRaO_SHTrMIAwL07MA0qRJ7Ri0ev2yeH_3tVLq3t06DT0qeOJg2aNDRiIGCEMqmWAq0aCfnHEWyETvowHMGYgtUmDdXzPKlcZnq-mzzpu0Q17pe1y1bUOR9XEuc_odsrz3Imdtfw ["https://aadcdn.msauth.net/ests/2.1/content/cdnbundles/ux.converged.login.strings-en.min_i8f-75gfk3tbsm8bmatnqa2.js"]
+[missing-sri] [http] [info] https://login.microsoftonline.com/2337dcc6-3a21-4d95-bf72-da5551a9b048/oauth2/v2.0/authorize?response_type=code+id_token&redirect_uri=https%3A%2F%2Fdbt-docs.datafabric.portofantwerpbruges.com%2F.auth%2Flogin%2Faad%2Fcallback&client_id=ca118a40-b88f-4516-83f6-c2be849e7110&scope=openid+profile+email&response_mode=form_post&nonce=921847598fb84713903d8c562e2962de_20250107160538&state=redir%3D%252F.auth%252Fcomplete ["https://aadcdn.msauth.net/ests/2.1/content/cdnbundles/ux.converged.login.strings-en.min_i8f-75gfk3tbsm8bmatnqa2.js"]
+[missing-sri] [http] [info] https://digitalspecs.portofantwerpbruges.com ["https://cdn.jsdelivr.net/npm/mermaid@9.1.6/dist/mermaid.min.js"]
+[missing-sri] [http] [info] https://digitalspecs.portofantwerpbruges.com// ["https://cdn.jsdelivr.net/npm/mermaid@9.1.6/dist/mermaid.min.js"]
+[missing-sri] [http] [info] https://event.portofantwerpbruges.com/template-eng ["https://cdn-src-18090212.events.idloom.be/js/libs/owl-carousel/owl.carousel.min.js","//cdn.cookie-script.com/s/873ffff08400ba329b1e8f47c56bf06a.js","https://cdn-src-18090212.events.idloom.be/js/libs/outdated-browser-rework/outdated-browser-rework.min.js","https://cdn-src-18090212.events.idloom.be/js/libs/iframe-resizer-master/js/iframeResizer.contentWindow.min.js","https://cdn-src-18090212.events.idloom.be/js/frontend_vendor.js"]
+[missing-sri] [http] [info] https://future-acc.portofantwerpbruges.com/login ["https://assets.yamblastaging.com/js/yambla/utils/js-utils.js?57b6f329780c5a0110a3630b4c8238ce54a76346","https://assets.yamblastaging.com/js/yambla/utils/ajax-utils.js?bb1d47c62d01f29af7a8fdfaf2086bc50c26b582","https://assets.yamblastaging.com/js/third/csrfprotector/csrfprotector.js?636adb9eea3c7a1fac97b3031050d548504e0cd5","https://assets.yamblastaging.com/landing/js/libs/jquery.ba-throttle-debounce.min.js?b6f0084f6747da64cf24334b2c0027e57cbf7f23","https://assets.yamblastaging.com/landing/js/libs/jquery.customSelect.min.js?ea9861b8b61802f05acf92b18609a3eb4c5be4d4","https://assets.yamblastaging.com/js/third/forms/jquery.validate.min.js?57ac64e19cc6f6979132ffa59aa8d71687fa6cbb","https://assets.yamblastaging.com/js/third/jquery.prevent-double-submit.js?ce3150069985cd83ef28946e710de6f0ea454088","https://assets.yamblastaging.com/js/jquerymx-3.2.custom.min.js?a6a890170e1fb2e454d21b0ac95a53cd16c3e872","https://assets.yamblastaging.com/landing/js/libs/jquery-3.6.3.min.js?832a6a4e86daf38b1975d705c5de5d9e5f5844bc","https://assets.yamblastaging.com/landing/js/libs/jquery.backstretch.min.js?8bfed4e534efe706b0b20898a9cfd0dcfb2a8a6a","https://assets.yamblastaging.com/landing/js/libs/waypoints.min.js?56bdb149d9baf64474a4c24ae66445769a28254e","https://www.googletagmanager.com/gtag/js?id=G-EBLVSMFGJ2"]
+[missing-sri] [http] [info] https://login.microsoftonline.com:443/2337dcc6-3a21-4d95-bf72-da5551a9b048/oauth2/authorize?client%5Fid=00000003%2D0000%2D0ff1%2Dce00%2D000000000000&response%5Fmode=form%5Fpost&response%5Ftype=code%20id%5Ftoken&resource=00000003%2D0000%2D0ff1%2Dce00%2D000000000000&scope=openid&nonce=6D1D0DB79F2C47D3DADA038AD4C20B907C7B971CA35F3090%2D7F002B6C45B84AFC410CF432452EB9A5844B4B9B665CA2DCEF62CA81B527F905&redirect%5Furi=https%3A%2F%2Fportofantwerpbruges%2Esharepoint%2Ecom%2F%5Fforms%2Fdefault%2Easpx&state=OD0w&claims=%7B%22id%5Ftoken%22%3A%7B%22xms%5Fcc%22%3A%7B%22values%22%3A%5B%22CP1%22%5D%7D%7D%7D&wsucxt=1&cobrandid=11bd8083%2D87e0%2D41b5%2Dbb78%2D0bc43c8a8e8a&client%2Drequest%2Did=c43a75a1%2D70cc%2Db000%2D160f%2Dde44c97eb6c0 ["https://aadcdn.msauth.net/ests/2.1/content/cdnbundles/ux.converged.login.strings-en.min_i8f-75gfk3tbsm8bmatnqa2.js"]
+[missing-sri] [http] [info] https://jobs.portofantwerpbruges.com ["https://cookie-cdn.cookiepro.com/scripttemplates/otSDKStub.js","https://jobs.portofantwerpbruges.com/platform/bootstrap/3.4.1/js/bootstrap.min.js"]
+[missing-sri] [http] [info] https://media.portofantwerpbruges.com/login/ ["https://d8ejoa1fys2rk.cloudfront.net/static/5D93FBFAEA44F24866583D9C9A82135F.cache.js.gz","https://d8ejoa1fys2rk.cloudfront.net/pynder/microfrontends/0.1.85/app.bundle.js","https://d8ejoa1fys2rk.cloudfront.net/static/62FF7EB7BF47D065DB7C4117A1B50B0C.cache.js.gz","https://d8ejoa1fys2rk.cloudfront.net/static/8A00CED7CA3361060476D12C1E8CFA85.cache.js.gz","https://d8ejoa1fys2rk.cloudfront.net/static/A2B0647F9F689E5C0D6CAB635F640FC8.cache.js.gz","https://d8ejoa1fys2rk.cloudfront.net/frontend/0.1.373/scripts/templates/components.js","https://d8ejoa1fys2rk.cloudfront.net/static/0AE438F04AF9BCA935FA6BB0324D3AE0.cache.js.gz","https://cmp.osano.com/16BhTKTaZ1RPo6e4Z/de6713e6-e549-4e5e-95b4-b972ac8242f5/osano.js","https://d8ejoa1fys2rk.cloudfront.net/static/FFEEF6555D0754EC524917164C95ED62.cache.js.gz","https://d8ejoa1fys2rk.cloudfront.net/frontend/0.1.373/deps/requirejs/require.js"]
+[missing-sri] [http] [info] https://media.portofantwerpbruges.com/login/ ["https://cmp.osano.com/16BhTKTaZ1RPo6e4Z/de6713e6-e549-4e5e-95b4-b972ac8242f5/osano.js","https://d8ejoa1fys2rk.cloudfront.net/static/FFEEF6555D0754EC524917164C95ED62.cache.js.gz","https://d8ejoa1fys2rk.cloudfront.net/static/62FF7EB7BF47D065DB7C4117A1B50B0C.cache.js.gz","https://d8ejoa1fys2rk.cloudfront.net/static/0AE438F04AF9BCA935FA6BB0324D3AE0.cache.js.gz","https://d8ejoa1fys2rk.cloudfront.net/frontend/0.1.373/deps/requirejs/require.js","https://d8ejoa1fys2rk.cloudfront.net/static/8A00CED7CA3361060476D12C1E8CFA85.cache.js.gz","https://d8ejoa1fys2rk.cloudfront.net/frontend/0.1.373/scripts/templates/components.js","https://d8ejoa1fys2rk.cloudfront.net/static/A2B0647F9F689E5C0D6CAB635F640FC8.cache.js.gz","https://d8ejoa1fys2rk.cloudfront.net/static/5D93FBFAEA44F24866583D9C9A82135F.cache.js.gz","https://d8ejoa1fys2rk.cloudfront.net/pynder/microfrontends/0.1.85/app.bundle.js"]
+[missing-sri] [http] [info] https://web.message.portofantwerpbruges.com ["https://web.message.portofantwerpbruges.com/hs-fs/hub/139709035/hub_generated/template_assets/87290543328/1734442897169/PortOfAB/build/hssystems.min.js"]
+[missing-sri] [http] [info] https://login.microsoftonline.com/common/oauth2/authorize?client_id=00000002-0000-0ff1-ce00-000000000000&redirect_uri=https%3a%2f%2foutlook.office365.com%2fowa%2f&resource=00000002-0000-0ff1-ce00-000000000000&response_mode=form_post&response_type=code+id_token&scope=openid&msafed=1&msaredir=1&client-request-id=578230c2-bedf-1f44-b40b-6e7bcbf9005d&protectedtoken=true&claims=%7b%22id_token%22%3a%7b%22xms_cc%22%3a%7b%22values%22%3a%5b%22CP1%22%5d%7d%7d%7d&domain_hint=portofantwerp.mail.onmicrosoft.com&nonce=638718624905715236.08bf803c-5add-441d-8153-6f2538521f3e&state=DctBDsMgDABBaB_TEwRjDO5zKAQpUokjipTvl8PsbbVS6rk8Fu1WVIrICTj68HaUgDxG6_jT2GExlGs1IUA1DIQmNk_I5KHhrtf72uTO2yVjSsvnvPdx2Z6Pr5WzH2XIT9q0Rfof ["https://aadcdn.msauth.net/ests/2.1/content/cdnbundles/ux.converged.login.strings-en.min_i8f-75gfk3tbsm8bmatnqa2.js"]
+[oauth2-detect] [http] [info] https://gitlab.portofantwerp.com/oauth/token
+[oauth2-detect] [http] [info] https://gitlab-d1.portofantwerp.com/oauth/token
+[waf-detect:apachegeneric] [http] [info] http://bd77exw.139709035t.message.portofantwerpbruges.com
+[waf-detect:nginxgeneric] [http] [info] http://bd77exw.139709035t.message.portofantwerpbruges.com
+[waf-detect:nginxgeneric] [http] [info] https://admin.droneportal-test.portofantwerp.com
+[waf-detect:nginxgeneric] [http] [info] https://admin.droneportal-test.portofantwerpbruges.com
+[waf-detect:nginxgeneric] [http] [info] https://admin.droneportal.portofantwerp.com
+[waf-detect:nginxgeneric] [http] [info] https://admin.droneportal.portofantwerpbruges.com
+[waf-detect:aspgeneric] [http] [info] http://autodiscover.portofantwerp.com
+[waf-detect:bigip] [http] [info] https://apps.portofantwerp.com
+[waf-detect:asm] [http] [info] https://apps.portofantwerpbruges.com
+[waf-detect:asm] [http] [info] https://datasharing.portofantwerpbruges.com
+[waf-detect:asm] [http] [info] https://digitalspecs.portofantwerp.com
+[waf-detect:asm] [http] [info] https://digitalspecs.portofantwerpbruges.com
+[waf-detect:nginxgeneric] [http] [info] https://droneportal-test.portofantwerp.com
+[waf-detect:cloudfront] [http] [info] https://digital.portofantwerp.com
+[waf-detect:nginxgeneric] [http] [info] https://droneportal-test.portofantwerpbruges.com
+[waf-detect:nginxgeneric] [http] [info] https://droneportal.portofantwerp.com
+[waf-detect:nginxgeneric] [http] [info] https://droneportal.portofantwerpbruges.com
+[waf-detect:aspgeneric] [http] [info] https://etaterminal-uat.portofantwerpbruges.com
+[waf-detect:modsecurity] [http] [info] https://etaterminal-uat.portofantwerpbruges.com
+[waf-detect:aspgeneric] [http] [info] https://etaterminal.portofantwerpbruges.com
+[waf-detect:modsecurity] [http] [info] https://etaterminal.portofantwerpbruges.com
+[waf-detect:bigip] [http] [info] http://fhsp-m1.portofantwerp.com
+[waf-detect:nginxgeneric] [http] [info] https://future.portofantwerp.com
+[waf-detect:nginxgeneric] [http] [info] https://future-acc.portofantwerp.com
+[waf-detect:asm] [http] [info] https://gitlab.portofantwerp.com
+[waf-detect:asm] [http] [info] https://gitlab-d1.portofantwerp.com
+[waf-detect:bigip] [http] [info] https://intranet.portofantwerp.com
+[waf-detect:asm] [http] [info] https://login.portofantwerpbruges.com
+[waf-detect:asm] [http] [info] https://login-test.portofantwerpbruges.com
+[waf-detect:asm] [http] [info] https://login-accpt.portofantwerpbruges.com
+[waf-detect:apachegeneric] [http] [info] https://jobs.portofantwerpbruges.com
+[waf-detect:bigip] [http] [info] https://media.portofantwerp.com
+[waf-detect:cloudfront] [http] [info] https://media.portofantwerpbruges.com
+[waf-detect:nginxgeneric] [http] [info] https://media.portofantwerpbruges.com
+[waf-detect:asm] [http] [info] https://my-test.portofantwerpbruges.com
+[waf-detect:bigip] [http] [info] https://my.portofantwerp.com
+[graphql-detect] [http] [info] https://gitlab-d1.portofantwerp.com/api/graphql [paths="/api/graphql"]
+[waf-detect:cloudflare] [http] [info] https://newsroom.portofantwerp.com
+[waf-detect:cloudflare] [http] [info] https://newsroom.portofantwerpbruges.com
+[waf-detect:asm] [http] [info] https://my.portofantwerpbruges.com
+[waf-detect:nginxgeneric] [http] [info] https://notula.portofantwerpbruges.com
+[waf-detect:nginxgeneric] [http] [info] https://notula-accpt.portofantwerpbruges.com
+[graphql-detect] [http] [info] https://gitlab.portofantwerp.com/api/graphql [paths="/api/graphql"]
+[waf-detect:asm] [http] [info] https://s3.portofantwerp.com
+[waf-detect:asm] [http] [info] https://register.portofantwerpbruges.com
+[waf-detect:bigip] [http] [info] https://register.portofantwerp.com
+[waf-detect:asm] [http] [info] https://register-accpt.portofantwerpbruges.com
+[waf-detect:nginxgeneric] [http] [info] https://sentry.droneportal-test.portofantwerp.com
+[waf-detect:nginxgeneric] [http] [info] https://sentry.droneportal-test.portofantwerpbruges.com
+[waf-detect:nginxgeneric] [http] [info] https://sentry.droneportal.portofantwerp.com
+[waf-detect:bigip] [http] [info] https://share.portofantwerp.com
+[waf-detect:asm] [http] [info] https://share.portofantwerpbruges.com
+[waf-detect:nginxgeneric] [http] [info] https://sentry.droneportal.portofantwerpbruges.com
+[waf-detect:apachegeneric] [http] [info] https://surveys.portofantwerp.com
+[waf-detect:apachegeneric] [http] [info] https://surveys.portofantwerpbruges.com
+[waf-detect:cloudflare] [http] [info] https://web.message.portofantwerpbruges.com
+[waf-detect:bigip] [http] [info] https://webapps.portofantwerp.com
+[waf-detect:asm] [http] [info] https://webapps.portofantwerpbruges.com
+[waf-detect:bigip] [http] [info] https://wiki.portofantwerp.com
+[graphql-detect] [http] [info] https://media.portofantwerpbruges.com/graphql [paths="/graphql"]
+[wp-yoast-user-enumeration] [http] [info] https://jobs.portofantwerpbruges.com/author-sitemap.xml
+[ssh-server-enumeration] [javascript] [info] gitlab-d1.portofantwerp.com:22 ["SSH-2.0-OpenSSH_8.7"]
+[ssh-server-enumeration] [javascript] [info] gitlab.portofantwerp.com:22 ["SSH-2.0-OpenSSH_8.7"]
+[esmtp-detect] [tcp] [info] surveys.portofantwerp.com:25
+[esmtp-detect] [tcp] [info] surveys.portofantwerpbruges.com:25
+[openssh-detect] [tcp] [info] gitlab.portofantwerp.com:22 ["SSH-2.0-OpenSSH_8.7"]
+[openssh-detect] [tcp] [info] gitlab-d1.portofantwerp.com:22 ["SSH-2.0-OpenSSH_8.7"]
+[esmtp-detect] [tcp] [info] surveys.portofantwerpbruges.com:587
+[esmtp-detect] [tcp] [info] surveys.portofantwerp.com:587
+[rdp-detect:win2016] [tcp] [info] companyguide.portofantwerpbruges.com:3389
+[rdp-detect:win2016] [tcp] [info] bedrijvengids.portofantwerpbruges.com:3389
+[smtp-service-detect] [tcp] [info] event.portofantwerpbruges.com:25
+[smtp-service-detect] [tcp] [info] bd77exw.139709035t.message.portofantwerpbruges.com:25
+[smtp-service-detect] [tcp] [info] surveys.portofantwerp.com:25
+[smtp-service-detect] [tcp] [info] surveys.portofantwerpbruges.com:25
+[smtp-service-detect] [tcp] [info] surveys.portofantwerp.com:587
+[smtp-service-detect] [tcp] [info] surveys.portofantwerpbruges.com:587
+[rpcbind-portmapper-detect] [tcp] [info] surveys.portofantwerp.com:111
+[rpcbind-portmapper-detect] [tcp] [info] surveys.portofantwerpbruges.com:111
+[smtp-commands-enum:ehlo] [tcp] [info] event.portofantwerpbruges.com:25 ["XACK","DSN","ENHANCEDSTATUSCODES","PIPELINING","AUTH","SIZE 0","VERP","8BITMIME","AUTH CRAM-MD5"]
+[smtp-commands-enum:ehlo] [tcp] [info] bd77exw.139709035t.message.portofantwerpbruges.com:25 ["SIZE 41943040","ENHANCEDSTATUSCODE","STARTTLS","8BITMIME"]
+[smtp-commands-enum:ehlo] [tcp] [info] surveys.portofantwerp.com:25 ["PIPELINING","SIZE 25600000","ETRN","STARTTLS","AUTH DIGEST-MD5 CRAM-MD5 PLAIN LOGIN","ENHANCEDSTATUSCODES","8BITMIME","DSN"]
+[smtp-commands-enum:ehlo] [tcp] [info] surveys.portofantwerpbruges.com:25 ["ETRN","STARTTLS","AUTH DIGEST-MD5 CRAM-MD5 PLAIN LOGIN","ENHANCEDSTATUSCODES","8BITMIME","DSN","PIPELINING","SIZE 25600000"]
+[deprecated-tls:tls_1.1] [ssl] [info] bedrijvengids.portofantwerpbruges.com:443 ["tls11"]
+[deprecated-tls:tls_1.0] [ssl] [info] bedrijvengids.portofantwerpbruges.com:443 ["tls10"]
+[deprecated-tls:tls_1.1] [ssl] [info] cn.portofantwerpbruges.com:443 ["tls11"]
+[deprecated-tls:tls_1.1] [ssl] [info] companyguide.portofantwerpbruges.com:443 ["tls11"]
+[deprecated-tls:tls_1.0] [ssl] [info] companyguide.portofantwerpbruges.com:443 ["tls10"]
+[deprecated-tls:tls_1.0] [ssl] [info] cn.portofantwerpbruges.com:443 ["tls10"]
+[deprecated-tls:tls_1.1] [ssl] [info] web.message.portofantwerpbruges.com:443 ["tls11"]
+[deprecated-tls:tls_1.0] [ssl] [info] web.message.portofantwerpbruges.com:443 ["tls10"]
+[tls-version] [ssl] [info] bedrijvengids.portofantwerpbruges.com:443 ["tls10"]
+[tls-version] [ssl] [info] bedrijvengids.portofantwerpbruges.com:443 ["tls11"]
+[tls-version] [ssl] [info] bedrijvengids.portofantwerpbruges.com:443 ["tls12"]
+[tls-version] [ssl] [info] admin.droneportal-test.portofantwerp.com:443 ["tls12"]
+[tls-version] [ssl] [info] admin.droneportal-test.portofantwerpbruges.com:443 ["tls12"]
+[tls-version] [ssl] [info] admin.droneportal.portofantwerp.com:443 ["tls12"]
+[tls-version] [ssl] [info] admin.droneportal.portofantwerpbruges.com:443 ["tls12"]
+[tls-version] [ssl] [info] bedrijvengids.portofantwerp.com:443 ["tls12"]
+[tls-version] [ssl] [info] apps.portofantwerpbruges.com:443 ["tls12"]
+[tls-version] [ssl] [info] bedrijvengids.portofantwerp.com:443 ["tls13"]
+[tls-version] [ssl] [info] apps.portofantwerpbruges.com:443 ["tls13"]
+[tls-version] [ssl] [info] cn.portofantwerpbruges.com:443 ["tls10"]
+[tls-version] [ssl] [info] companyguide.portofantwerpbruges.com:443 ["tls10"]
+[tls-version] [ssl] [info] companyguide.portofantwerpbruges.com:443 ["tls11"]
+[tls-version] [ssl] [info] aovpn-m1.portofantwerpbruges.com:443 ["tls12"]
+[tls-version] [ssl] [info] cn.portofantwerpbruges.com:443 ["tls11"]
+[tls-version] [ssl] [info] companyguide.portofantwerpbruges.com:443 ["tls12"]
+[tls-version] [ssl] [info] dbt-docs.datafabric.portofantwerpbruges.com:443 ["tls12"]
+[tls-version] [ssl] [info] dbt-docs.datafabric.portofantwerpbruges.com:443 ["tls13"]
+[tls-version] [ssl] [info] cn.portofantwerpbruges.com:443 ["tls12"]
+[tls-version] [ssl] [info] apps.portofantwerp.com:443 ["tls12"]
+[tls-version] [ssl] [info] datasharing.portofantwerpbruges.com:443 ["tls12"]
+[tls-version] [ssl] [info] cn.portofantwerpbruges.com:443 ["tls13"]
+[tls-version] [ssl] [info] apps.portofantwerp.com:443 ["tls13"]
+[tls-version] [ssl] [info] datasharing.portofantwerpbruges.com:443 ["tls13"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] bedrijvengids.portofantwerpbruges.com:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA]"]
+[tls-version] [ssl] [info] digital.portofantwerp.com:443 ["tls12"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] bedrijvengids.portofantwerpbruges.com:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA]"]
+[tls-version] [ssl] [info] droneportal-test.portofantwerp.com:443 ["tls12"]
+[tls-version] [ssl] [info] companyguide.portofantwerp.com:443 ["tls12"]
+[tls-version] [ssl] [info] digitalspecs.portofantwerp.com:443 ["tls12"]
+[tls-version] [ssl] [info] aovpn-m1.portofantwerpbruges.com:443 ["tls13"]
+[tls-version] [ssl] [info] companyguide.portofantwerp.com:443 ["tls13"]
+[tls-version] [ssl] [info] digitalspecs.portofantwerp.com:443 ["tls13"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] cn.portofantwerpbruges.com:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[tls-version] [ssl] [info] aovpn.portofantwerpbruges.com:443 ["tls12"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] companyguide.portofantwerpbruges.com:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA]"]
+[tls-version] [ssl] [info] datasharing.portofantwerp.com:443 ["tls12"]
+[tls-version] [ssl] [info] droneportal-test.portofantwerpbruges.com:443 ["tls12"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] companyguide.portofantwerpbruges.com:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] cn.portofantwerpbruges.com:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[tls-version] [ssl] [info] droneportal.portofantwerp.com:443 ["tls12"]
+[tls-version] [ssl] [info] droneportal.portofantwerpbruges.com:443 ["tls12"]
+[tls-version] [ssl] [info] etaterminal-uat.portofantwerpbruges.com:443 ["tls12"]
+[tls-version] [ssl] [info] etaterminal-uat.portofantwerpbruges.com:443 ["tls13"]
+[tls-version] [ssl] [info] etaterminal.portofantwerpbruges.com:443 ["tls12"]
+[tls-version] [ssl] [info] etaterminal.portofantwerpbruges.com:443 ["tls13"]
+[tls-version] [ssl] [info] event.portofantwerpbruges.com:443 ["tls12"]
+[tls-version] [ssl] [info] datasharing.portofantwerp.com:443 ["tls13"]
+[tls-version] [ssl] [info] future-acc.portofantwerp.com:443 ["tls12"]
+[tls-version] [ssl] [info] future-acc.portofantwerp.com:443 ["tls13"]
+[tls-version] [ssl] [info] future.portofantwerp.com:443 ["tls12"]
+[tls-version] [ssl] [info] future-acc.portofantwerpbruges.com:443 ["tls12"]
+[tls-version] [ssl] [info] future.portofantwerp.com:443 ["tls13"]
+[tls-version] [ssl] [info] future-acc.portofantwerpbruges.com:443 ["tls13"]
+[tls-version] [ssl] [info] future.portofantwerpbruges.com:443 ["tls12"]
+[tls-version] [ssl] [info] aovpn.portofantwerpbruges.com:443 ["tls13"]
+[tls-version] [ssl] [info] future.portofantwerpbruges.com:443 ["tls13"]
+[tls-version] [ssl] [info] gitlab-d1.portofantwerp.com:443 ["tls12"]
+[tls-version] [ssl] [info] gitlab.portofantwerp.com:443 ["tls12"]
+[tls-version] [ssl] [info] gitlab-d1.portofantwerp.com:443 ["tls13"]
+[tls-version] [ssl] [info] gitlab.portofantwerp.com:443 ["tls13"]
+[tls-version] [ssl] [info] jobs.portofantwerpbruges.com:443 ["tls12"]
+[tls-version] [ssl] [info] jobs.portofantwerpbruges.com:443 ["tls13"]
+[tls-version] [ssl] [info] jobs.portofantwerp.com:443 ["tls12"]
+[tls-version] [ssl] [info] jobs.portofantwerp.com:443 ["tls13"]
+[tls-version] [ssl] [info] media.portofantwerpbruges.com:443 ["tls12"]
+[tls-version] [ssl] [info] media.portofantwerpbruges.com:443 ["tls13"]
+[tls-version] [ssl] [info] login-test.portofantwerpbruges.com:443 ["tls12"]
+[tls-version] [ssl] [info] login-test.portofantwerpbruges.com:443 ["tls13"]
+[tls-version] [ssl] [info] media.portofantwerp.com:443 ["tls12"]
+[tls-version] [ssl] [info] login-accpt.portofantwerpbruges.com:443 ["tls12"]
+[tls-version] [ssl] [info] media.portofantwerp.com:443 ["tls13"]
+[tls-version] [ssl] [info] login-accpt.portofantwerpbruges.com:443 ["tls13"]
+[tls-version] [ssl] [info] geo.portofantwerp.com:443 ["tls12"]
+[tls-version] [ssl] [info] geo.portofantwerp.com:443 ["tls13"]
+[tls-version] [ssl] [info] intranet.portofantwerp.com:443 ["tls12"]
+[tls-version] [ssl] [info] intranet.portofantwerp.com:443 ["tls13"]
+[tls-version] [ssl] [info] my-accpt.portofantwerp.com:443 ["tls12"]
+[tls-version] [ssl] [info] newsroom.portofantwerp.com:443 ["tls12"]
+[tls-version] [ssl] [info] newsroom.portofantwerp.com:443 ["tls13"]
+[tls-version] [ssl] [info] my-accpt.portofantwerp.com:443 ["tls13"]
+[tls-version] [ssl] [info] newsroom.portofantwerpbruges.com:443 ["tls12"]
+[tls-version] [ssl] [info] newsroom.portofantwerpbruges.com:443 ["tls13"]
+[tls-version] [ssl] [info] login.portofantwerpbruges.com:443 ["tls12"]
+[tls-version] [ssl] [info] login.portofantwerpbruges.com:443 ["tls13"]
+[tls-version] [ssl] [info] my-test.portofantwerpbruges.com:443 ["tls12"]
+[tls-version] [ssl] [info] my-test.portofantwerpbruges.com:443 ["tls13"]
+[tls-version] [ssl] [info] my.portofantwerpbruges.com:443 ["tls12"]
+[tls-version] [ssl] [info] my.portofantwerpbruges.com:443 ["tls13"]
+[tls-version] [ssl] [info] notula-accpt.portofantwerpbruges.com:443 ["tls12"]
+[tls-version] [ssl] [info] notula.portofantwerpbruges.com:443 ["tls12"]
+[tls-version] [ssl] [info] my.portofantwerp.com:443 ["tls12"]
+[tls-version] [ssl] [info] my.portofantwerp.com:443 ["tls13"]
+[tls-version] [ssl] [info] notula-accpt.portofantwerpbruges.com:443 ["tls13"]
+[tls-version] [ssl] [info] notula.portofantwerpbruges.com:443 ["tls13"]
+[tls-version] [ssl] [info] my-test.portofantwerp.com:443 ["tls12"]
+[tls-version] [ssl] [info] my-test.portofantwerp.com:443 ["tls13"]
+[tls-version] [ssl] [info] ows.portofantwerpbruges.com:443 ["tls12"]
+[tls-version] [ssl] [info] ows.portofantwerpbruges.com:443 ["tls13"]
+[tls-version] [ssl] [info] owsweb-accpt.portofantwerp.com:443 ["tls12"]
+[tls-version] [ssl] [info] owsweb-accpt.portofantwerp.com:443 ["tls13"]
+[tls-version] [ssl] [info] portofantwerp.com:443 ["tls12"]
+[tls-version] [ssl] [info] portofantwerp.com:443 ["tls13"]
+[tls-version] [ssl] [info] oprc.portofantwerp.com:443 ["tls12"]
+[tls-version] [ssl] [info] oprc.portofantwerp.com:443 ["tls13"]
+[tls-version] [ssl] [info] register-accpt.portofantwerpbruges.com:443 ["tls12"]
+[tls-version] [ssl] [info] register-accpt.portofantwerpbruges.com:443 ["tls13"]
+[tls-version] [ssl] [info] portofantwerpbruges.com:443 ["tls12"]
+[tls-version] [ssl] [info] portofantwerpbruges.com:443 ["tls13"]
+[tls-version] [ssl] [info] owsweb.portofantwerp.com:443 ["tls12"]
+[tls-version] [ssl] [info] register.portofantwerpbruges.com:443 ["tls12"]
+[tls-version] [ssl] [info] owsweb.portofantwerp.com:443 ["tls13"]
+[tls-version] [ssl] [info] register.portofantwerpbruges.com:443 ["tls13"]
+[tls-version] [ssl] [info] promotion.portofantwerp.com:443 ["tls12"]
+[tls-version] [ssl] [info] sentry.droneportal-test.portofantwerp.com:443 ["tls12"]
+[tls-version] [ssl] [info] s3.portofantwerp.com:443 ["tls12"]
+[tls-version] [ssl] [info] promotion.portofantwerp.com:443 ["tls13"]
+[tls-version] [ssl] [info] s3.portofantwerp.com:443 ["tls13"]
+[tls-version] [ssl] [info] sentry.droneportal-test.portofantwerpbruges.com:443 ["tls12"]
+[tls-version] [ssl] [info] register.portofantwerp.com:443 ["tls12"]
+[tls-version] [ssl] [info] register.portofantwerp.com:443 ["tls13"]
+[tls-version] [ssl] [info] sentry.droneportal.portofantwerp.com:443 ["tls12"]
+[tls-version] [ssl] [info] sentry.droneportal.portofantwerpbruges.com:443 ["tls12"]
+[tls-version] [ssl] [info] web.message.portofantwerpbruges.com:443 ["tls10"]
+[tls-version] [ssl] [info] share.portofantwerpbruges.com:443 ["tls12"]
+[tls-version] [ssl] [info] surveys.portofantwerp.com:443 ["tls12"]
+[tls-version] [ssl] [info] share.portofantwerpbruges.com:443 ["tls13"]
+[tls-version] [ssl] [info] surveys.portofantwerpbruges.com:443 ["tls12"]
+[tls-version] [ssl] [info] web.message.portofantwerpbruges.com:443 ["tls11"]
+[tls-version] [ssl] [info] web.message.portofantwerpbruges.com:443 ["tls12"]
+[tls-version] [ssl] [info] web.message.portofantwerpbruges.com:443 ["tls13"]
+[tls-version] [ssl] [info] webapps-accpt.portofantwerp.com:443 ["tls12"]
+[tls-version] [ssl] [info] webapps-accpt.portofantwerp.com:443 ["tls13"]
+[tls-version] [ssl] [info] webapps.portofantwerp.com:443 ["tls12"]
+[tls-version] [ssl] [info] webapps.portofantwerpbruges.com:443 ["tls12"]
+[tls-version] [ssl] [info] webapps.portofantwerpbruges.com:443 ["tls13"]
+[tls-version] [ssl] [info] webapps.portofantwerp.com:443 ["tls13"]
+[tls-version] [ssl] [info] digitalspecs.portofantwerpbruges.com:443 ["tls12"]
+[tls-version] [ssl] [info] digitalspecs.portofantwerpbruges.com:443 ["tls13"]
+[tls-version] [ssl] [info] www-test.portofantwerp.com:443 ["tls12"]
+[tls-version] [ssl] [info] www-test.portofantwerp.com:443 ["tls13"]
+[tls-version] [ssl] [info] wiki.portofantwerp.com:443 ["tls12"]
+[tls-version] [ssl] [info] wiki.portofantwerp.com:443 ["tls13"]
+[tls-version] [ssl] [info] www-accpt.portofantwerp.com:443 ["tls12"]
+[tls-version] [ssl] [info] www-accpt.portofantwerp.com:443 ["tls13"]
+[tls-version] [ssl] [info] webmail.portofantwerp.com:443 ["tls12"]
+[tls-version] [ssl] [info] webmail.portofantwerp.com:443 ["tls13"]
+[tls-version] [ssl] [info] share.portofantwerp.com:443 ["tls12"]
+[tls-version] [ssl] [info] share.portofantwerp.com:443 ["tls13"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] web.message.portofantwerpbruges.com:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] web.message.portofantwerpbruges.com:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[tls-version] [ssl] [info] vpn.portofantwerp.com:443 ["tls12"]
+[tls-version] [ssl] [info] vpn.portofantwerp.com:443 ["tls13"]
+[rdap-whois:status] [http] [info] https://rdap.verisign.com/com/v1/domain/portofantwerp.com ["client transfer prohibited"]
+[rdap-whois:registrationDate] [http] [info] https://rdap.verisign.com/com/v1/domain/portofantwerp.com ["1995-11-10T05:00:00Z"]
+[rdap-whois:lastChangeDate] [http] [info] https://rdap.verisign.com/com/v1/domain/portofantwerp.com ["2024-11-10T08:01:40Z"]
+[rdap-whois:expirationDate] [http] [info] https://rdap.verisign.com/com/v1/domain/portofantwerp.com ["2025-11-09T05:00:00Z"]
+[rdap-whois:nameServers] [http] [info] https://rdap.verisign.com/com/v1/domain/portofantwerp.com ["NS1.HAVEN.ANTWERPEN.BE","NS2.HAVEN.ANTWERPEN.BE","NS3.HAVEN.ANTWERPEN.BE"]
+[rdap-whois:secureDNS] [http] [info] https://rdap.verisign.com/com/v1/domain/portofantwerp.com ["false"]
+[rdap-whois:lastChangeDate] [http] [info] https://rdap.verisign.com/com/v1/domain/portofantwerpbruges.com ["2024-02-13T08:14:29Z"]
+[rdap-whois:expirationDate] [http] [info] https://rdap.verisign.com/com/v1/domain/portofantwerpbruges.com ["2025-02-12T12:00:04Z"]
+[rdap-whois:nameServers] [http] [info] https://rdap.verisign.com/com/v1/domain/portofantwerpbruges.com ["NS1.PORTOFANTWERPBRUGES.COM","NS2.PORTOFANTWERPBRUGES.COM"]
+[rdap-whois:secureDNS] [http] [info] https://rdap.verisign.com/com/v1/domain/portofantwerpbruges.com ["false"]
+[rdap-whois:status] [http] [info] https://rdap.verisign.com/com/v1/domain/portofantwerpbruges.com ["client transfer prohibited"]
+[rdap-whois:registrationDate] [http] [info] https://rdap.verisign.com/com/v1/domain/portofantwerpbruges.com ["2021-02-12T12:00:04Z"]
+[oidc-detect] [http] [info] https://gitlab-d1.portofantwerp.com/.well-known/openid-configuration
+[oidc-detect] [http] [info] https://gitlab.portofantwerp.com/.well-known/openid-configuration
+[gitlab-public-repos] [http] [info] https://gitlab-d1.portofantwerp.com/api/v4/projects
+[gitlab-public-repos] [http] [info] https://gitlab.portofantwerp.com/api/v4/projects
+[robots-txt-endpoint] [http] [info] https://apps.portofantwerpbruges.com/robots.txt
+[robots-txt-endpoint] [http] [info] https://cn.portofantwerpbruges.com/robots.txt
+[robots-txt-endpoint] [http] [info] https://etaterminal-uat.portofantwerpbruges.com/robots.txt
+[robots-txt-endpoint] [http] [info] https://etaterminal.portofantwerpbruges.com/robots.txt
+[robots-txt-endpoint] [http] [info] https://future-acc.portofantwerpbruges.com/robots.txt
+[robots-txt-endpoint] [http] [info] https://future.portofantwerpbruges.com/robots.txt
+[robots-txt-endpoint] [http] [info] https://gitlab-d1.portofantwerp.com/robots.txt
+[robots-txt-endpoint] [http] [info] https://jobs.portofantwerpbruges.com/robots.txt
+[robots-txt-endpoint] [http] [info] https://gitlab.portofantwerp.com/robots.txt
+[robots-txt-endpoint] [http] [info] https://login.portofantwerpbruges.com/robots.txt
+[robots-txt-endpoint] [http] [info] https://media.portofantwerpbruges.com/robots.txt
+[robots-txt-endpoint] [http] [info] https://my.portofantwerpbruges.com/robots.txt
+[robots-txt-endpoint] [http] [info] https://newsroom.portofantwerpbruges.com/robots.txt
+[robots-txt-endpoint] [http] [info] https://register.portofantwerpbruges.com/robots.txt
+[robots-txt-endpoint] [http] [info] https://web.message.portofantwerpbruges.com/robots.txt
+[robots-txt-endpoint] [http] [info] https://webapps.portofantwerpbruges.com/robots.txt
+[umbraco-login] [http] [info] https://bedrijvengids.portofantwerpbruges.com/umbraco
+[umbraco-login] [http] [info] https://companyguide.portofantwerpbruges.com/umbraco
+[form-detection] [http] [info] https://cn.portofantwerpbruges.com
+[form-detection] [http] [info] https://event.portofantwerpbruges.com/template-eng
+[form-detection] [http] [info] https://future-acc.portofantwerpbruges.com/login
+[form-detection] [http] [info] https://gitlab-d1.portofantwerp.com/users/sign_in
+[form-detection] [http] [info] https://gitlab.portofantwerp.com/users/sign_in
+[form-detection] [http] [info] https://media.portofantwerpbruges.com/login/
+[form-detection] [http] [info] https://media.portofantwerpbruges.com/login/
+[form-detection] [http] [info] https://newsroom.portofantwerpbruges.com
+[form-detection] [http] [info] https://newsroom.portofantwerpbruges.com/
+[keycloak-openid-config] [http] [info] https://admin.droneportal-test.portofantwerp.com/auth/realms/master/.well-known/openid-configuration
+[keycloak-openid-config] [http] [info] https://admin.droneportal-test.portofantwerpbruges.com/auth/realms/master/.well-known/openid-configuration
+[keycloak-openid-config] [http] [info] https://admin.droneportal.portofantwerpbruges.com/auth/realms/master/.well-known/openid-configuration
+[keycloak-openid-config] [http] [info] https://admin.droneportal.portofantwerp.com/auth/realms/master/.well-known/openid-configuration
+[keycloak-openid-config] [http] [info] https://droneportal-test.portofantwerp.com/auth/realms/master/.well-known/openid-configuration
+[keycloak-openid-config] [http] [info] https://droneportal.portofantwerpbruges.com/auth/realms/master/.well-known/openid-configuration
+[keycloak-openid-config] [http] [info] https://droneportal.portofantwerp.com/auth/realms/master/.well-known/openid-configuration
+[keycloak-openid-config] [http] [info] https://droneportal-test.portofantwerpbruges.com/auth/realms/master/.well-known/openid-configuration
+[keycloak-openid-config] [http] [info] https://gitlab-d1.portofantwerp.com/.well-known/openid-configuration
+[keycloak-openid-config] [http] [info] https://gitlab.portofantwerp.com/.well-known/openid-configuration
+[keycloak-openid-config] [http] [info] https://sentry.droneportal-test.portofantwerp.com/auth/realms/master/.well-known/openid-configuration
+[keycloak-openid-config] [http] [info] https://sentry.droneportal-test.portofantwerpbruges.com/auth/realms/master/.well-known/openid-configuration
+[keycloak-openid-config] [http] [info] https://sentry.droneportal.portofantwerpbruges.com/auth/realms/master/.well-known/openid-configuration
+[keycloak-openid-config] [http] [info] https://sentry.droneportal.portofantwerp.com/auth/realms/master/.well-known/openid-configuration
+[package-json] [http] [info] https://future-acc.portofantwerpbruges.com/package-lock.json
+[package-json] [http] [info] https://future.portofantwerpbruges.com/package-lock.json
+[wordpress-rdf-user-enum] [http] [info] https://cn.portofantwerpbruges.com/feed/rdf ["\u7f51\u7ad9\u7ba1\u7406\u5458"]
+[jwk-json-leak] [http] [info] https://media.portofantwerpbruges.com/.well-known/jwks.json
+[robots-txt] [http] [info] https://cn.portofantwerpbruges.com/robots.txt
+[robots-txt] [http] [info] https://gitlab.portofantwerp.com/robots.txt
+[robots-txt] [http] [info] https://gitlab-d1.portofantwerp.com/robots.txt
+[robots-txt] [http] [info] https://jobs.portofantwerpbruges.com/robots.txt
+[robots-txt] [http] [info] https://web.message.portofantwerpbruges.com/robots.txt
+[s3-detect] [http] [info] https://s3.portofantwerp.com/%c0
+[microsoft-iis-version] [http] [info] http://autodiscover.portofantwerp.com ["Microsoft-IIS/10.0"]
+[microsoft-iis-version] [http] [info] https://etaterminal-uat.portofantwerpbruges.com ["Microsoft-IIS/10.0"]
+[microsoft-iis-version] [http] [info] https://etaterminal.portofantwerpbruges.com ["Microsoft-IIS/10.0"]
+[host-header-injection] [http] [info] https://cn.portofantwerpbruges.com
+[debug-vars] [http] [low] https://digital.portofantwerp.com/debug/vars
+[http-missing-security-headers:content-security-policy] [http] [info] http://bd77exw.139709035t.message.portofantwerpbruges.com
+[http-missing-security-headers:x-frame-options] [http] [info] http://bd77exw.139709035t.message.portofantwerpbruges.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] http://bd77exw.139709035t.message.portofantwerpbruges.com
+[http-missing-security-headers:referrer-policy] [http] [info] http://bd77exw.139709035t.message.portofantwerpbruges.com
+[http-missing-security-headers:clear-site-data] [http] [info] http://bd77exw.139709035t.message.portofantwerpbruges.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] http://bd77exw.139709035t.message.portofantwerpbruges.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] http://bd77exw.139709035t.message.portofantwerpbruges.com
+[http-missing-security-headers:strict-transport-security] [http] [info] http://bd77exw.139709035t.message.portofantwerpbruges.com
+[http-missing-security-headers:permissions-policy] [http] [info] http://bd77exw.139709035t.message.portofantwerpbruges.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] http://bd77exw.139709035t.message.portofantwerpbruges.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://aovpn-m1.portofantwerpbruges.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://aovpn-m1.portofantwerpbruges.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://aovpn-m1.portofantwerpbruges.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://aovpn.portofantwerpbruges.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://aovpn-m1.portofantwerpbruges.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://aovpn.portofantwerpbruges.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://aovpn.portofantwerpbruges.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://aovpn.portofantwerpbruges.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://aovpn.portofantwerpbruges.com
+[http-missing-security-headers:x-content-type-options] [http] [info] https://aovpn.portofantwerpbruges.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://aovpn.portofantwerpbruges.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://aovpn-m1.portofantwerpbruges.com
+[http-missing-security-headers:x-content-type-options] [http] [info] https://aovpn-m1.portofantwerpbruges.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://aovpn-m1.portofantwerpbruges.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://aovpn-m1.portofantwerpbruges.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://aovpn-m1.portofantwerpbruges.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://aovpn-m1.portofantwerpbruges.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://aovpn-m1.portofantwerpbruges.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://aovpn.portofantwerpbruges.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://aovpn.portofantwerpbruges.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://aovpn.portofantwerpbruges.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://aovpn.portofantwerpbruges.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://admin.droneportal.portofantwerp.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://admin.droneportal.portofantwerp.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://admin.droneportal.portofantwerp.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://admin.droneportal.portofantwerp.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://admin.droneportal.portofantwerp.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://admin.droneportal-test.portofantwerp.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://admin.droneportal.portofantwerp.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://admin.droneportal-test.portofantwerp.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://admin.droneportal-test.portofantwerp.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://admin.droneportal-test.portofantwerp.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://admin.droneportal-test.portofantwerp.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://admin.droneportal-test.portofantwerp.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://admin.droneportal.portofantwerpbruges.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://admin.droneportal.portofantwerpbruges.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://admin.droneportal.portofantwerpbruges.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://admin.droneportal.portofantwerpbruges.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://admin.droneportal.portofantwerpbruges.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://admin.droneportal.portofantwerpbruges.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://admin.droneportal-test.portofantwerpbruges.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://admin.droneportal-test.portofantwerpbruges.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://admin.droneportal-test.portofantwerpbruges.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://admin.droneportal-test.portofantwerpbruges.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://admin.droneportal-test.portofantwerpbruges.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://admin.droneportal-test.portofantwerpbruges.com
+[http-missing-security-headers:x-content-type-options] [http] [info] https://bedrijvengids.portofantwerpbruges.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://bedrijvengids.portofantwerpbruges.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://bedrijvengids.portofantwerpbruges.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://bedrijvengids.portofantwerpbruges.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://bedrijvengids.portofantwerpbruges.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://bedrijvengids.portofantwerpbruges.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://bedrijvengids.portofantwerpbruges.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://bedrijvengids.portofantwerpbruges.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://bedrijvengids.portofantwerpbruges.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://bedrijvengids.portofantwerpbruges.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://bedrijvengids.portofantwerpbruges.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://companyguide.portofantwerpbruges.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://companyguide.portofantwerpbruges.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://companyguide.portofantwerpbruges.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://companyguide.portofantwerpbruges.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://companyguide.portofantwerpbruges.com
+[http-missing-security-headers:x-content-type-options] [http] [info] https://companyguide.portofantwerpbruges.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://companyguide.portofantwerpbruges.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://companyguide.portofantwerpbruges.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://companyguide.portofantwerpbruges.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://companyguide.portofantwerpbruges.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://companyguide.portofantwerpbruges.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://cn.portofantwerpbruges.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://cn.portofantwerpbruges.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://cn.portofantwerpbruges.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://cn.portofantwerpbruges.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://cn.portofantwerpbruges.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://cn.portofantwerpbruges.com
+[http-missing-security-headers:x-content-type-options] [http] [info] https://cn.portofantwerpbruges.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://cn.portofantwerpbruges.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://cn.portofantwerpbruges.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://cn.portofantwerpbruges.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://cn.portofantwerpbruges.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://digitalspecs.portofantwerpbruges.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://digitalspecs.portofantwerpbruges.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://digitalspecs.portofantwerpbruges.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://digitalspecs.portofantwerpbruges.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://digitalspecs.portofantwerpbruges.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://digitalspecs.portofantwerpbruges.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://digitalspecs.portofantwerpbruges.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://digitalspecs.portofantwerpbruges.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://digitalspecs.portofantwerpbruges.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://droneportal-test.portofantwerp.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://droneportal-test.portofantwerp.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://droneportal-test.portofantwerp.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://droneportal-test.portofantwerp.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://droneportal-test.portofantwerp.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://droneportal-test.portofantwerp.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://digital.portofantwerp.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://digital.portofantwerp.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://digital.portofantwerp.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://digital.portofantwerp.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://digital.portofantwerp.com
+[http-missing-security-headers:x-content-type-options] [http] [info] https://digital.portofantwerp.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://digital.portofantwerp.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://digital.portofantwerp.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://digital.portofantwerp.com
+[aws-detect:aws-service] [http] [info] https://digital.portofantwerp.com
+[aws-detect:aws-cloudfront] [http] [info] https://digital.portofantwerp.com
+[aws-detect:aws-kms] [http] [info] https://digital.portofantwerp.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] http://elink.mail.portofantwerpbruges.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] http://elink.mail.portofantwerpbruges.com
+[http-missing-security-headers:strict-transport-security] [http] [info] http://elink.mail.portofantwerpbruges.com
+[http-missing-security-headers:permissions-policy] [http] [info] http://elink.mail.portofantwerpbruges.com
+[http-missing-security-headers:referrer-policy] [http] [info] http://elink.mail.portofantwerpbruges.com
+[http-missing-security-headers:clear-site-data] [http] [info] http://elink.mail.portofantwerpbruges.com
+[http-missing-security-headers:content-security-policy] [http] [info] http://elink.mail.portofantwerpbruges.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] http://elink.mail.portofantwerpbruges.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] http://elink.mail.portofantwerpbruges.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://droneportal-test.portofantwerpbruges.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://droneportal-test.portofantwerpbruges.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://droneportal-test.portofantwerpbruges.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://droneportal-test.portofantwerpbruges.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://droneportal-test.portofantwerpbruges.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://droneportal-test.portofantwerpbruges.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://droneportal.portofantwerp.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://droneportal.portofantwerp.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://droneportal.portofantwerp.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://droneportal.portofantwerp.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://droneportal.portofantwerp.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://droneportal.portofantwerp.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://droneportal.portofantwerpbruges.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://droneportal.portofantwerpbruges.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://droneportal.portofantwerpbruges.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://droneportal.portofantwerpbruges.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://droneportal.portofantwerpbruges.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://droneportal.portofantwerpbruges.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://etaterminal.portofantwerpbruges.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://etaterminal.portofantwerpbruges.com
+[http-missing-security-headers:x-content-type-options] [http] [info] https://etaterminal.portofantwerpbruges.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://etaterminal.portofantwerpbruges.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://etaterminal.portofantwerpbruges.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://etaterminal.portofantwerpbruges.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://etaterminal.portofantwerpbruges.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://etaterminal.portofantwerpbruges.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://etaterminal.portofantwerpbruges.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://etaterminal.portofantwerpbruges.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://etaterminal.portofantwerpbruges.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://etaterminal-uat.portofantwerpbruges.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://etaterminal-uat.portofantwerpbruges.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://etaterminal-uat.portofantwerpbruges.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://etaterminal-uat.portofantwerpbruges.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://etaterminal-uat.portofantwerpbruges.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://etaterminal-uat.portofantwerpbruges.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://etaterminal-uat.portofantwerpbruges.com
+[http-missing-security-headers:x-content-type-options] [http] [info] https://etaterminal-uat.portofantwerpbruges.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://etaterminal-uat.portofantwerpbruges.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://etaterminal-uat.portofantwerpbruges.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://etaterminal-uat.portofantwerpbruges.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://event.portofantwerpbruges.com/template-eng
+[http-missing-security-headers:clear-site-data] [http] [info] https://event.portofantwerpbruges.com/template-eng
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://event.portofantwerpbruges.com/template-eng
+[http-missing-security-headers:content-security-policy] [http] [info] https://event.portofantwerpbruges.com/template-eng
+[http-missing-security-headers:x-frame-options] [http] [info] https://event.portofantwerpbruges.com/template-eng
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://event.portofantwerpbruges.com/template-eng
+[http-missing-security-headers:referrer-policy] [http] [info] https://event.portofantwerpbruges.com/template-eng
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://event.portofantwerpbruges.com/template-eng
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://event.portofantwerpbruges.com/template-eng
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] http://fhsp-m1.portofantwerp.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] http://fhsp-m1.portofantwerp.com
+[http-missing-security-headers:content-type-charset-specification] [http] [info] http://fhsp-m1.portofantwerp.com
+[http-missing-security-headers:referrer-policy] [http] [info] http://fhsp-m1.portofantwerp.com
+[http-missing-security-headers:clear-site-data] [http] [info] http://fhsp-m1.portofantwerp.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] http://fhsp-m1.portofantwerp.com
+[http-missing-security-headers:x-frame-options] [http] [info] http://fhsp-m1.portofantwerp.com
+[http-missing-security-headers:x-content-type-options] [http] [info] http://fhsp-m1.portofantwerp.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] http://fhsp-m1.portofantwerp.com
+[http-missing-security-headers:strict-transport-security] [http] [info] http://fhsp-m1.portofantwerp.com
+[http-missing-security-headers:content-security-policy] [http] [info] http://fhsp-m1.portofantwerp.com
+[http-missing-security-headers:permissions-policy] [http] [info] http://fhsp-m1.portofantwerp.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://future-acc.portofantwerp.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://future-acc.portofantwerp.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://future-acc.portofantwerp.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://future-acc.portofantwerp.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://future-acc.portofantwerp.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://future-acc.portofantwerp.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://future-acc.portofantwerp.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://future-acc.portofantwerp.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://future-acc.portofantwerp.com
+[http-missing-security-headers:x-content-type-options] [http] [info] https://future-acc.portofantwerp.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://future-acc.portofantwerpbruges.com/login
+[http-missing-security-headers:clear-site-data] [http] [info] https://future-acc.portofantwerpbruges.com/login
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://future-acc.portofantwerpbruges.com/login
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://future-acc.portofantwerpbruges.com/login
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://future-acc.portofantwerpbruges.com/login
+[http-missing-security-headers:permissions-policy] [http] [info] https://future-acc.portofantwerpbruges.com/login
+[http-missing-security-headers:x-content-type-options] [http] [info] https://future-acc.portofantwerpbruges.com/login
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://future-acc.portofantwerpbruges.com/login
+[http-missing-security-headers:content-security-policy] [http] [info] https://future.portofantwerp.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://future.portofantwerp.com
+[http-missing-security-headers:x-content-type-options] [http] [info] https://future.portofantwerp.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://future.portofantwerp.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://future.portofantwerp.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://future.portofantwerp.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://future.portofantwerp.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://future.portofantwerp.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://future.portofantwerp.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://future.portofantwerp.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://gitlab.portofantwerp.com/users/sign_in
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://gitlab.portofantwerp.com/users/sign_in
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://gitlab.portofantwerp.com/users/sign_in
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://gitlab.portofantwerp.com/users/sign_in
+[http-missing-security-headers:clear-site-data] [http] [info] https://gitlab-d1.portofantwerp.com/users/sign_in
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://gitlab-d1.portofantwerp.com/users/sign_in
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://gitlab-d1.portofantwerp.com/users/sign_in
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://gitlab-d1.portofantwerp.com/users/sign_in
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://jobs.portofantwerpbruges.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://jobs.portofantwerpbruges.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://jobs.portofantwerpbruges.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://jobs.portofantwerpbruges.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://jobs.portofantwerpbruges.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://jobs.portofantwerpbruges.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://jobs.portofantwerpbruges.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://my-test.portofantwerp.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://my-test.portofantwerp.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://my-test.portofantwerp.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://my-test.portofantwerp.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://my-test.portofantwerp.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://my-test.portofantwerp.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://my-test.portofantwerp.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://my-test.portofantwerp.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://my-test.portofantwerp.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://my-accpt.portofantwerp.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://my-accpt.portofantwerp.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://my-accpt.portofantwerp.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://my-accpt.portofantwerp.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://my-accpt.portofantwerp.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://my-accpt.portofantwerp.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://my-accpt.portofantwerp.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://my-accpt.portofantwerp.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://my-accpt.portofantwerp.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://media.portofantwerpbruges.com/login/
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://media.portofantwerpbruges.com/login/
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://media.portofantwerpbruges.com/login/
+[http-missing-security-headers:clear-site-data] [http] [info] https://media.portofantwerpbruges.com/login/
+[aws-detect:aws-cloudfront] [http] [info] https://media.portofantwerpbruges.com/login/
+[aws-detect:aws-cloudfront] [http] [info] https://media.portofantwerpbruges.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://newsroom.portofantwerpbruges.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://newsroom.portofantwerpbruges.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://newsroom.portofantwerpbruges.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://newsroom.portofantwerpbruges.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://newsroom.portofantwerpbruges.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://newsroom.portofantwerpbruges.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://newsroom.portofantwerpbruges.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://notula-accpt.portofantwerpbruges.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://notula-accpt.portofantwerpbruges.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://notula-accpt.portofantwerpbruges.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://notula-accpt.portofantwerpbruges.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://notula-accpt.portofantwerpbruges.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://notula-accpt.portofantwerpbruges.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://notula-accpt.portofantwerpbruges.com
+[http-missing-security-headers:x-content-type-options] [http] [info] https://notula-accpt.portofantwerpbruges.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://notula-accpt.portofantwerpbruges.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://notula.portofantwerpbruges.com
+[http-missing-security-headers:x-content-type-options] [http] [info] https://notula.portofantwerpbruges.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://notula.portofantwerpbruges.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://notula.portofantwerpbruges.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://notula.portofantwerpbruges.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://notula.portofantwerpbruges.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://notula.portofantwerpbruges.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://notula.portofantwerpbruges.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://notula.portofantwerpbruges.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://register-accpt.portofantwerpbruges.com/account/
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://register-accpt.portofantwerpbruges.com/account/
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://register-accpt.portofantwerpbruges.com/account/
+[http-missing-security-headers:permissions-policy] [http] [info] https://register-accpt.portofantwerpbruges.com/account/
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://register-accpt.portofantwerpbruges.com/account/
+[http-missing-security-headers:referrer-policy] [http] [info] https://register-accpt.portofantwerpbruges.com/account/
+[http-missing-security-headers:clear-site-data] [http] [info] https://register-accpt.portofantwerpbruges.com/account/
+[http-missing-security-headers:x-frame-options] [http] [info] https://s3.portofantwerp.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://s3.portofantwerp.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://s3.portofantwerp.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://s3.portofantwerp.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://s3.portofantwerp.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://s3.portofantwerp.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://s3.portofantwerp.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://s3.portofantwerp.com
+[http-missing-security-headers:x-content-type-options] [http] [info] https://s3.portofantwerp.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://s3.portofantwerp.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://s3.portofantwerp.com
+[aws-detect:aws-service] [http] [info] https://s3.portofantwerp.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://sentry.droneportal-test.portofantwerp.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://sentry.droneportal-test.portofantwerp.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://sentry.droneportal-test.portofantwerp.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://sentry.droneportal-test.portofantwerp.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://sentry.droneportal-test.portofantwerp.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://sentry.droneportal-test.portofantwerp.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://sentry.droneportal-test.portofantwerpbruges.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://sentry.droneportal-test.portofantwerpbruges.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://sentry.droneportal-test.portofantwerpbruges.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://sentry.droneportal-test.portofantwerpbruges.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://sentry.droneportal-test.portofantwerpbruges.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://sentry.droneportal-test.portofantwerpbruges.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://sentry.droneportal.portofantwerp.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://sentry.droneportal.portofantwerp.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://sentry.droneportal.portofantwerp.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://sentry.droneportal.portofantwerp.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://sentry.droneportal.portofantwerp.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://sentry.droneportal.portofantwerp.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://sentry.droneportal.portofantwerpbruges.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://sentry.droneportal.portofantwerpbruges.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://sentry.droneportal.portofantwerpbruges.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://sentry.droneportal.portofantwerpbruges.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://sentry.droneportal.portofantwerpbruges.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://sentry.droneportal.portofantwerpbruges.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://share.portofantwerpbruges.com/share/
+[http-missing-security-headers:clear-site-data] [http] [info] https://share.portofantwerpbruges.com/share/
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://share.portofantwerpbruges.com/share/
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://share.portofantwerpbruges.com/share/
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://share.portofantwerpbruges.com/share/
+[http-missing-security-headers:permissions-policy] [http] [info] https://share.portofantwerpbruges.com/share/
+[http-missing-security-headers:x-frame-options] [http] [info] https://share.portofantwerpbruges.com/share/
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://share.portofantwerpbruges.com/share/
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://register.portofantwerpbruges.com/account/
+[http-missing-security-headers:permissions-policy] [http] [info] https://register.portofantwerpbruges.com/account/
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://register.portofantwerpbruges.com/account/
+[http-missing-security-headers:referrer-policy] [http] [info] https://register.portofantwerpbruges.com/account/
+[http-missing-security-headers:clear-site-data] [http] [info] https://register.portofantwerpbruges.com/account/
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://register.portofantwerpbruges.com/account/
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://register.portofantwerpbruges.com/account/
+[http-missing-security-headers:content-security-policy] [http] [info] https://surveys.portofantwerp.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://surveys.portofantwerp.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://surveys.portofantwerp.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://surveys.portofantwerp.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://surveys.portofantwerp.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://surveys.portofantwerp.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://surveys.portofantwerp.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://www-accpt.portofantwerp.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://www-accpt.portofantwerp.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://www-accpt.portofantwerp.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://www-accpt.portofantwerp.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://www-accpt.portofantwerp.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://www-accpt.portofantwerp.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://www-accpt.portofantwerp.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://www-accpt.portofantwerp.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://www-accpt.portofantwerp.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://webapps-accpt.portofantwerp.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://webapps-accpt.portofantwerp.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://webapps-accpt.portofantwerp.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://webapps-accpt.portofantwerp.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://webapps-accpt.portofantwerp.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://webapps-accpt.portofantwerp.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://webapps-accpt.portofantwerp.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://webapps-accpt.portofantwerp.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://webapps-accpt.portofantwerp.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://surveys.portofantwerpbruges.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://surveys.portofantwerpbruges.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://surveys.portofantwerpbruges.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://surveys.portofantwerpbruges.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://surveys.portofantwerpbruges.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://surveys.portofantwerpbruges.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://surveys.portofantwerpbruges.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://web.message.portofantwerpbruges.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://web.message.portofantwerpbruges.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://web.message.portofantwerpbruges.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://web.message.portofantwerpbruges.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://web.message.portofantwerpbruges.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://web.message.portofantwerpbruges.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://web.message.portofantwerpbruges.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://web.message.portofantwerpbruges.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://www-test.portofantwerp.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://www-test.portofantwerp.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://www-test.portofantwerp.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://www-test.portofantwerp.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://www-test.portofantwerp.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://www-test.portofantwerp.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://www-test.portofantwerp.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://www-test.portofantwerp.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://www-test.portofantwerp.com
+[bynder-panel] [http] [info] https://media.portofantwerpbruges.com/login/ ["4.3"]
+[bigip-detect] [http] [info] http://fhsp-m1.portofantwerp.com
+[gitlab-explore:gitlab-community] [http] [info] https://gitlab.portofantwerp.com/api/v4/projects
+[gitlab-explore:gitlab-community] [http] [info] https://gitlab-d1.portofantwerp.com/api/v4/projects
+[gitlab-detect] [http] [info] https://gitlab.portofantwerp.com/users/sign_in
+[gitlab-detect] [http] [info] https://gitlab-d1.portofantwerp.com/users/sign_in
+[graphql-get-method] [http] [info] https://gitlab-d1.portofantwerp.com/api/graphql?query={__typename}
+[graphql-get-method] [http] [info] https://gitlab.portofantwerp.com/api/graphql?query={__typename}
+[confluence-detect] [http] [info] https://wiki.portofantwerpbruges.com/confluence/plugins/servlet/samlsso?redirectTo=%2Findex.action
+[tech-detect:ms-httpapi] [http] [info] https://aovpn.portofantwerpbruges.com
+[tech-detect:ms-iis] [http] [info] http://autodiscover.portofantwerp.com
+[tech-detect:ms-httpapi] [http] [info] https://aovpn-m1.portofantwerpbruges.com
+[metatag-cms] [http] [info] https://digitalspecs.portofantwerpbruges.com ["Jekyll v4.2.2"]
+[tech-detect:jsdelivr] [http] [info] https://digitalspecs.portofantwerpbruges.com
+[tech-detect:google-tag-manager] [http] [info] https://bedrijvengids.portofantwerpbruges.com
+[tech-detect:angular] [http] [info] https://bedrijvengids.portofantwerpbruges.com
+[tech-detect:angularjs] [http] [info] https://bedrijvengids.portofantwerpbruges.com
+[tech-detect:ms-iis] [http] [info] https://etaterminal-uat.portofantwerpbruges.com
+[tech-detect:ms-iis] [http] [info] https://etaterminal.portofantwerpbruges.com
+[tech-detect:google-tag-manager] [http] [info] https://companyguide.portofantwerpbruges.com
+[tech-detect:angular] [http] [info] https://companyguide.portofantwerpbruges.com
+[tech-detect:angularjs] [http] [info] https://companyguide.portofantwerpbruges.com
+[tech-detect:php] [http] [info] https://future.portofantwerpbruges.com/site/startSAMLLogin?spaceId=5d5a7ae33958ae24468b456b
+[tech-detect:php] [http] [info] https://future.portofantwerpbruges.com/login
+[tech-detect:php] [http] [info] https://future.portofantwerpbruges.com
+[tech-detect:php] [http] [info] https://future-acc.portofantwerpbruges.com/login
+[tech-detect:php] [http] [info] https://future-acc.portofantwerpbruges.com
+[tech-detect:font-awesome] [http] [info] https://jobs.portofantwerpbruges.com
+[tech-detect:bootstrap] [http] [info] https://jobs.portofantwerpbruges.com
+[tech-detect:google-tag-manager] [http] [info] https://jobs.portofantwerpbruges.com
+[tech-detect:cloudflare] [http] [info] https://newsroom.portofantwerp.com
+[tech-detect:owl-carousel] [http] [info] https://event.portofantwerpbruges.com/template-eng
+[tech-detect:font-awesome] [http] [info] https://event.portofantwerpbruges.com/template-eng
+[tech-detect:froala-editor] [http] [info] https://event.portofantwerpbruges.com/template-eng
+[tech-detect:font-awesome] [http] [info] https://notula-accpt.portofantwerpbruges.com
+[tech-detect:nginx] [http] [info] https://notula-accpt.portofantwerpbruges.com
+[tech-detect:nginx] [http] [info] https://notula.portofantwerpbruges.com
+[tech-detect:font-awesome] [http] [info] https://notula.portofantwerpbruges.com
+[tech-detect:font-awesome] [http] [info] https://media.portofantwerpbruges.com/login/
+[tech-detect:nginx] [http] [info] https://media.portofantwerpbruges.com/login/
+[tech-detect:nginx] [http] [info] https://media.portofantwerpbruges.com
+[metatag-cms] [http] [info] https://web.message.portofantwerpbruges.com ["HubSpot"]
+[tech-detect:google-tag-manager] [http] [info] https://web.message.portofantwerpbruges.com
+[tech-detect:cloudflare] [http] [info] https://web.message.portofantwerpbruges.com
+[tech-detect:google-font-api] [http] [info] https://newsroom.portofantwerpbruges.com
+[tech-detect:cloudflare] [http] [info] https://newsroom.portofantwerpbruges.com
+[options-method] [http] [info] http://bd77exw.139709035t.message.portofantwerpbruges.com ["HEAD,GET,OPTIONS"]
+[options-method] [http] [info] https://etaterminal.portofantwerpbruges.com ["OPTIONS, TRACE, GET, HEAD, POST"]
+[options-method] [http] [info] https://etaterminal-uat.portofantwerpbruges.com ["OPTIONS, TRACE, GET, HEAD, POST"]
+[options-method] [http] [info] https://s3.portofantwerp.com ["GET"]
+[options-method] [http] [info] https://surveys.portofantwerp.com ["GET,HEAD,POST,OPTIONS"]
+[options-method] [http] [info] https://surveys.portofantwerpbruges.com ["GET,HEAD,POST,OPTIONS"]
+[dockerfile-hidden-disclosure] [http] [medium] https://digitalspecs.portofantwerpbruges.com/Dockerfile
+[keycloak-admin-panel] [http] [info] https://admin.droneportal.portofantwerpbruges.com/api/logout
+[keycloak-admin-panel] [http] [info] https://admin.droneportal-test.portofantwerpbruges.com/api/logout
+[keycloak-admin-panel] [http] [info] https://admin.droneportal-test.portofantwerp.com/api/logout
+[keycloak-admin-panel] [http] [info] https://admin.droneportal.portofantwerp.com/api/logout
+[oob-header-based-interaction:dns] [http] [info] jobs.portofantwerpbruges.com
+[oob-header-based-interaction:dns] [http] [info] jobs.portofantwerpbruges.com
+[keycloak-admin-panel] [http] [info] https://droneportal-test.portofantwerp.com/api/logout
+[keycloak-admin-panel] [http] [info] https://droneportal-test.portofantwerpbruges.com/api/logout
+[keycloak-admin-panel] [http] [info] https://droneportal.portofantwerpbruges.com/api/logout
+[keycloak-admin-panel] [http] [info] https://droneportal.portofantwerp.com/api/logout
+[keycloak-admin-panel] [http] [info] https://sentry.droneportal-test.portofantwerp.com/api/logout
+[keycloak-admin-panel] [http] [info] https://sentry.droneportal-test.portofantwerpbruges.com/api/logout
+[keycloak-admin-panel] [http] [info] https://sentry.droneportal.portofantwerpbruges.com/api/logout
+[keycloak-admin-panel] [http] [info] https://sentry.droneportal.portofantwerp.com/api/logout
+[xss-deprecated-header] [http] [info] https://apps.portofantwerpbruges.com ["1; mode=block"]
+[addeventlistener-detect] [http] [info] https://admin.droneportal-test.portofantwerp.com
+[addeventlistener-detect] [http] [info] https://admin.droneportal.portofantwerpbruges.com
+[addeventlistener-detect] [http] [info] https://admin.droneportal.portofantwerp.com
+[addeventlistener-detect] [http] [info] https://admin.droneportal-test.portofantwerpbruges.com
+[xss-deprecated-header] [http] [info] https://admin.droneportal.portofantwerpbruges.com ["1; mode=block"]
+[xss-deprecated-header] [http] [info] https://admin.droneportal-test.portofantwerp.com ["1; mode=block"]
+[xss-deprecated-header] [http] [info] https://admin.droneportal.portofantwerp.com ["1; mode=block"]
+[xss-deprecated-header] [http] [info] https://admin.droneportal-test.portofantwerpbruges.com ["1; mode=block"]
+[xss-deprecated-header] [http] [info] https://datasharing.portofantwerpbruges.com ["1; mode=block"]
+[xss-deprecated-header] [http] [info] https://digitalspecs.portofantwerpbruges.com ["1; mode=block"]
+[email-extractor] [http] [info] https://cn.portofantwerpbruges.com ["Jan.VanderBorght@portofantwerpbruges.com"]
+[aws-cloudfront-service] [http] [info] https://digital.portofantwerp.com
+[apache-detect] [http] [info] https://cn.portofantwerpbruges.com ["Apache/2.4.29 (Ubuntu)"]
+[php-detect] [http] [info] https://cn.portofantwerpbruges.com
+[switch-protocol] [http] [info] https://cn.portofantwerpbruges.com ["h2,h2c"]
+[xss-deprecated-header] [http] [info] http://elink.mail.portofantwerpbruges.com ["1; mode=block"]
+[openresty-detect] [http] [info] http://elink.mail.portofantwerpbruges.com
+[addeventlistener-detect] [http] [info] https://droneportal.portofantwerp.com
+[addeventlistener-detect] [http] [info] https://droneportal.portofantwerpbruges.com
+[addeventlistener-detect] [http] [info] https://droneportal-test.portofantwerpbruges.com
+[addeventlistener-detect] [http] [info] https://droneportal-test.portofantwerp.com
+[xss-deprecated-header] [http] [info] https://droneportal.portofantwerp.com ["1; mode=block"]
+[xss-deprecated-header] [http] [info] https://droneportal.portofantwerpbruges.com ["1; mode=block"]
+[xss-deprecated-header] [http] [info] https://droneportal-test.portofantwerpbruges.com ["1; mode=block"]
+[xss-deprecated-header] [http] [info] https://droneportal-test.portofantwerp.com ["1; mode=block"]
+[xss-deprecated-header] [http] [info] https://future-acc.portofantwerpbruges.com ["1; mode=block"]
+[xss-deprecated-header] [http] [info] https://future.portofantwerpbruges.com ["1; mode=block"]
+[google-floc-disabled] [http] [info] https://gitlab.portofantwerp.com
+[xss-deprecated-header] [http] [info] https://gitlab.portofantwerp.com ["1; mode=block"]
+[google-floc-disabled] [http] [info] https://gitlab-d1.portofantwerp.com
+[xss-deprecated-header] [http] [info] https://gitlab-d1.portofantwerp.com ["1; mode=block"]
+[xss-deprecated-header] [http] [info] https://jobs.portofantwerpbruges.com ["1; mode=block"]
+[apache-detect] [http] [info] https://jobs.portofantwerpbruges.com ["Apache"]
+[xss-deprecated-header] [http] [info] https://login-test.portofantwerpbruges.com ["1; mode=block"]
+[xss-deprecated-header] [http] [info] https://login-accpt.portofantwerpbruges.com ["1; mode=block"]
+[https-to-http-redirect] [http] [info] https://my.portofantwerpbruges.com
+[xss-deprecated-header] [http] [info] https://my.portofantwerpbruges.com ["1; mode=block"]
+[https-to-http-redirect] [http] [info] https://my-test.portofantwerpbruges.com
+[xss-deprecated-header] [http] [info] https://login.portofantwerpbruges.com ["1; mode=block"]
+[aws-cloudfront-service] [http] [info] https://media.portofantwerpbruges.com
+[xss-deprecated-header] [http] [info] https://my-test.portofantwerpbruges.com ["1; mode=block"]
+[xss-deprecated-header] [http] [info] https://my-accpt.portofantwerp.com ["1; mode=block"]
+[xss-deprecated-header] [http] [info] https://my-test.portofantwerp.com ["1; mode=block"]
+[jwt-token] [http] [unknown] https://newsroom.portofantwerpbruges.com ["eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhcGlLZXlVaWQiOiI0ZDM4MDNiYS0wMDQwLTQ1YjYtYjhhMi1kZTRlMWI1MjQ5NjciLCJzZWFyY2hSdWxlcyI6eyJwdWJsaWNfc3RvcmllcyI6eyJmaWx0ZXIiOiJfdGFncyA9IFwibGljZW5zZV80OTc0XCIgQU5EIF90YWdzID0gXCJuZXdzcm9vbV85NDMxXCIifX19.2ZQsN3QdraJ2F6IEuEpnAMqHt2MtnsxFN2m3gJjy4k4"]
+[addeventlistener-detect] [http] [info] https://notula.portofantwerpbruges.com
+[nginx-version] [http] [info] https://notula.portofantwerpbruges.com ["nginx/1.27.1"]
+[addeventlistener-detect] [http] [info] https://notula-accpt.portofantwerpbruges.com
+[nginx-version] [http] [info] https://notula-accpt.portofantwerpbruges.com ["nginx/1.27.1"]
+[email-extractor] [http] [info] https://newsroom.portofantwerpbruges.com ["communicatie@portofantwerpbruges.com","nick.vanbosch@portofantwerpbruges.com","lennart.verstappen@portofantwerpbruges.com","Lennart.Verstappen@portofantwerpbruges.com","u003ecommunicatie@portofantwerpbruges.com","press@portofantwerpbruges.com","communicatie@portofantwerp.com"]
+[xss-deprecated-header] [http] [info] https://newsroom.portofantwerpbruges.com ["1; mode=block"]
+[https-to-http-redirect] [http] [info] https://register.portofantwerpbruges.com
+[xss-deprecated-header] [http] [info] https://register.portofantwerpbruges.com ["1; mode=block"]
+[https-to-http-redirect] [http] [info] https://register-accpt.portofantwerpbruges.com
+[xss-deprecated-header] [http] [info] https://register-accpt.portofantwerpbruges.com ["1; mode=block"]
+[aws-bucket-service] [http] [info] https://s3.portofantwerp.com
+[addeventlistener-detect] [http] [info] https://sentry.droneportal.portofantwerpbruges.com
+[addeventlistener-detect] [http] [info] https://sentry.droneportal.portofantwerp.com
+[addeventlistener-detect] [http] [info] https://sentry.droneportal-test.portofantwerp.com
+[addeventlistener-detect] [http] [info] https://sentry.droneportal-test.portofantwerpbruges.com
+[xss-deprecated-header] [http] [info] https://sentry.droneportal.portofantwerp.com ["1; mode=block"]
+[xss-deprecated-header] [http] [info] https://sentry.droneportal.portofantwerpbruges.com ["1; mode=block"]
+[xss-deprecated-header] [http] [info] https://sentry.droneportal-test.portofantwerp.com ["1; mode=block"]
+[xss-deprecated-header] [http] [info] https://sentry.droneportal-test.portofantwerpbruges.com ["1; mode=block"]
+[https-to-http-redirect] [http] [info] https://share.portofantwerpbruges.com
+[xss-deprecated-header] [http] [info] https://share.portofantwerpbruges.com ["1; mode=block"]
+[https-to-http-redirect] [http] [info] https://webmail.portofantwerp.com
+[xss-deprecated-header] [http] [info] https://webapps.portofantwerpbruges.com ["1; mode=block"]
+[xss-deprecated-header] [http] [info] https://webapps-accpt.portofantwerp.com ["1; mode=block"]
+[xss-deprecated-header] [http] [info] https://surveys.portofantwerpbruges.com ["1; mode=block"]
+[xss-deprecated-header] [http] [info] https://surveys.portofantwerp.com ["1; mode=block"]
+[apache-detect] [http] [info] https://surveys.portofantwerpbruges.com ["Apache"]
+[apache-detect] [http] [info] https://surveys.portofantwerp.com ["Apache"]
+[xss-deprecated-header] [http] [info] https://www-accpt.portofantwerp.com ["1; mode=block"]
+[xss-deprecated-header] [http] [info] https://www-test.portofantwerp.com ["1; mode=block"]
+[spf-record-detect] [dns] [info] event.portofantwerpbruges.com ["v=spf1 include:inc.emailr.com include:spf.protection.outlook.com -all""]
+[txt-fingerprint] [dns] [info] event.portofantwerpbruges.com [""v=spf1 include:inc.emailr.com include:spf.protection.outlook.com -all""]
+[spf-record-detect] [dns] [info] future.portofantwerpbruges.com ["v=spf1 include:mail.zendesk.com include:servers.mcsv.net include:_spf.google.com ?all""]
+[txt-fingerprint] [dns] [info] future.portofantwerpbruges.com [""google-site-verification=mYFK_hPQflYTt-DmkDmGHJPnYAxMIqDBfoiTvxS9GZI"",""v=spf1 include:mail.zendesk.com include:servers.mcsv.net include:_spf.google.com ?all"",""MS=ms89029141"",""google-site-verification=Gkz8GTVGX8v_gK8bxrNOs-0GZ9rlNF4rkoHpKYRwBc4""]
+[spf-record-detect] [dns] [info] future.portofantwerp.com ["v=spf1 include:mail.zendesk.com include:servers.mcsv.net include:_spf.google.com ?all""]
+[txt-fingerprint] [dns] [info] future.portofantwerp.com [""google-site-verification=mYFK_hPQflYTt-DmkDmGHJPnYAxMIqDBfoiTvxS9GZI"",""v=spf1 include:mail.zendesk.com include:servers.mcsv.net include:_spf.google.com ?all"",""google-site-verification=Gkz8GTVGX8v_gK8bxrNOs-0GZ9rlNF4rkoHpKYRwBc4"",""MS=ms89029141""]
+[spf-record-detect] [dns] [info] portofantwerpbruges.com ["v=spf1 ip4:94.107.237.204 ip4:188.118.8.13 ip4:194.78.48.181 ip4:194.78.186.228 ip4:185.105.157.129 ip4:154.52.34.129 include:spf.protection.outlook.com -all""]
+[txt-fingerprint] [dns] [info] portofantwerpbruges.com [""infoblox-domain-mastery=b04307a7f9376af043ad8f660baddbcadb444b825bfc05e7cc37734ad6be965be2"",""_globalsign-domain-verification=bTbaP_q9ojgLqI_Uau4VTYmj7DJBP4ejvPCa_Bpi-j"",""v=spf1 ip4:94.107.237.204 ip4:188.118.8.13 ip4:194.78.48.181 ip4:194.78.186.228 ip4:185.105.157.129 ip4:154.52.34.129 include:spf.protection.outlook.com -all"",""facebook-domain-verification=x2mww63tgkkgqhfnwar4cn6bp839vl"",""google-site-verification=NFpjfu4fcJfmALugN5VgV9DV_luw1t1X6gHYW9_IB3I"",""MS=ms23214406""]
+[spf-record-detect] [dns] [info] portofantwerp.com ["v=spf1 ip4:94.107.237.204 ip4:188.118.8.13 include:spf.protection.outlook.com -all""]
+[txt-fingerprint] [dns] [info] portofantwerp.com [""MS=ms29686084"",""4BTX6ho7YB9KX3iHLEO9yNuixMaXcyrMNadNoGMlrZE0IicedTySgzldjN1EbIk0w+fIhre0fwYqK0NIMqMkNA=="",""domain-verification:cde95e51a6235b8d76f4e8c34251d677f2c39d90"",""v=spf1 ip4:94.107.237.204 ip4:188.118.8.13 include:spf.protection.outlook.com -all"",""apple-domain-verification=0hcXC9r9Xg1Fjtxm"",""_globalsign-domain-verification=urwg4PTGp4AXsWdyLvcI2DEQGQ36_BLJR-zif1y7EV"",""atlassian-domain-verification=o71Fe9UtFQjj319rKNJdaW3Ze/ccWTw0LLVGIJlePyoruTMua/MfjQOpYIHTNBcH"",""infoblox-domain-mastery=53d38df7ebff266155a565d048f9969ec2f3db4465cedd09aa5dfca4ee6fa90a44"",""workplace-domain-verification=egdFVjTOnuzlPMCgIchGAlka52pd7Q"",""facebook-domain-verification=8bnjqzpouc0sfmeygtm4394ezxbt5h"",""google-site-verification=BLfgz8tbKT1heSJD8WlGm6Ivx8r-n8LldSwy4XNsjHc""]
+[caa-fingerprint] [dns] [info] admin.droneportal-test.portofantwerp.com ["letsencrypt.org"]
+[caa-fingerprint] [dns] [info] admin.droneportal.portofantwerpbruges.com ["letsencrypt.org"]
+[spf-record-detect] [dns] [info] surveys.portofantwerp.com ["v=spf1 include:wappmail.com -all""]
+[txt-fingerprint] [dns] [info] surveys.portofantwerp.com [""v=spf1 include:wappmail.com -all""]
+[caa-fingerprint] [dns] [info] aovpn-m1.portofantwerpbruges.com
+[caa-fingerprint] [dns] [info] bd77exw.139709035t.message.portofantwerpbruges.com
+[spf-record-detect] [dns] [info] surveys.portofantwerpbruges.com ["v=spf1 include:wappmail.com -all""]
+[txt-fingerprint] [dns] [info] surveys.portofantwerpbruges.com [""v=spf1 include:wappmail.com -all""]
+[caa-fingerprint] [dns] [info] admin.droneportal-test.portofantwerpbruges.com ["letsencrypt.org"]
+[caa-fingerprint] [dns] [info] autodiscover.portofantwerp.com
+[caa-fingerprint] [dns] [info] admin.droneportal.portofantwerp.com ["letsencrypt.org"]
+[caa-fingerprint] [dns] [info] apps.portofantwerp.com
+[caa-fingerprint] [dns] [info] aovpn.portofantwerpbruges.com
+[caa-fingerprint] [dns] [info] apps.portofantwerpbruges.com
+[caa-fingerprint] [dns] [info] connective-test.portofantwerpbruges.com
+[caa-fingerprint] [dns] [info] bedrijvengids.portofantwerpbruges.com
+[caa-fingerprint] [dns] [info] cn.portofantwerpbruges.com ["letsencrypt.org"]
+[caa-fingerprint] [dns] [info] companyguide.portofantwerpbruges.com
+[caa-fingerprint] [dns] [info] bedrijvengids.portofantwerp.com
+[caa-fingerprint] [dns] [info] companyguide.portofantwerp.com
+[caa-fingerprint] [dns] [info] connective.portofantwerpbruges.com
+[mx-fingerprint] [dns] [info] event.portofantwerpbruges.com ["10 event-portofantwerpbruges-com.mail.protection.outlook.com."]
+[mx-service-detector:Office 365] [dns] [info] event.portofantwerpbruges.com
+[caa-fingerprint] [dns] [info] droneportal-test.portofantwerpbruges.com ["letsencrypt.org"]
+[mx-fingerprint] [dns] [info] future.portofantwerp.com ["20 alt1.aspmx.l.google.com.","30 alt2.aspmx.l.google.com.","40 aspmx2.googlemail.com.","50 aspmx3.googlemail.com.","10 aspmx.l.google.com."]
+[mx-service-detector:Google Apps] [dns] [info] future.portofantwerp.com
+[caa-fingerprint] [dns] [info] droneportal-test.portofantwerp.com ["letsencrypt.org"]
+[caa-fingerprint] [dns] [info] dbt-docs.datafabric.portofantwerpbruges.com
+[mx-fingerprint] [dns] [info] future.portofantwerpbruges.com ["10 aspmx.l.google.com.","20 alt1.aspmx.l.google.com.","30 alt2.aspmx.l.google.com.","40 aspmx2.googlemail.com.","50 aspmx3.googlemail.com."]
+[mx-service-detector:Google Apps] [dns] [info] future.portofantwerpbruges.com
+[caa-fingerprint] [dns] [info] droneportal.portofantwerp.com ["letsencrypt.org"]
+[caa-fingerprint] [dns] [info] digitalspecs.portofantwerp.com
+[caa-fingerprint] [dns] [info] digitalspecs.portofantwerpbruges.com
+[caa-fingerprint] [dns] [info] datasharing.portofantwerpbruges.com
+[caa-fingerprint] [dns] [info] digital.portofantwerp.com
+[caa-fingerprint] [dns] [info] datasharing.portofantwerp.com
+[dns-saas-service-detection] [dns] [info] admin.droneportal.portofantwerp.com ["poa-prd.unifly.tech"]
+[dns-saas-service-detection] [dns] [info] admin.droneportal-test.portofantwerp.com ["poa-uat.unifly.tech"]
+[dns-saas-service-detection] [dns] [info] admin.droneportal-test.portofantwerpbruges.com ["poa-uat.unifly.tech"]
+[dns-saas-service-detection:ms-office] [dns] [info] autodiscover.portofantwerp.com ["autodiscover.outlook.com"]
+[caa-fingerprint] [dns] [info] droneportal.portofantwerpbruges.com ["letsencrypt.org"]
+[caa-fingerprint] [dns] [info] elink.mail.portofantwerpbruges.com
+[dns-saas-service-detection] [dns] [info] admin.droneportal.portofantwerpbruges.com ["poa-prd.unifly.tech"]
+[caa-fingerprint] [dns] [info] etaterminal.portofantwerpbruges.com
+[caa-fingerprint] [dns] [info] etaterminal-uat.portofantwerpbruges.com
+[caa-fingerprint] [dns] [info] fhsp-m1.portofantwerp.com
+[caa-fingerprint] [dns] [info] event.portofantwerpbruges.com ["letsencrypt.org"]
+[nameserver-fingerprint] [dns] [info] future.portofantwerp.com ["ns-1819.awsdns-35.co.uk.","ns-75.awsdns-09.com.","ns-982.awsdns-58.net.","ns-1231.awsdns-25.org."]
+[nameserver-fingerprint] [dns] [info] future-acc.portofantwerpbruges.com ["ns-1228.awsdns-25.org.","ns-1969.awsdns-54.co.uk.","ns-434.awsdns-54.com.","ns-892.awsdns-47.net."]
+[caa-fingerprint] [dns] [info] future.portofantwerpbruges.com ["amazontrust.com","awstrust.com","digicert.com","globalsign.com","letsencrypt.org","pki.goog","amazon.com","amazonaws.com"]
+[caa-fingerprint] [dns] [info] future-acc.portofantwerpbruges.com ["amazon.com","amazonaws.com","amazontrust.com","awstrust.com","globalsign.com","letsencrypt.org"]
+[nameserver-fingerprint] [dns] [info] future.portofantwerpbruges.com ["ns-1231.awsdns-25.org.","ns-982.awsdns-58.net.","ns-75.awsdns-09.com.","ns-1819.awsdns-35.co.uk."]
+[caa-fingerprint] [dns] [info] future.portofantwerp.com ["amazontrust.com","awstrust.com","digicert.com","amazon.com","globalsign.com","letsencrypt.org","pki.goog","amazonaws.com"]
+[nameserver-fingerprint] [dns] [info] future-acc.portofantwerp.com ["ns-1228.awsdns-25.org.","ns-892.awsdns-47.net.","ns-434.awsdns-54.com.","ns-1969.awsdns-54.co.uk."]
+[caa-fingerprint] [dns] [info] future-acc.portofantwerp.com ["amazonaws.com","awstrust.com","amazon.com","amazontrust.com","letsencrypt.org","globalsign.com"]
+[ssl-issuer] [ssl] [info] apps.portofantwerpbruges.com:443 ["GlobalSign nv-sa"]
+[ssl-dns-names] [ssl] [info] apps.portofantwerpbruges.com:443 ["*.portofantwerpbruges.com","portofantwerpbruges.com"]
+[wildcard-tls] [ssl] [info] apps.portofantwerpbruges.com:443 ["CN: *.portofantwerpbruges.com","SAN: [*.portofantwerpbruges.com portofantwerpbruges.com]"]
+[ssl-issuer] [ssl] [info] admin.droneportal-test.portofantwerp.com:443 ["Let's Encrypt"]
+[mismatched-ssl-certificate] [ssl] [low] admin.droneportal-test.portofantwerp.com:443 ["CN: droneportal-test.portofantwerpbruges.com"]
+[ssl-dns-names] [ssl] [info] admin.droneportal-test.portofantwerp.com:443 ["droneportal-test.portofantwerpbruges.com"]
+[ssl-issuer] [ssl] [info] admin.droneportal-test.portofantwerpbruges.com:443 ["Let's Encrypt"]
+[ssl-dns-names] [ssl] [info] admin.droneportal-test.portofantwerpbruges.com:443 ["admin.droneportal-test.portofantwerpbruges.com"]
+[ssl-issuer] [ssl] [info] admin.droneportal.portofantwerpbruges.com:443 ["Let's Encrypt"]
+[ssl-dns-names] [ssl] [info] admin.droneportal.portofantwerpbruges.com:443 ["admin.droneportal.portofantwerpbruges.com"]
+[ssl-issuer] [ssl] [info] admin.droneportal.portofantwerp.com:443 ["Let's Encrypt"]
+[mismatched-ssl-certificate] [ssl] [low] admin.droneportal.portofantwerp.com:443 ["CN: droneportal.portofantwerpbruges.com"]
+[ssl-dns-names] [ssl] [info] admin.droneportal.portofantwerp.com:443 ["droneportal.portofantwerpbruges.com"]
+[ssl-issuer] [ssl] [info] bedrijvengids.portofantwerp.com:443 ["GlobalSign nv-sa"]
+[ssl-dns-names] [ssl] [info] bedrijvengids.portofantwerp.com:443 ["*.portofantwerp.com","owa.portofantwerp.com","mail.portofantwerp.com","autodiscover.portofantwerp.com","www.portofantwerp.com","portofantwerp.com"]
+[wildcard-tls] [ssl] [info] bedrijvengids.portofantwerp.com:443 ["CN: *.portofantwerp.com","SAN: [*.portofantwerp.com owa.portofantwerp.com mail.portofantwerp.com autodiscover.portofantwerp.com www.portofantwerp.com portofantwerp.com]"]
+[ssl-issuer] [ssl] [info] apps.portofantwerp.com:443 ["GlobalSign nv-sa"]
+[ssl-dns-names] [ssl] [info] apps.portofantwerp.com:443 ["*.portofantwerp.com","owa.portofantwerp.com","mail.portofantwerp.com","autodiscover.portofantwerp.com","www.portofantwerp.com","portofantwerp.com"]
+[wildcard-tls] [ssl] [info] apps.portofantwerp.com:443 ["CN: *.portofantwerp.com","SAN: [*.portofantwerp.com owa.portofantwerp.com mail.portofantwerp.com autodiscover.portofantwerp.com www.portofantwerp.com portofantwerp.com]"]
+[ssl-issuer] [ssl] [info] companyguide.portofantwerp.com:443 ["GlobalSign nv-sa"]
+[ssl-dns-names] [ssl] [info] companyguide.portofantwerp.com:443 ["*.portofantwerp.com","owa.portofantwerp.com","mail.portofantwerp.com","autodiscover.portofantwerp.com","www.portofantwerp.com","portofantwerp.com"]
+[wildcard-tls] [ssl] [info] companyguide.portofantwerp.com:443 ["CN: *.portofantwerp.com","SAN: [*.portofantwerp.com owa.portofantwerp.com mail.portofantwerp.com autodiscover.portofantwerp.com www.portofantwerp.com portofantwerp.com]"]
+[ssl-issuer] [ssl] [info] bedrijvengids.portofantwerpbruges.com:443 ["GlobalSign nv-sa"]
+[ssl-dns-names] [ssl] [info] bedrijvengids.portofantwerpbruges.com:443 ["companyguide.portofantwerpbruges.com","bedrijvengids.portofantwerpbruges.com"]
+[ssl-issuer] [ssl] [info] dbt-docs.datafabric.portofantwerpbruges.com:443 ["DigiCert, Inc."]
+[ssl-dns-names] [ssl] [info] dbt-docs.datafabric.portofantwerpbruges.com:443 ["dbt-docs.datafabric.portofantwerpbruges.com"]
+[ssl-issuer] [ssl] [info] companyguide.portofantwerpbruges.com:443 ["GlobalSign nv-sa"]
+[ssl-dns-names] [ssl] [info] companyguide.portofantwerpbruges.com:443 ["bedrijvengids.portofantwerpbruges.com","companyguide.portofantwerpbruges.com"]
+[ssl-issuer] [ssl] [info] datasharing.portofantwerp.com:443 ["GlobalSign nv-sa"]
+[ssl-dns-names] [ssl] [info] datasharing.portofantwerp.com:443 ["www.portofantwerp.com","portofantwerp.com","*.portofantwerp.com","owa.portofantwerp.com","mail.portofantwerp.com","autodiscover.portofantwerp.com"]
+[wildcard-tls] [ssl] [info] datasharing.portofantwerp.com:443 ["CN: *.portofantwerp.com","SAN: [*.portofantwerp.com owa.portofantwerp.com mail.portofantwerp.com autodiscover.portofantwerp.com www.portofantwerp.com portofantwerp.com]"]
+[ssl-issuer] [ssl] [info] datasharing.portofantwerpbruges.com:443 ["GlobalSign nv-sa"]
+[ssl-dns-names] [ssl] [info] datasharing.portofantwerpbruges.com:443 ["*.portofantwerpbruges.com","portofantwerpbruges.com"]
+[wildcard-tls] [ssl] [info] datasharing.portofantwerpbruges.com:443 ["CN: *.portofantwerpbruges.com","SAN: [*.portofantwerpbruges.com portofantwerpbruges.com]"]
+[ssl-issuer] [ssl] [info] cn.portofantwerpbruges.com:443 ["Let's Encrypt"]
+[ssl-dns-names] [ssl] [info] cn.portofantwerpbruges.com:443 ["cn.portofantwerpbruges.com"]
+[ssl-issuer] [ssl] [info] digitalspecs.portofantwerpbruges.com:443 ["GlobalSign nv-sa"]
+[ssl-dns-names] [ssl] [info] digitalspecs.portofantwerpbruges.com:443 ["*.portofantwerpbruges.com","portofantwerpbruges.com"]
+[wildcard-tls] [ssl] [info] digitalspecs.portofantwerpbruges.com:443 ["CN: *.portofantwerpbruges.com","SAN: [*.portofantwerpbruges.com portofantwerpbruges.com]"]
+[ssl-issuer] [ssl] [info] digitalspecs.portofantwerp.com:443 ["GlobalSign nv-sa"]
+[ssl-dns-names] [ssl] [info] digitalspecs.portofantwerp.com:443 ["*.portofantwerp.com","owa.portofantwerp.com","mail.portofantwerp.com","autodiscover.portofantwerp.com","www.portofantwerp.com","portofantwerp.com"]
+[wildcard-tls] [ssl] [info] digitalspecs.portofantwerp.com:443 ["CN: *.portofantwerp.com","SAN: [*.portofantwerp.com owa.portofantwerp.com mail.portofantwerp.com autodiscover.portofantwerp.com www.portofantwerp.com portofantwerp.com]"]
+[ssl-issuer] [ssl] [info] droneportal-test.portofantwerp.com:443 ["Let's Encrypt"]
+[mismatched-ssl-certificate] [ssl] [low] droneportal-test.portofantwerp.com:443 ["CN: droneportal-test.portofantwerpbruges.com"]
+[ssl-dns-names] [ssl] [info] droneportal-test.portofantwerp.com:443 ["droneportal-test.portofantwerpbruges.com"]
+[dns-saas-service-detection:azure] [dns] [info] connective-test.portofantwerpbruges.com ["waf-acc-we.westeurope.cloudapp.azure.com"]
+[dns-saas-service-detection] [dns] [info] digital.portofantwerp.com ["digital-portofantwerp-1-2.nxt.unifiedpost.com"]
+[dns-saas-service-detection] [dns] [info] dbt-docs.datafabric.portofantwerpbruges.com ["witty-ground-0d00d5903.3.azurestaticapps.net"]
+[dns-saas-service-detection:azure] [dns] [info] connective.portofantwerpbruges.com ["cnve-waf-eu-02.trafficmanager.net"]
+[ssl-issuer] [ssl] [info] droneportal-test.portofantwerpbruges.com:443 ["Let's Encrypt"]
+[ssl-dns-names] [ssl] [info] droneportal-test.portofantwerpbruges.com:443 ["droneportal-test.portofantwerpbruges.com"]
+[ssl-issuer] [ssl] [info] droneportal.portofantwerp.com:443 ["Let's Encrypt"]
+[mismatched-ssl-certificate] [ssl] [low] droneportal.portofantwerp.com:443 ["CN: droneportal.portofantwerpbruges.com"]
+[ssl-dns-names] [ssl] [info] droneportal.portofantwerp.com:443 ["droneportal.portofantwerpbruges.com"]
+[dns-saas-service-detection] [dns] [info] companyguide.portofantwerpbruges.com ["bedrijvengids.portofantwerpbruges.com"]
+[caa-fingerprint] [dns] [info] gitlab-d1.portofantwerp.com
+[ssl-issuer] [ssl] [info] digital.portofantwerp.com:443 ["GlobalSign nv-sa"]
+[ssl-dns-names] [ssl] [info] digital.portofantwerp.com:443 ["digital.portofantwerp.com"]
+[caa-fingerprint] [dns] [info] jobs.portofantwerpbruges.com
+[mismatched-ssl-certificate] [ssl] [low] aovpn-m1.portofantwerpbruges.com:443 ["CN: aovpn.portofantwerpbruges.com"]
+[ssl-issuer] [ssl] [info] droneportal.portofantwerpbruges.com:443 ["Let's Encrypt"]
+[ssl-dns-names] [ssl] [info] droneportal.portofantwerpbruges.com:443 ["droneportal.portofantwerpbruges.com"]
+[caa-fingerprint] [dns] [info] jobs.portofantwerp.com
+[ssl-issuer] [ssl] [info] future-acc.portofantwerp.com:443 ["Acme Co"]
+[kubernetes-fake-certificate] [ssl] [low] future-acc.portofantwerp.com:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[mismatched-ssl-certificate] [ssl] [low] future-acc.portofantwerp.com:443 ["CN: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] future-acc.portofantwerp.com:443
+[ssl-dns-names] [ssl] [info] future-acc.portofantwerp.com:443 ["ingress.local"]
+[ssl-issuer] [ssl] [info] future.portofantwerp.com:443 ["Acme Co"]
+[kubernetes-fake-certificate] [ssl] [low] future.portofantwerp.com:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[mismatched-ssl-certificate] [ssl] [low] future.portofantwerp.com:443 ["CN: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] future.portofantwerp.com:443
+[ssl-dns-names] [ssl] [info] future.portofantwerp.com:443 ["ingress.local"]
+[caa-fingerprint] [dns] [info] geo.portofantwerp.com
+[caa-fingerprint] [dns] [info] intranet.portofantwerp.com
+[caa-fingerprint] [dns] [info] gitlab.portofantwerp.com
+[ssl-issuer] [ssl] [info] future-acc.portofantwerpbruges.com:443 ["Let's Encrypt"]
+[ssl-dns-names] [ssl] [info] future-acc.portofantwerpbruges.com:443 ["future-acc.portofantwerpbruges.com"]
+[ssl-issuer] [ssl] [info] future.portofantwerpbruges.com:443 ["Let's Encrypt"]
+[ssl-dns-names] [ssl] [info] future.portofantwerpbruges.com:443 ["future.portofantwerpbruges.com"]
+[ssl-issuer] [ssl] [info] event.portofantwerpbruges.com:443 ["Let's Encrypt"]
+[ssl-dns-names] [ssl] [info] event.portofantwerpbruges.com:443 ["event.portofantwerpbruges.com"]
+[ssl-issuer] [ssl] [info] geo.portofantwerp.com:443 ["GlobalSign nv-sa"]
+[ssl-dns-names] [ssl] [info] geo.portofantwerp.com:443 ["*.portofantwerp.com","owa.portofantwerp.com","mail.portofantwerp.com","autodiscover.portofantwerp.com","www.portofantwerp.com","portofantwerp.com"]
+[wildcard-tls] [ssl] [info] geo.portofantwerp.com:443 ["CN: *.portofantwerp.com","SAN: [*.portofantwerp.com owa.portofantwerp.com mail.portofantwerp.com autodiscover.portofantwerp.com www.portofantwerp.com portofantwerp.com]"]
+[ssl-issuer] [ssl] [info] gitlab-d1.portofantwerp.com:443 ["GlobalSign nv-sa"]
+[ssl-dns-names] [ssl] [info] gitlab-d1.portofantwerp.com:443 ["mail.portofantwerp.com","autodiscover.portofantwerp.com","www.portofantwerp.com","portofantwerp.com","*.portofantwerp.com","owa.portofantwerp.com"]
+[wildcard-tls] [ssl] [info] gitlab-d1.portofantwerp.com:443 ["CN: *.portofantwerp.com","SAN: [*.portofantwerp.com owa.portofantwerp.com mail.portofantwerp.com autodiscover.portofantwerp.com www.portofantwerp.com portofantwerp.com]"]
+[ssl-issuer] [ssl] [info] gitlab.portofantwerp.com:443 ["GlobalSign nv-sa"]
+[ssl-dns-names] [ssl] [info] gitlab.portofantwerp.com:443 ["mail.portofantwerp.com","autodiscover.portofantwerp.com","www.portofantwerp.com","portofantwerp.com","*.portofantwerp.com","owa.portofantwerp.com"]
+[wildcard-tls] [ssl] [info] gitlab.portofantwerp.com:443 ["CN: *.portofantwerp.com","SAN: [*.portofantwerp.com owa.portofantwerp.com mail.portofantwerp.com autodiscover.portofantwerp.com www.portofantwerp.com portofantwerp.com]"]
+[ssl-issuer] [ssl] [info] intranet.portofantwerp.com:443 ["GlobalSign nv-sa"]
+[ssl-dns-names] [ssl] [info] intranet.portofantwerp.com:443 ["*.portofantwerp.com","owa.portofantwerp.com","mail.portofantwerp.com","autodiscover.portofantwerp.com","www.portofantwerp.com","portofantwerp.com"]
+[wildcard-tls] [ssl] [info] intranet.portofantwerp.com:443 ["CN: *.portofantwerp.com","SAN: [*.portofantwerp.com owa.portofantwerp.com mail.portofantwerp.com autodiscover.portofantwerp.com www.portofantwerp.com portofantwerp.com]"]
+[ssl-issuer] [ssl] [info] jobs.portofantwerp.com:443 ["GlobalSign nv-sa"]
+[ssl-dns-names] [ssl] [info] jobs.portofantwerp.com:443 ["portofantwerp.com","*.portofantwerp.com","owa.portofantwerp.com","mail.portofantwerp.com","autodiscover.portofantwerp.com","www.portofantwerp.com"]
+[wildcard-tls] [ssl] [info] jobs.portofantwerp.com:443 ["CN: *.portofantwerp.com","SAN: [*.portofantwerp.com owa.portofantwerp.com mail.portofantwerp.com autodiscover.portofantwerp.com www.portofantwerp.com portofantwerp.com]"]
+[ssl-issuer] [ssl] [info] etaterminal.portofantwerpbruges.com:443 ["GlobalSign nv-sa"]
+[ssl-dns-names] [ssl] [info] etaterminal.portofantwerpbruges.com:443 ["etaterminal.portofantwerpbruges.com","etaterminal-uat.portofantwerpbruges.com"]
+[ssl-issuer] [ssl] [info] media.portofantwerpbruges.com:443 ["Amazon"]
+[ssl-dns-names] [ssl] [info] media.portofantwerpbruges.com:443 ["media.portofantwerpbruges.com"]
+[ssl-issuer] [ssl] [info] login-accpt.portofantwerpbruges.com:443 ["GlobalSign nv-sa"]
+[ssl-dns-names] [ssl] [info] login-accpt.portofantwerpbruges.com:443 ["*.portofantwerpbruges.com","portofantwerpbruges.com"]
+[wildcard-tls] [ssl] [info] login-accpt.portofantwerpbruges.com:443 ["CN: *.portofantwerpbruges.com","SAN: [*.portofantwerpbruges.com portofantwerpbruges.com]"]
+[ssl-issuer] [ssl] [info] login-test.portofantwerpbruges.com:443 ["GlobalSign nv-sa"]
+[ssl-dns-names] [ssl] [info] login-test.portofantwerpbruges.com:443 ["*.portofantwerpbruges.com","portofantwerpbruges.com"]
+[wildcard-tls] [ssl] [info] login-test.portofantwerpbruges.com:443 ["CN: *.portofantwerpbruges.com","SAN: [*.portofantwerpbruges.com portofantwerpbruges.com]"]
+[ssl-issuer] [ssl] [info] login.portofantwerpbruges.com:443 ["GlobalSign nv-sa"]
+[ssl-dns-names] [ssl] [info] login.portofantwerpbruges.com:443 ["portofantwerpbruges.com","*.portofantwerpbruges.com"]
+[wildcard-tls] [ssl] [info] login.portofantwerpbruges.com:443 ["SAN: [*.portofantwerpbruges.com portofantwerpbruges.com]","CN: *.portofantwerpbruges.com"]
+[ssl-issuer] [ssl] [info] media.portofantwerp.com:443 ["GlobalSign nv-sa"]
+[ssl-dns-names] [ssl] [info] media.portofantwerp.com:443 ["autodiscover.portofantwerp.com","www.portofantwerp.com","portofantwerp.com","*.portofantwerp.com","owa.portofantwerp.com","mail.portofantwerp.com"]
+[wildcard-tls] [ssl] [info] media.portofantwerp.com:443 ["CN: *.portofantwerp.com","SAN: [*.portofantwerp.com owa.portofantwerp.com mail.portofantwerp.com autodiscover.portofantwerp.com www.portofantwerp.com portofantwerp.com]"]
+[ssl-issuer] [ssl] [info] jobs.portofantwerpbruges.com:443 ["GlobalSign nv-sa"]
+[ssl-dns-names] [ssl] [info] jobs.portofantwerpbruges.com:443 ["jobs.portofantwerpbruges.com"]
+[ssl-issuer] [ssl] [info] etaterminal-uat.portofantwerpbruges.com:443 ["GlobalSign nv-sa"]
+[ssl-dns-names] [ssl] [info] etaterminal-uat.portofantwerpbruges.com:443 ["etaterminal.portofantwerpbruges.com","etaterminal-uat.portofantwerpbruges.com"]
+[ssl-issuer] [ssl] [info] my-accpt.portofantwerp.com:443 ["GlobalSign nv-sa"]
+[ssl-dns-names] [ssl] [info] my-accpt.portofantwerp.com:443 ["*.portofantwerp.com","owa.portofantwerp.com","mail.portofantwerp.com","autodiscover.portofantwerp.com","www.portofantwerp.com","portofantwerp.com"]
+[wildcard-tls] [ssl] [info] my-accpt.portofantwerp.com:443 ["CN: *.portofantwerp.com","SAN: [*.portofantwerp.com owa.portofantwerp.com mail.portofantwerp.com autodiscover.portofantwerp.com www.portofantwerp.com portofantwerp.com]"]
+[ssl-issuer] [ssl] [info] newsroom.portofantwerp.com:443 ["Google Trust Services"]
+[ssl-dns-names] [ssl] [info] newsroom.portofantwerp.com:443 ["newsroom.portofantwerp.com"]
+[ssl-issuer] [ssl] [info] newsroom.portofantwerpbruges.com:443 ["Google Trust Services"]
+[ssl-dns-names] [ssl] [info] newsroom.portofantwerpbruges.com:443 ["newsroom.portofantwerpbruges.com"]
+[ssl-issuer] [ssl] [info] my-test.portofantwerp.com:443 ["GlobalSign nv-sa"]
+[ssl-dns-names] [ssl] [info] my-test.portofantwerp.com:443 ["autodiscover.portofantwerp.com","www.portofantwerp.com","portofantwerp.com","*.portofantwerp.com","owa.portofantwerp.com","mail.portofantwerp.com"]
+[wildcard-tls] [ssl] [info] my-test.portofantwerp.com:443 ["SAN: [*.portofantwerp.com owa.portofantwerp.com mail.portofantwerp.com autodiscover.portofantwerp.com www.portofantwerp.com portofantwerp.com]","CN: *.portofantwerp.com"]
+[ssl-issuer] [ssl] [info] my-test.portofantwerpbruges.com:443 ["GlobalSign nv-sa"]
+[ssl-dns-names] [ssl] [info] my-test.portofantwerpbruges.com:443 ["*.portofantwerpbruges.com","portofantwerpbruges.com"]
+[wildcard-tls] [ssl] [info] my-test.portofantwerpbruges.com:443 ["CN: *.portofantwerpbruges.com","SAN: [*.portofantwerpbruges.com portofantwerpbruges.com]"]
+[ssl-issuer] [ssl] [info] my.portofantwerp.com:443 ["GlobalSign nv-sa"]
+[ssl-dns-names] [ssl] [info] my.portofantwerp.com:443 ["portofantwerp.com","*.portofantwerp.com","owa.portofantwerp.com","mail.portofantwerp.com","autodiscover.portofantwerp.com","www.portofantwerp.com"]
+[wildcard-tls] [ssl] [info] my.portofantwerp.com:443 ["CN: *.portofantwerp.com","SAN: [*.portofantwerp.com owa.portofantwerp.com mail.portofantwerp.com autodiscover.portofantwerp.com www.portofantwerp.com portofantwerp.com]"]
+[ssl-issuer] [ssl] [info] my.portofantwerpbruges.com:443 ["GlobalSign nv-sa"]
+[ssl-dns-names] [ssl] [info] my.portofantwerpbruges.com:443 ["*.portofantwerpbruges.com","portofantwerpbruges.com"]
+[wildcard-tls] [ssl] [info] my.portofantwerpbruges.com:443 ["CN: *.portofantwerpbruges.com","SAN: [*.portofantwerpbruges.com portofantwerpbruges.com]"]
+[dns-saas-service-detection] [dns] [info] droneportal-test.portofantwerpbruges.com ["poa-uat.unifly.tech"]
+[caa-fingerprint] [dns] [info] media.portofantwerpbruges.com ["amazon.com"]
+[dns-saas-service-detection:azure] [dns] [info] etaterminal-uat.portofantwerpbruges.com ["as-nxt-weu-uat-zeeschepen-ui.azurewebsites.net"]
+[dns-saas-service-detection] [dns] [info] droneportal.portofantwerp.com ["poa-prd.unifly.tech"]
+[dns-saas-service-detection] [dns] [info] droneportal.portofantwerpbruges.com ["poa-prd.unifly.tech"]
+[dns-saas-service-detection] [dns] [info] droneportal-test.portofantwerp.com ["poa-uat.unifly.tech"]
+[ssl-issuer] [ssl] [info] oprc.portofantwerp.com:443 ["GlobalSign nv-sa"]
+[ssl-dns-names] [ssl] [info] oprc.portofantwerp.com:443 ["mail.portofantwerp.com","autodiscover.portofantwerp.com","www.portofantwerp.com","portofantwerp.com","*.portofantwerp.com","owa.portofantwerp.com"]
+[wildcard-tls] [ssl] [info] oprc.portofantwerp.com:443 ["CN: *.portofantwerp.com","SAN: [*.portofantwerp.com owa.portofantwerp.com mail.portofantwerp.com autodiscover.portofantwerp.com www.portofantwerp.com portofantwerp.com]"]
+[ssl-issuer] [ssl] [info] ows.portofantwerpbruges.com:443 ["GlobalSign nv-sa"]
+[ssl-dns-names] [ssl] [info] ows.portofantwerpbruges.com:443 ["*.portofantwerpbruges.com","portofantwerpbruges.com"]
+[wildcard-tls] [ssl] [info] ows.portofantwerpbruges.com:443 ["CN: *.portofantwerpbruges.com","SAN: [*.portofantwerpbruges.com portofantwerpbruges.com]"]
+[ssl-issuer] [ssl] [info] owsweb-accpt.portofantwerp.com:443 ["GlobalSign nv-sa"]
+[ssl-dns-names] [ssl] [info] owsweb-accpt.portofantwerp.com:443 ["mail.portofantwerp.com","autodiscover.portofantwerp.com","www.portofantwerp.com","portofantwerp.com","*.portofantwerp.com","owa.portofantwerp.com"]
+[wildcard-tls] [ssl] [info] owsweb-accpt.portofantwerp.com:443 ["CN: *.portofantwerp.com","SAN: [*.portofantwerp.com owa.portofantwerp.com mail.portofantwerp.com autodiscover.portofantwerp.com www.portofantwerp.com portofantwerp.com]"]
+[caa-fingerprint] [dns] [info] media.portofantwerp.com ["amazon.com"]
+[dns-saas-service-detection] [dns] [info] elink.mail.portofantwerpbruges.com ["elink.clickdimensions.com"]
+[ssl-issuer] [ssl] [info] owsweb.portofantwerp.com:443 ["GlobalSign nv-sa"]
+[ssl-dns-names] [ssl] [info] owsweb.portofantwerp.com:443 ["*.portofantwerp.com","owa.portofantwerp.com","mail.portofantwerp.com","autodiscover.portofantwerp.com","www.portofantwerp.com","portofantwerp.com"]
+[wildcard-tls] [ssl] [info] owsweb.portofantwerp.com:443 ["CN: *.portofantwerp.com","SAN: [*.portofantwerp.com owa.portofantwerp.com mail.portofantwerp.com autodiscover.portofantwerp.com www.portofantwerp.com portofantwerp.com]"]
+[ssl-issuer] [ssl] [info] portofantwerp.com:443 ["GlobalSign nv-sa"]
+[ssl-dns-names] [ssl] [info] portofantwerp.com:443 ["*.portofantwerp.com","owa.portofantwerp.com","mail.portofantwerp.com","autodiscover.portofantwerp.com","www.portofantwerp.com","portofantwerp.com"]
+[wildcard-tls] [ssl] [info] portofantwerp.com:443 ["CN: *.portofantwerp.com","SAN: [*.portofantwerp.com owa.portofantwerp.com mail.portofantwerp.com autodiscover.portofantwerp.com www.portofantwerp.com portofantwerp.com]"]
+[ssl-issuer] [ssl] [info] portofantwerpbruges.com:443 ["GlobalSign nv-sa"]
+[ssl-dns-names] [ssl] [info] portofantwerpbruges.com:443 ["*.portofantwerpbruges.com","portofantwerpbruges.com"]
+[wildcard-tls] [ssl] [info] portofantwerpbruges.com:443 ["CN: *.portofantwerpbruges.com","SAN: [*.portofantwerpbruges.com portofantwerpbruges.com]"]
+[caa-fingerprint] [dns] [info] login.portofantwerpbruges.com
+[caa-fingerprint] [dns] [info] login-test.portofantwerpbruges.com
+[caa-fingerprint] [dns] [info] login-accpt.portofantwerpbruges.com
+[ssl-issuer] [ssl] [info] promotion.portofantwerp.com:443 ["GlobalSign nv-sa"]
+[ssl-dns-names] [ssl] [info] promotion.portofantwerp.com:443 ["mail.portofantwerp.com","autodiscover.portofantwerp.com","www.portofantwerp.com","portofantwerp.com","*.portofantwerp.com","owa.portofantwerp.com"]
+[wildcard-tls] [ssl] [info] promotion.portofantwerp.com:443 ["SAN: [*.portofantwerp.com owa.portofantwerp.com mail.portofantwerp.com autodiscover.portofantwerp.com www.portofantwerp.com portofantwerp.com]","CN: *.portofantwerp.com"]
+[ssl-issuer] [ssl] [info] register-accpt.portofantwerpbruges.com:443 ["GlobalSign nv-sa"]
+[ssl-dns-names] [ssl] [info] register-accpt.portofantwerpbruges.com:443 ["*.portofantwerpbruges.com","portofantwerpbruges.com"]
+[wildcard-tls] [ssl] [info] register-accpt.portofantwerpbruges.com:443 ["CN: *.portofantwerpbruges.com","SAN: [*.portofantwerpbruges.com portofantwerpbruges.com]"]
+[ssl-issuer] [ssl] [info] register.portofantwerp.com:443 ["GlobalSign nv-sa"]
+[ssl-dns-names] [ssl] [info] register.portofantwerp.com:443 ["*.portofantwerp.com","owa.portofantwerp.com","mail.portofantwerp.com","autodiscover.portofantwerp.com","www.portofantwerp.com","portofantwerp.com"]
+[wildcard-tls] [ssl] [info] register.portofantwerp.com:443 ["CN: *.portofantwerp.com","SAN: [*.portofantwerp.com owa.portofantwerp.com mail.portofantwerp.com autodiscover.portofantwerp.com www.portofantwerp.com portofantwerp.com]"]
+[ssl-issuer] [ssl] [info] s3.portofantwerp.com:443 ["GlobalSign nv-sa"]
+[ssl-dns-names] [ssl] [info] s3.portofantwerp.com:443 ["portofantwerp.com","*.portofantwerp.com","owa.portofantwerp.com","mail.portofantwerp.com","autodiscover.portofantwerp.com","www.portofantwerp.com"]
+[wildcard-tls] [ssl] [info] s3.portofantwerp.com:443 ["CN: *.portofantwerp.com","SAN: [*.portofantwerp.com owa.portofantwerp.com mail.portofantwerp.com autodiscover.portofantwerp.com www.portofantwerp.com portofantwerp.com]"]
+[ssl-issuer] [ssl] [info] register.portofantwerpbruges.com:443 ["GlobalSign nv-sa"]
+[ssl-dns-names] [ssl] [info] register.portofantwerpbruges.com:443 ["*.portofantwerpbruges.com","portofantwerpbruges.com"]
+[wildcard-tls] [ssl] [info] register.portofantwerpbruges.com:443 ["CN: *.portofantwerpbruges.com","SAN: [*.portofantwerpbruges.com portofantwerpbruges.com]"]
+[ssl-issuer] [ssl] [info] sentry.droneportal-test.portofantwerp.com:443 ["Let's Encrypt"]
+[mismatched-ssl-certificate] [ssl] [low] sentry.droneportal-test.portofantwerp.com:443 ["CN: droneportal-test.portofantwerpbruges.com"]
+[ssl-dns-names] [ssl] [info] sentry.droneportal-test.portofantwerp.com:443 ["droneportal-test.portofantwerpbruges.com"]
+[ssl-issuer] [ssl] [info] sentry.droneportal-test.portofantwerpbruges.com:443 ["Let's Encrypt"]
+[ssl-dns-names] [ssl] [info] sentry.droneportal-test.portofantwerpbruges.com:443 ["sentry.droneportal-test.portofantwerpbruges.com"]
+[ssl-issuer] [ssl] [info] notula-accpt.portofantwerpbruges.com:443 ["GlobalSign nv-sa"]
+[ssl-dns-names] [ssl] [info] notula-accpt.portofantwerpbruges.com:443 ["notula.portofantwerpbruges.com","notula-accpt.portofantwerpbruges.com"]
+[ssl-issuer] [ssl] [info] sentry.droneportal.portofantwerp.com:443 ["Let's Encrypt"]
+[mismatched-ssl-certificate] [ssl] [low] sentry.droneportal.portofantwerp.com:443 ["CN: droneportal.portofantwerpbruges.com"]
+[ssl-dns-names] [ssl] [info] sentry.droneportal.portofantwerp.com:443 ["droneportal.portofantwerpbruges.com"]
+[ssl-issuer] [ssl] [info] sentry.droneportal.portofantwerpbruges.com:443 ["Let's Encrypt"]
+[ssl-dns-names] [ssl] [info] sentry.droneportal.portofantwerpbruges.com:443 ["sentry.droneportal.portofantwerpbruges.com"]
+[ssl-issuer] [ssl] [info] share.portofantwerp.com:443 ["GlobalSign nv-sa"]
+[ssl-dns-names] [ssl] [info] share.portofantwerp.com:443 ["*.portofantwerp.com","owa.portofantwerp.com","mail.portofantwerp.com","autodiscover.portofantwerp.com","www.portofantwerp.com","portofantwerp.com"]
+[wildcard-tls] [ssl] [info] share.portofantwerp.com:443 ["SAN: [*.portofantwerp.com owa.portofantwerp.com mail.portofantwerp.com autodiscover.portofantwerp.com www.portofantwerp.com portofantwerp.com]","CN: *.portofantwerp.com"]
+[ssl-issuer] [ssl] [info] share.portofantwerpbruges.com:443 ["GlobalSign nv-sa"]
+[ssl-dns-names] [ssl] [info] share.portofantwerpbruges.com:443 ["*.portofantwerpbruges.com","portofantwerpbruges.com"]
+[wildcard-tls] [ssl] [info] share.portofantwerpbruges.com:443 ["CN: *.portofantwerpbruges.com","SAN: [*.portofantwerpbruges.com portofantwerpbruges.com]"]
+[ssl-issuer] [ssl] [info] surveys.portofantwerp.com:443 ["Let's Encrypt"]
+[ssl-dns-names] [ssl] [info] surveys.portofantwerp.com:443 ["surveys.portofantwerp.com"]
+[ssl-issuer] [ssl] [info] vpn.portofantwerp.com:443 ["GlobalSign nv-sa"]
+[ssl-dns-names] [ssl] [info] vpn.portofantwerp.com:443 ["*.portofantwerp.com","owa.portofantwerp.com","mail.portofantwerp.com","autodiscover.portofantwerp.com","www.portofantwerp.com","portofantwerp.com"]
+[wildcard-tls] [ssl] [info] vpn.portofantwerp.com:443 ["SAN: [*.portofantwerp.com owa.portofantwerp.com mail.portofantwerp.com autodiscover.portofantwerp.com www.portofantwerp.com portofantwerp.com]","CN: *.portofantwerp.com"]
+[ssl-issuer] [ssl] [info] webapps-accpt.portofantwerp.com:443 ["GlobalSign nv-sa"]
+[ssl-dns-names] [ssl] [info] webapps-accpt.portofantwerp.com:443 ["owa.portofantwerp.com","mail.portofantwerp.com","autodiscover.portofantwerp.com","www.portofantwerp.com","portofantwerp.com","*.portofantwerp.com"]
+[wildcard-tls] [ssl] [info] webapps-accpt.portofantwerp.com:443 ["CN: *.portofantwerp.com","SAN: [*.portofantwerp.com owa.portofantwerp.com mail.portofantwerp.com autodiscover.portofantwerp.com www.portofantwerp.com portofantwerp.com]"]
+[ssl-issuer] [ssl] [info] surveys.portofantwerpbruges.com:443 ["Let's Encrypt"]
+[ssl-dns-names] [ssl] [info] surveys.portofantwerpbruges.com:443 ["surveys.portofantwerpbruges.com"]
+[ssl-issuer] [ssl] [info] webapps.portofantwerp.com:443 ["GlobalSign nv-sa"]
+[ssl-dns-names] [ssl] [info] webapps.portofantwerp.com:443 ["*.portofantwerp.com","owa.portofantwerp.com","mail.portofantwerp.com","autodiscover.portofantwerp.com","www.portofantwerp.com","portofantwerp.com"]
+[wildcard-tls] [ssl] [info] webapps.portofantwerp.com:443 ["CN: *.portofantwerp.com","SAN: [*.portofantwerp.com owa.portofantwerp.com mail.portofantwerp.com autodiscover.portofantwerp.com www.portofantwerp.com portofantwerp.com]"]
+[ssl-issuer] [ssl] [info] web.message.portofantwerpbruges.com:443 ["Google Trust Services"]
+[ssl-dns-names] [ssl] [info] web.message.portofantwerpbruges.com:443 ["web.message.portofantwerpbruges.com"]
+[ssl-issuer] [ssl] [info] webapps.portofantwerpbruges.com:443 ["GlobalSign nv-sa"]
+[ssl-dns-names] [ssl] [info] webapps.portofantwerpbruges.com:443 ["portofantwerpbruges.com","*.portofantwerpbruges.com"]
+[wildcard-tls] [ssl] [info] webapps.portofantwerpbruges.com:443 ["SAN: [*.portofantwerpbruges.com portofantwerpbruges.com]","CN: *.portofantwerpbruges.com"]
+[dns-saas-service-detection] [dns] [info] future-acc.portofantwerp.com ["yamblastaging.com"]
+[ssl-issuer] [ssl] [info] webmail.portofantwerp.com:443 ["GlobalSign nv-sa"]
+[ssl-dns-names] [ssl] [info] webmail.portofantwerp.com:443 ["autodiscover.portofantwerp.com","www.portofantwerp.com","portofantwerp.com","*.portofantwerp.com","owa.portofantwerp.com","mail.portofantwerp.com"]
+[wildcard-tls] [ssl] [info] webmail.portofantwerp.com:443 ["CN: *.portofantwerp.com","SAN: [*.portofantwerp.com owa.portofantwerp.com mail.portofantwerp.com autodiscover.portofantwerp.com www.portofantwerp.com portofantwerp.com]"]
+[mx-fingerprint] [dns] [info] portofantwerpbruges.com ["10 portofantwerpbruges-com.mail.protection.outlook.com."]
+[mx-service-detector:Office 365] [dns] [info] portofantwerpbruges.com
+[dns-saas-service-detection:azure] [dns] [info] etaterminal.portofantwerpbruges.com ["as-nxt-weu-prd-zeeschepen-ui.azurewebsites.net"]
+[mx-fingerprint] [dns] [info] portofantwerp.com ["10 portofantwerp-com.mail.protection.outlook.com."]
+[mx-service-detector:Office 365] [dns] [info] portofantwerp.com
+[dns-saas-service-detection] [dns] [info] future-acc.portofantwerpbruges.com ["yamblastaging.com"]
+[dns-saas-service-detection] [dns] [info] future.portofantwerpbruges.com ["yambla.com"]
+[dns-saas-service-detection] [dns] [info] future.portofantwerp.com ["yambla.com"]
+[caa-fingerprint] [dns] [info] newsroom.portofantwerp.com ["sectigo.com","letsencrypt.org","comodoca.com","globalsign.com","amazon.com","pki.goog","digicert.com","entrust.net","mailto:admin@prezly.com"]
+[ssl-issuer] [ssl] [info] wiki.portofantwerp.com:443 ["GlobalSign nv-sa"]
+[ssl-dns-names] [ssl] [info] wiki.portofantwerp.com:443 ["mail.portofantwerp.com","autodiscover.portofantwerp.com","www.portofantwerp.com","portofantwerp.com","*.portofantwerp.com","owa.portofantwerp.com"]
+[wildcard-tls] [ssl] [info] wiki.portofantwerp.com:443 ["CN: *.portofantwerp.com","SAN: [*.portofantwerp.com owa.portofantwerp.com mail.portofantwerp.com autodiscover.portofantwerp.com www.portofantwerp.com portofantwerp.com]"]
+[ssl-issuer] [ssl] [info] www-accpt.portofantwerp.com:443 ["GlobalSign nv-sa"]
+[ssl-dns-names] [ssl] [info] www-accpt.portofantwerp.com:443 ["owa.portofantwerp.com","mail.portofantwerp.com","autodiscover.portofantwerp.com","www.portofantwerp.com","portofantwerp.com","*.portofantwerp.com"]
+[wildcard-tls] [ssl] [info] www-accpt.portofantwerp.com:443 ["CN: *.portofantwerp.com","SAN: [*.portofantwerp.com owa.portofantwerp.com mail.portofantwerp.com autodiscover.portofantwerp.com www.portofantwerp.com portofantwerp.com]"]
+[ssl-issuer] [ssl] [info] www-test.portofantwerp.com:443 ["GlobalSign nv-sa"]
+[ssl-dns-names] [ssl] [info] www-test.portofantwerp.com:443 ["*.portofantwerp.com","owa.portofantwerp.com","mail.portofantwerp.com","autodiscover.portofantwerp.com","www.portofantwerp.com","portofantwerp.com"]
+[wildcard-tls] [ssl] [info] www-test.portofantwerp.com:443 ["CN: *.portofantwerp.com","SAN: [*.portofantwerp.com owa.portofantwerp.com mail.portofantwerp.com autodiscover.portofantwerp.com www.portofantwerp.com portofantwerp.com]"]
+[caa-fingerprint] [dns] [info] my-accpt.portofantwerp.com
+[caa-fingerprint] [dns] [info] my-test.portofantwerp.com
+[caa-fingerprint] [dns] [info] my.portofantwerp.com
+[caa-fingerprint] [dns] [info] my-test.portofantwerpbruges.com
+[caa-fingerprint] [dns] [info] my.portofantwerpbruges.com
+[ssl-issuer] [ssl] [info] notula.portofantwerpbruges.com:443 ["GlobalSign nv-sa"]
+[ssl-dns-names] [ssl] [info] notula.portofantwerpbruges.com:443 ["notula.portofantwerpbruges.com","notula-accpt.portofantwerpbruges.com"]
+[dns-saas-service-detection] [dns] [info] jobs.portofantwerpbruges.com ["162202.jobs2web.com"]
+[caa-fingerprint] [dns] [info] newsroom.portofantwerpbruges.com ["amazon.com","digicert.com","mailto:admin@prezly.com","globalsign.com","entrust.net","sectigo.com","letsencrypt.org","comodoca.com","pki.goog"]
+[caa-fingerprint] [dns] [info] notula.portofantwerpbruges.com
+[nameserver-fingerprint] [dns] [info] portofantwerp.com ["ns1.haven.antwerpen.be.","ns2.haven.antwerpen.be."]
+[caa-fingerprint] [dns] [info] oprc.portofantwerp.com
+[caa-fingerprint] [dns] [info] notula-accpt.portofantwerpbruges.com
+[caa-fingerprint] [dns] [info] portofantwerp.com ["globalsign.com"]
+[nameserver-fingerprint] [dns] [info] portofantwerpbruges.com ["ns2.portofantwerpbruges.com.","ns1.portofantwerpbruges.com."]
+[caa-fingerprint] [dns] [info] portofantwerpbruges.com ["pki.goog","globalsign.com"]
+[dns-saas-service-detection] [dns] [info] media.portofantwerpbruges.com ["rr-media-portofantwerpbruges.getbynder.com"]
+[dmarc-detect] [dns] [info] _dmarc.event.portofantwerpbruges.com [""v=DMARC1;" "p=quarantine;" "rua=mailto:6214dcf1950e6@ag.eu.dmarcly.com;" "ruf=mailto:6214dcf1950e6@fo.eu.dmarcly.com;" "fo=1;""]
+[dns-saas-service-detection] [dns] [info] media.portofantwerp.com ["rr-media-portofantwerp-com.getbynder.com"]
+[caa-fingerprint] [dns] [info] register-accpt.portofantwerp.com
+[caa-fingerprint] [dns] [info] ows.portofantwerpbruges.com
+[caa-fingerprint] [dns] [info] promotion.portofantwerp.com
+[caa-fingerprint] [dns] [info] register-accpt.portofantwerpbruges.com
+[caa-fingerprint] [dns] [info] owsweb-accpt.portofantwerp.com
+[caa-fingerprint] [dns] [info] owsweb.portofantwerp.com
+[dns-saas-service-detection] [dns] [info] notula-accpt.portofantwerpbruges.com ["cs_idmz_gv.ciport.be"]
+[dns-saas-service-detection] [dns] [info] newsroom.portofantwerp.com ["customers.prezly.com"]
+[dns-saas-service-detection] [dns] [info] newsroom.portofantwerpbruges.com ["customers.prezly.com"]
+[dns-saas-service-detection] [dns] [info] notula.portofantwerpbruges.com ["cs_idmz_gv.ciport.be"]
+[caa-fingerprint] [dns] [info] sentry.droneportal-test.portofantwerp.com ["letsencrypt.org"]
+[caa-fingerprint] [dns] [info] sentry.droneportal-test.portofantwerpbruges.com ["letsencrypt.org"]
+[caa-fingerprint] [dns] [info] sentry.droneportal.portofantwerp.com ["letsencrypt.org"]
+[caa-fingerprint] [dns] [info] register.portofantwerpbruges.com
+[caa-fingerprint] [dns] [info] register.portofantwerp.com
+[caa-fingerprint] [dns] [info] s3.portofantwerp.com
+[caa-fingerprint] [dns] [info] surveys.portofantwerpbruges.com ["letsencrypt.org"]
+[caa-fingerprint] [dns] [info] sentry.droneportal.portofantwerpbruges.com ["letsencrypt.org"]
+[caa-fingerprint] [dns] [info] web.message.portofantwerpbruges.com
+[caa-fingerprint] [dns] [info] surveys.portofantwerp.com ["letsencrypt.org"]
+[caa-fingerprint] [dns] [info] webapps-accpt.portofantwerp.com
+[caa-fingerprint] [dns] [info] share.portofantwerpbruges.com
+[caa-fingerprint] [dns] [info] vpn.portofantwerp.com
+[caa-fingerprint] [dns] [info] share.portofantwerp.com
+[dns-saas-service-detection] [dns] [info] sentry.droneportal-test.portofantwerpbruges.com ["poa-uat.unifly.tech"]
+[caa-fingerprint] [dns] [info] webmail.portofantwerp.com
+[dns-saas-service-detection] [dns] [info] sentry.droneportal-test.portofantwerp.com ["poa-uat.unifly.tech"]
+[dns-saas-service-detection] [dns] [info] sentry.droneportal.portofantwerpbruges.com ["poa-prd.unifly.tech"]
+[dns-saas-service-detection] [dns] [info] sentry.droneportal.portofantwerp.com ["poa-prd.unifly.tech"]
+[caa-fingerprint] [dns] [info] www-test.portofantwerp.com
+[caa-fingerprint] [dns] [info] webapps.portofantwerp.com
+[caa-fingerprint] [dns] [info] www-accpt.portofantwerp.com
+[caa-fingerprint] [dns] [info] webapps.portofantwerpbruges.com
+[caa-fingerprint] [dns] [info] wiki.portofantwerp.com
+[dmarc-detect] [dns] [info] _dmarc.media.portofantwerp.com [""v=DMARC1;" "p=reject;" "rua=mailto:6214dcf1950e6@ag.eu.dmarcly.com;" "ruf=mailto:6214dcf1950e6@fo.eu.dmarcly.com;" "fo=1;""]
+[dns-saas-service-detection] [dns] [info] webmail.portofantwerp.com ["mail-d1.portofantwerp.com"]
+[dmarc-detect] [dns] [info] _dmarc.portofantwerpbruges.com [""v=DMARC1;" "p=reject;" "rua=mailto:6214dcf1950e6@ag.eu.dmarcly.com;" "ruf=mailto:6214dcf1950e6@fo.eu.dmarcly.com;" "fo=1;""]
+[dns-saas-service-detection] [dns] [info] web.message.portofantwerpbruges.com ["139709035.sites.hscoscdn-eu1.net"]
+[dmarc-detect] [dns] [info] _dmarc.surveys.portofantwerp.com [""v=DMARC1;" "p=reject;" "rua=mailto:6214dcf1950e6@ag.eu.dmarcly.com;" "ruf=mailto:6214dcf1950e6@fo.eu.dmarcly.com;" "fo=1;""]
+[dmarc-detect] [dns] [info] _dmarc.portofantwerp.com [""v=DMARC1;p=reject;rua=mailto:6214dcf1950e6@ag.eu.dmarcly.com;ruf=mailto:6214dcf1950e6@fo.eu.dmarcly.com;fo=1;""]
