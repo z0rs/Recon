@@ -13,7 +13,7 @@ jobs:
         
       - name: Install dependencies
         run: |
-          sudo apt-get update && sudo apt-get install -y wget unzip jq unzip golang
+          sudo apt-get update && sudo apt-get install -y wget unzip jq golang
           go install github.com/cybercdh/assetfinder@cybercdh && sudo mv ~/go/bin/assetfinder /usr/bin/
           go install github.com/tomnomnom/httprobe@latest && sudo mv ~/go/bin/httprobe /usr/bin/
           wget https://github.com/projectdiscovery/nuclei/releases/download/v3.3.8/nuclei_3.3.8_linux_amd64.zip && unzip -o nuclei_3.3.8_linux_amd64.zip && sudo mv nuclei /usr/bin/ && sudo rm -rf nuclei* *.md
@@ -24,7 +24,7 @@ jobs:
           | assetfinder -subs-only \
           | httprobe -c 50 -t 3000 \
           | sed 's/https\?:\/\///g; s/www\.//g; s/http\?:\/\///g' \
-          | nuclei -silent -nc -attack-type pitchfork -rl 50 -bs 10 -c 10 -timeout 20 -retries 2 \
+          | nuclei -silent -nc -rl 3 -bs 3 -timeout 20 -retries 2 \
           | tee yacht.$(date +%Y-%m-%d).txt
           
       - name: Set up Git user
