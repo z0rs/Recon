@@ -16,7 +16,17 @@ jobs:
           sudo apt-get update && sudo apt-get install -y wget unzip jq golang
           go install github.com/cybercdh/assetfinder@cybercdh && sudo mv ~/go/bin/assetfinder /usr/bin/
           go install github.com/tomnomnom/httprobe@latest && sudo mv ~/go/bin/httprobe /usr/bin/
-          wget https://github.com/projectdiscovery/nuclei/releases/download/v3.3.8/nuclei_3.3.8_linux_amd64.zip && unzip -o nuclei_3.3.8_linux_amd64.zip && sudo mv nuclei /usr/bin/ && sudo rm -rf nuclei* *.md
+          
+      - name: Install or Update Nuclei
+        run: |
+          # Get the latest release version dynamically
+          LATEST_VERSION=$(curl -s https://api.github.com/repos/projectdiscovery/nuclei/releases/latest | jq -r '.tag_name')
+          
+          # Download and install the latest version
+          wget https://github.com/projectdiscovery/nuclei/releases/download/${LATEST_VERSION}/nuclei_${LATEST_VERSION}_linux_amd64.zip
+          unzip -o nuclei_${LATEST_VERSION}_linux_amd64.zip
+          sudo mv nuclei /usr/bin/
+          sudo rm -rf nuclei* *.md
           
       - name: Get all domains
         run: |
