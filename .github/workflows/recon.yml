@@ -5,7 +5,7 @@ on:
     branches: [master]
 
 jobs:
-  scan-and-deploy:
+  cve-scan:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -21,34 +21,31 @@ jobs:
         run: |
           # Get the latest release version dynamically
           LATEST_VERSION=$(curl -s https://api.github.com/repos/projectdiscovery/nuclei/releases/latest | jq -r '.tag_name')
-          # Remove "v" prefix if exists
           CLEAN_VERSION=${LATEST_VERSION#v}
           
-          # Download and install the latest version
           wget https://github.com/projectdiscovery/nuclei/releases/download/${LATEST_VERSION}/nuclei_${CLEAN_VERSION}_linux_amd64.zip
           unzip -o nuclei_${CLEAN_VERSION}_linux_amd64.zip
           sudo mv nuclei /usr/bin/
           sudo rm -rf nuclei* *.md
-          
-      - name: Get all domains
+
+      - name: Scan for CVEs
         run: |
+          # Input domains and run nuclei with CVE templates
           curl -s "https://gist.githubusercontent.com/z0rs/5c99a59edb510be0302a76c86800233d/raw/a5c210cdc6be23ec2e92ba2475588d34c3f4cf3e/yacht.nl" \
           | httprobe -c 50 -t 3000 \
           | sed 's/https\?:\/\///g; s/www\.//g; s/http\?:\/\///g' \
-          | nuclei -silent -nc -rl 3 -bs 3 -timeout 20 -retries 2 \
-          | tee yacht.$(date +%Y-%m-%d).txt
+          | nuclei -silent -t cves/ -rl 3 -bs 3 -timeout 20 -retries 2 \
+          | tee cve-scan.$(date +%Y-%m-%d).txt
           
       - name: Set up Git user
         run: |
           git config --global user.email "${{ secrets.EMAIL_ADDRESS }}"
           git config --global user.name "${{ secrets.USER_NAME }}"
           
-      - name: Commit changes
+      - name: Commit and push CVE scan results
         run: |
-          git add .
-          git commit -m "Result scan $(date -u)" --no-verify
-
-      - name: Push changes
+          git add cve-scan.$(date +%Y-%m-%d).txt
+          git commit -m "CVE scan result $(date -u)" --no-verify
         uses: ad-m/github-push-action@master
         with:
           branch: ${{ github.ref }}
