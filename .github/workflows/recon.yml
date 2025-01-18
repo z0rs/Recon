@@ -19,10 +19,8 @@ jobs:
           
       - name: Install or Update Nuclei
         run: |
-          # Get the latest release version dynamically
           LATEST_VERSION=$(curl -s https://api.github.com/repos/projectdiscovery/nuclei/releases/latest | jq -r '.tag_name')
           CLEAN_VERSION=${LATEST_VERSION#v}
-          
           wget https://github.com/projectdiscovery/nuclei/releases/download/${LATEST_VERSION}/nuclei_${CLEAN_VERSION}_linux_amd64.zip
           unzip -o nuclei_${CLEAN_VERSION}_linux_amd64.zip
           sudo mv nuclei /usr/bin/
