@@ -15,15 +15,22 @@ jobs:
         run: |
           set -e
           sudo apt-get update && sudo apt-get install -y wget unzip jq golang
-          export PATH=$PATH:$(go env GOPATH)/bin
+          export PATH=$PATH:$HOME/go/bin
           go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
           go install github.com/cybercdh/assetfinder@cybercdh
           go install github.com/tomnomnom/httprobe@latest
 
+      - name: Verify Installed Tools
+        run: |
+          export PATH=$PATH:$HOME/go/bin
+          which assetfinder
+          which httpx
+          which nuclei
+
       - name: Install Nuclei
         run: |
           set -e
-          # Get the latest release version
+          export PATH=$PATH:$HOME/go/bin
           LATEST_VERSION=$(curl -s https://api.github.com/repos/projectdiscovery/nuclei/releases/latest | jq -r '.tag_name')
           if [[ -z "$LATEST_VERSION" ]]; then
             echo "Failed to fetch Nuclei version"
@@ -38,6 +45,7 @@ jobs:
       - name: Get all domains
         run: |
           set -e
+          export PATH=$PATH:$HOME/go/bin
           curl -s "https://gist.githubusercontent.com/z0rs/a008639e28ee007dc5a283f673cc9dbd/raw/41ff18bda01dcd98bf9de928bec23d8eebe6b36b/wolt.com" \
           | assetfinder -subs-only \
           | httpx -silent -mc 200 \
