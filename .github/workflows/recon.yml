@@ -41,7 +41,6 @@ jobs:
           set -e
           curl -s "https://gist.githubusercontent.com/z0rs/a008639e28ee007dc5a283f673cc9dbd/raw/41ff18bda01dcd98bf9de928bec23d8eebe6b36b/wolt.com" \
           | assetfinder -subs-only \
-          | httpx -silent -mc 200 \
           | nuclei -silent -attack-type pitchfork -rl 3 -bs 3 -timeout 20 -retries 2 \
           | tee wolt.$(date +%Y-%m-%d_%H-%M-%S).txt
 
