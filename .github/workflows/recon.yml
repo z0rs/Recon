@@ -10,45 +10,54 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-        
+
       - name: Install dependencies
         run: |
+          set -e
           sudo apt-get update && sudo apt-get install -y wget unzip jq golang
-          go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest && sudo mv ~/go/bin/httpx /usr/bin/
-          go install github.com/cybercdh/assetfinder@cybercdh && sudo mv ~/go/bin/assetfinder /usr/bin/
-          go install github.com/tomnomnom/httprobe@latest && sudo mv ~/go/bin/httprobe /usr/bin/
-          
-      - name: Install Package
+          export PATH=$PATH:$(go env GOPATH)/bin
+          go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
+          go install github.com/cybercdh/assetfinder@cybercdh
+          go install github.com/tomnomnom/httprobe@latest
+
+      - name: Install Nuclei
         run: |
-          # Get the latest release version dynamically
+          set -e
+          # Get the latest release version
           LATEST_VERSION=$(curl -s https://api.github.com/repos/projectdiscovery/nuclei/releases/latest | jq -r '.tag_name')
-          # Remove "v" prefix if exists
+          if [[ -z "$LATEST_VERSION" ]]; then
+            echo "Failed to fetch Nuclei version"
+            exit 1
+          fi
           CLEAN_VERSION=${LATEST_VERSION#v}
           wget https://github.com/projectdiscovery/nuclei/releases/download/${LATEST_VERSION}/nuclei_${CLEAN_VERSION}_linux_amd64.zip
           unzip -o nuclei_${CLEAN_VERSION}_linux_amd64.zip
           sudo mv nuclei /usr/bin/
           sudo rm -rf nuclei* *.md
-          
+
       - name: Get all domains
         run: |
-          curl -s "https://gist.githubusercontent.com/z0rs/5c99a59edb510be0302a76c86800233d/raw/a5c210cdc6be23ec2e92ba2475588d34c3f4cf3e/yacht.nl" \
+          set -e
+          curl -s "https://gist.githubusercontent.com/z0rs/a008639e28ee007dc5a283f673cc9dbd/raw/41ff18bda01dcd98bf9de928bec23d8eebe6b36b/wolt.com" \
           | assetfinder -subs-only \
           | httpx -silent -mc 200 \
-          | nuclei -silent -rl 3 -bs 3 -timeout 20 -retries 2 -severity low, medium, high, critical, unknown \
-          | tee yacht.$(date +%Y-%m-%d).txt
-          
+          | nuclei -silent -rl 3 -bs 3 -timeout 20 -retries 2 -severity low,medium,high,critical,unknown \
+          | tee wolt.$(date +%Y-%m-%d_%H-%M-%S).txt
+
       - name: Set up Git user
         run: |
+          set -e
           git config --global user.email "${{ secrets.EMAIL_ADDRESS }}"
           git config --global user.name "${{ secrets.USER_NAME }}"
-          
+
       - name: Commit changes
         run: |
+          set -e
           git add .
-          git commit -m "Result scan $(date -u)" --no-verify
+          git commit -m "Result scan $(date -u)" --no-verify || echo "No changes to commit"
 
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
-          branch: ${{ github.ref }}
+          branch: ${{ github.head_ref || github.ref_name }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
