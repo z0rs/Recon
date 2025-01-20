@@ -27,7 +27,7 @@ jobs:
 
       - name: Get all domains and reconnaissance
         run: |
-          curl -s "https://gist.githubusercontent.com/z0rs/3b1cb3e8c1c6bb9e04e5e8117ab47abf/raw/748ec12edb213e76f70b4be8fc6cccbc8ba48983/Singapore.md" | assetfinder -subs-only | nuclei -silent -attack-type pitchfork -rl 3 -bs 3 -timeout 20 -retries 2 -o wolt.$(date +%Y-%m-%d_%H-%M-%S).txt
+          curl -s "https://gist.githubusercontent.com/z0rs/3b1cb3e8c1c6bb9e04e5e8117ab47abf/raw/748ec12edb213e76f70b4be8fc6cccbc8ba48983/Singapore.md" | assetfinder -subs-only | nuclei -silent -attack-type pitchfork -o wolt.$(date +%Y-%m-%d_%H-%M-%S).txt
 
       - name: Set up Git user
         run: |
