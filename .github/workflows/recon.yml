@@ -28,8 +28,7 @@ jobs:
       - name: Get all domains and reconnaissance
         run: |
           curl -s "https://gist.githubusercontent.com/z0rs/5c99a59edb510be0302a76c86800233d/raw/a5c210cdc6be23ec2e92ba2475588d34c3f4cf3e/yacht.nl" \
-          | assetfinder -subs-only \
-          | nuclei -silent -attack-type pitchfork -severity low,medium,high,critical,unknown -o yacht.$(date +%Y-%m-%d_%H-%M-%S).txt
+          | assetfinder -subs-only | nuclei -silent -severity medium,high,critical,unknown -o yacht.$(date +%Y-%m-%d_%H-%M-%S).txt
 
       - name: Set up Git user
         run: |
