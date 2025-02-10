@@ -27,7 +27,7 @@ jobs:
 
       - name: Get all domains and reconnaissance
         run: |
-          curl -s "https://www.shop-apotheke.com" \
+          curl -s "shop-apotheke.com" \
           | assetfinder -subs-only | nuclei -silent -severity medium,high,critical,unknown -o shop-apotheke.com.$(date +%Y-%m-%d_%H-%M-%S).txt
 
       - name: Set up Git user
