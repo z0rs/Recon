@@ -25,26 +25,23 @@ jobs:
           sudo mv nuclei /usr/bin/
           sudo rm -rf nuclei* *.md
 
-      - name: Get all domains and reconnaissance
+      - name: Get all domains
         run: |
-          curl -s "alohaapac-1.hilton.com" \
-          | assetfinder -subs-only | nuclei -silent -severity medium,high,critical,unknown -o alohaapac-1.hilton.com.$(date +%Y-%m-%d_%H-%M-%S).txt
+          curl -s "https://gist.githubusercontent.com/z0rs/5006c4a14e531aee3250556aadb7c955/raw/7a59d3b90aca3353c1054d22bc1c3d335e02d375/all-hilton.com" \
+          | nuclei -silent -nc -attack-type pitchfork -rl 50 -bs 10 -c 10 -timeout 20 -retries 2 \
+          | tee all-hilton.$(date +%Y-%m-%d).txt
 
       - name: Set up Git user
         run: |
           git config --global user.email "${{ secrets.EMAIL_ADDRESS }}"
           git config --global user.name "${{ secrets.USER_NAME }}"
-
-      - name: Pull remote changes
-        run: git pull origin master --rebase || true
-
+          
       - name: Commit changes
         run: |
           git add .
-          git commit -m "Result scan $(date -u)" --no-verify || echo "No changes to commit"
-
+          git commit -m "Result scan $(date -u)" --no-verify
       - name: Push changes
-        uses: actions/checkout@v3
+        uses: ad-m/github-push-action@master
         with:
-          branch: master
+          branch: ${{ github.ref }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
