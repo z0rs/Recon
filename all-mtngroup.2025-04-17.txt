@@ -1,0 +1,85 @@
+[dns-waf-detect:cloudflare] [dns] [info] mtngame.net
+[azure-domain-tenant] [http] [info] https://login.microsoftonline.com:443/chenosis.io/v2.0/.well-known/openid-configuration ["c9b9cb50-3644-4db4-a267-fa84df2f4ceb"]
+[cookies-without-httponly] [javascript] [info] mtnapp.mtn.co.za ["ADRUM_BTa","SameSite","TS015b2bd9"]
+[cookies-without-httponly] [javascript] [info] 1app.mtn.co.za ["ADRUM_BTa","SameSite","ADRUM_BT1","TS01a1dd8f"]
+[cookies-without-httponly] [javascript] [info] irancell.ir ["TS01d3035a"]
+[cookies-without-secure] [javascript] [info] 1app.mtn.co.za ["BIGipServer","MoMo_Money","mtnapp","mtn","co","za_https","TS01a1dd8f"]
+[cookies-without-secure] [javascript] [info] mtnapp.mtn.co.za ["TS015b2bd9"]
+[cookies-without-secure] [javascript] [info] irancell.ir ["TS01d3035a"]
+[missing-sri] [http] [info] https://www.mtn.zm ["https://www.googletagmanager.com/gtag/js?id=UA-44336198-15","https://p.teads.tv/teads-fellow.js","https://cdn-cookieyes.com/client_data/5be205e7bb3cf6dbba1abaf9/script.js","https://www.mtn.zm/_static/??-eJyd0tsKwjAMANAfslZh4pP4KdJ1UbP1ZpJO/HsrExEfZB0USiGnubT6nhQG63IHrPuybhno8d7WHsO655X+F6Q8XsgIfAfbGASCaLmCL8RLUCOO2Kl70smQsG5dtANrMa1isIIxsGZLmGTWHbl1aF+lmJTmAAKOmexUPhc7zC33V3ZA1ew9zVp2BbMk29RerTqjEyCuduUF+ZQFXT1lLL+mFnVglqSSWM5qarJaW0NQZrOYxzggqNbUUxdFED7zPfrDdt80+2azbXb9E7RJaEQ=","https://stats.wp.com/e-202516.js","https://www.mtn.zm/_static/??-eJylVdFugzAM/KFlbBJS1Ydp32KCC1ZDjBwD698vtHTq6+wnlMg+Lj773GxziJwVszY64oSlmTSHlVbqwzY3M4iWpkscr/UDOaM0RW8J32Mpb81/skeEPlFGa36ElHjRkEAGMwh0O0TBqMTZzkR4KZis+cfvw14RyoOnoDXdV5Anl3oJg8A8eoEoq7AVhGpk2EjHoPijfpTab1crSsathEGodwGAxJFWszy41rDiYuDuVo4EKVwQzZW4CEwYOjB7B8TI0jtGtt4hh/vBCjELTSC30C2qdiKz8MQe86kkBnSLeh+RCmKWlPKFZYL7yHvJHOK4tssrH5fM9TGIUsIKEXIkNA/ffsg7knPbFNy9WVmCZ3vWvuuXqG42D5UOd+XB7PQKXTI/JrEqoU/nvWGcs/wYRfe6eu7xqgznvlqMo6Z/wQ6Io0NeGv97+vo8tW17Pp/aj1/QRN+H","https://www.mtn.zm/wp-includes/css/dist/block-library/style.min.css?m=1744740145g","https://www.mtn.zm/_static/??-eJzTLy/QzcxLzilNSS3WzyrWz01NyUxMzUnNTc0rQeEU5CRWphbp5qSmJyZX6uVm5uklFxfr6OPTDpRD5sM02efaGpqbmJibGBiamAIARLwu4A==","https://www.mtn.zm/_static/??-eJztlNFKxDAQRX/ImBUKyz6I3zJNpm3YJFMm05b1601XFBWRTgXxYd9Keg9J7p1cu4zGURbMYmXAhMUmyWYOc/BmGW2RS8R7V8qd/V75DKkNYOY92mKZIIXcV/GUhS86eGTykxMD3v8Efr5LsSUGd94ObFJ29d/r0vqlOU0fqYWoIQSYQ7fFsq/kgOCRNURHJDrCI0Sjx5pDo5FH7HWmrRJwqmQyLoWJkpYxwG4I87bB+ciV+hI2ztu7DWugZQij6gFc9zFRPQ2MI7EUDQLOEftAWRtWlZh1lvZw7VSviKU6SnGSurnqyNcJ3pGhQKtLzxGdg4r4X9XlII0QelW0+rq7ldattH5TWn/aQHu7o+AKqQghRlWvDRhVjr954ICx5rWiT+nx4dg0zel0bA4vIuzfOA=="]
+[missing-sri] [http] [info] https://chenosis.io ["https://www.googletagmanager.com/gtag/js?id=G-F716SN4BDZ"]
+[waf-detect:nginxgeneric] [http] [info] https://www.mtn.zm
+[waf-detect:aspgeneric] [http] [info] https://chenosis.io
+[waf-detect:bigip] [http] [info] https://1app.mtn.co.za
+[waf-detect:bigip] [http] [info] https://mtnapp.mtn.co.za
+[wordpress-xmlrpc-listmethods] [http] [info] https://www.mtn.zm/xmlrpc.php
+[wp-yoast-user-enumeration] [http] [info] https://www.mtn.zm/author-sitemap.xml
+[tls-version] [ssl] [info] www.mtn.zm:443 ["tls12"]
+[tls-version] [ssl] [info] www.mtn.zm:443 ["tls13"]
+[tls-version] [ssl] [info] chenosis.io:443 ["tls12"]
+[tls-version] [ssl] [info] irancell.ir:443 ["tls12"]
+[wordpress-rdf-user-enum] [http] [info] https://www.mtn.zm/feed/rdf/ ["tanakapn","oscarpn","waseem"]
+[addeventlistener-detect] [http] [info] https://www.mtn.zm
+[email-extractor] [http] [info] https://www.mtn.zm ["CustomerCare.zm@mtn.com"]
+[php-detect] [http] [info] https://www.mtn.zm
+[angular-detect] [http] [info] https://chenosis.io ["15.2.10"]
+[xss-deprecated-header] [http] [info] https://irancell.ir ["1; mode=block"]
+[form-detection] [http] [info] https://www.mtn.zm
+[form-detection] [http] [info] https://irancell.ir
+[http-missing-security-headers:clear-site-data] [http] [info] https://www.mtn.zm
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://www.mtn.zm
+[http-missing-security-headers:content-security-policy] [http] [info] https://www.mtn.zm
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://irancell.ir
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://irancell.ir
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://irancell.ir
+[http-missing-security-headers:permissions-policy] [http] [info] https://irancell.ir
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://irancell.ir
+[http-missing-security-headers:referrer-policy] [http] [info] https://irancell.ir
+[http-missing-security-headers:clear-site-data] [http] [info] https://irancell.ir
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://chenosis.io
+[http-missing-security-headers:clear-site-data] [http] [info] https://chenosis.io
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://chenosis.io
+[http-missing-security-headers:referrer-policy] [http] [info] https://chenosis.io
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://chenosis.io
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://chenosis.io
+[http-missing-security-headers:strict-transport-security] [http] [info] https://chenosis.io
+[http-missing-security-headers:permissions-policy] [http] [info] https://chenosis.io
+[http-missing-security-headers:x-frame-options] [http] [info] https://chenosis.io
+[http-missing-security-headers:x-content-type-options] [http] [info] https://chenosis.io
+[wordpress-login] [http] [info] https://www.mtn.zm/wp-login.php
+[metatag-cms] [http] [info] https://www.mtn.zm ["WordPress 6.8"]
+[tech-detect:php] [http] [info] https://www.mtn.zm
+[tech-detect:nginx] [http] [info] https://www.mtn.zm
+[tech-detect:ms-iis] [http] [info] https://chenosis.io
+[tech-detect:angular] [http] [info] https://chenosis.io
+[tech-detect:google-tag-manager] [http] [info] https://chenosis.io
+[tech-detect:express] [http] [info] https://chenosis.io
+[fingerprinthub-web-fingerprints:openfire] [http] [info] https://irancell.ir
+[robots-txt] [http] [info] https://irancell.ir/robots.txt
+[wordpress-detect:version_by_js] [http] [info] https://www.mtn.zm ["6.8"]
+[wordpress-detect] [http] [info] https://irancell.ir
+[microsoft-iis-version] [http] [info] https://chenosis.io ["Microsoft-IIS/10.0"]
+[robots-txt-endpoint] [http] [info] https://www.mtn.zm/robots.txt
+[robots-txt-endpoint] [http] [info] https://irancell.ir/robots.txt
+[mx-fingerprint] [dns] [info] chenosis.io ["0 chenosis-io.mail.protection.outlook.com."]
+[mx-service-detector:Office 365] [dns] [info] chenosis.io
+[mx-fingerprint] [dns] [info] irancell.ir ["5 mx2-mail.irancell.ir."]
+[spf-record-detect] [dns] [info] chenosis.io ["v=spf1 mx a ip4:41.222.32.131 include:spf.mandrillapp.com include:spf.protection.outlook.com -all""]
+[txt-fingerprint] [dns] [info] chenosis.io [""v=spf1 mx a ip4:41.222.32.131 include:spf.mandrillapp.com include:spf.protection.outlook.com -all"",""MS=ms53342906"",""google-site-verification=1rJJ6NULcRL4OCc0ncy7gj_Nl0oj24GHRfT9vROOPCc""]
+[caa-fingerprint] [dns] [info] chenosis.io
+[dmarc-detect] [dns] [info] _dmarc.irancell.ir [""v=DMARC1; p=reject; rua=mailto:dmarc@irancell.ir; fo=s; aspf=r; pct=100; rf=afrf; ri=86400; sp=reject""]
+[caa-fingerprint] [dns] [info] irancell.ir
+[nameserver-fingerprint] [dns] [info] irancell.ir ["ns3.irancell.ir.","ns2.irancell.ir.","ns1.irancell.ir.","ns4.irancell.ir."]
+[spf-record-detect] [dns] [info] irancell.ir ["v=spf1 a a:bmail.irancell.ir a:nbmail.irancell.ir ip4:92.42.51.111 ip4:92.42.51.112 include:_spf.mlsend.com -all""]
+[txt-fingerprint] [dns] [info] irancell.ir [""85f77cada2c0c48f1d2339be3671b9efc07ee233fcb4292ce4348e394f48921"",""9d0fa0365ce58777268826b56eb140207b2ed109ac477301c02db164d5d0189b"",""v=spf1 a a:bmail.irancell.ir a:nbmail.irancell.ir ip4:92.42.51.111 ip4:92.42.51.112 include:_spf.mlsend.com -all"",""google-site-verification=KkdGkrDRkcGM2tytnOgEdmXtCoaKpsr1LX1w6pqbYeQ"",""a5587c06e35be075bd07c3f8884ea299b27c55d014f8f72f409a588ff262d23""]
+[nameserver-fingerprint] [dns] [info] chenosis.io ["ns3.lexsynergy.info.","ns2.lexsynergy.us.","ns1.lexsynergy.net."]
+[ssl-issuer] [ssl] [info] www.mtn.zm:443 ["DigiCert Inc"]
+[ssl-dns-names] [ssl] [info] www.mtn.zm:443 ["*.mtn.zm","www.mtn.zm","mtn.zm"]
+[wildcard-tls] [ssl] [info] www.mtn.zm:443 ["CN: *.mtn.zm","SAN: [*.mtn.zm www.mtn.zm mtn.zm]"]
+[caa-fingerprint] [dns] [info] www.mtn.zm
+[ssl-issuer] [ssl] [info] chenosis.io:443 ["Sectigo Limited"]
+[ssl-dns-names] [ssl] [info] chenosis.io:443 ["*.chenosis.io","chenosis.io"]
+[wildcard-tls] [ssl] [info] chenosis.io:443 ["CN: *.chenosis.io","SAN: [*.chenosis.io chenosis.io]"]
+[ssl-issuer] [ssl] [info] irancell.ir:443 ["Unizeto Technologies S.A."]
+[ssl-dns-names] [ssl] [info] irancell.ir:443 ["*.irancell.ir","irancell.ir"]
+[wildcard-tls] [ssl] [info] irancell.ir:443 ["CN: *.irancell.ir","SAN: [*.irancell.ir irancell.ir]"]
