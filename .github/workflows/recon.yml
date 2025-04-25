@@ -28,7 +28,7 @@ jobs:
       - name: Get all domains
         run: |
           # curl "https://sipintar.pekanbaru.go.id" \
-          | nuclei -u "https://sipintar.pekanbaru.go.id" -nc -attack-type pitchfork -rl 50 -bs 10 -c 10 -timeout 20 -retries 2 \
+          nuclei -u "https://sipintar.pekanbaru.go.id" -nc -attack-type pitchfork -rl 50 -bs 10 -c 10 -timeout 20 -retries 2 \
           | tee all-sipintar.$(date +%Y-%m-%d).txt
 
       - name: Set up Git user
