@@ -1,0 +1,7 @@
+[tls-version] [ssl] [info] sipintar.pekanbaru.go.id:443 ["tls12"]
+[tls-version] [ssl] [info] sipintar.pekanbaru.go.id:443 ["tls13"]
+[readme-md] [http] [info] https://sipintar.pekanbaru.go.id/README.md
+[email-extractor] [http] [info] https://sipintar.pekanbaru.go.id ["disdukcapilkotapekanbaru@gmail.com"]
+[exposed-file-upload-form] [http] [info] https://sipintar.pekanbaru.go.id
+[apache-detect] [http] [info] https://sipintar.pekanbaru.go.id ["Apache/2.4.61 (Debian)"]
+[git-config] [http] [medium] https://sipintar.pekanbaru.go.id/.git/config
