@@ -27,9 +27,9 @@ jobs:
 
       - name: Get all domains
         run: |
-          curl -s "https://gist.githubusercontent.com/z0rs/6f981b30a203d6539ac2105c283e5fac/raw/6e53822d5b0c382dfabce45bd7f0b7d83890eee6/mtngroup.txt" \
-          | nuclei -silent -nc -attack-type pitchfork -rl 50 -bs 10 -c 10 -timeout 20 -retries 2 \
-          | tee all-mtngroup.$(date +%Y-%m-%d).txt
+          # curl "https://sipintar.pekanbaru.go.id" \
+          | nuclei -u "https://sipintar.pekanbaru.go.id" -nc -attack-type pitchfork -rl 50 -bs 10 -c 10 -timeout 20 -retries 2 \
+          | tee all-sipintar.$(date +%Y-%m-%d).txt
 
       - name: Set up Git user
         run: |
