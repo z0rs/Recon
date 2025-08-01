@@ -27,9 +27,8 @@ jobs:
 
       - name: Get all domains
         run: |
-          curl -s "https://gist.githubusercontent.com/z0rs/521be12298502f4490cab8bcca17c050/raw/53646d47280e145778bd23e818758b27d29da1f0/cirebonkota.txt" \
-          nuclei -nc -attack-type pitchfork -rl 50 -bs 10 -c 10 -timeout 20 -retries 2 \
-          | tee cirebonkota.$(date +%Y-%m-%d).txt
+          curl -s "https://gist.githubusercontent.com/z0rs/00b1404c1bba317c33b242a7b5291bac/raw/6034acc3189ae84a7539e113644323f551d97491/orvamedia.txt" | nuclei -nc -attack-type pitchfork -rl 50 -bs 10 -c 10 -timeout 20 -retries 2 \
+          | tee orvamedia.$(date +%Y-%m-%d).txt
 
       - name: Set up Git user
         run: |
