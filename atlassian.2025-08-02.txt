@@ -1,0 +1,25 @@
+[missing-sri] [http] [info] https://id.atlassian.com/login?continue=https%3A%2F%2Fid.atlassian.com%2Fjoin%2Fuser-access%3Fresource%3Dari%253Acloud%253Ajira%253A%253Asite%252Ff1a7ef69-0d4a-444a-bc29-fb8f23ef7e48%26continue%3Dhttps%253A%252F%252Fvoidev.atlassian.net%252F&application=jira ["https://id-frontend.prod-east.frontend.public.atl-paas.net/assets/index.d9253aad.js","https://id-frontend.prod-east.frontend.public.atl-paas.net/assets/index.7b89ccc4.js","https://id-frontend.prod-east.frontend.public.atl-paas.net/assets/index.60abf0f0.css"]
+[waf-detect:cloudfront] [http] [info] https://voidev.atlassian.net
+[tls-version] [ssl] [info] voidev.atlassian.net:443 ["tls12"]
+[tls-version] [ssl] [info] voidev.atlassian.net:443 ["tls13"]
+[robots-txt] [http] [info] https://voidev.atlassian.net/robots.txt
+[jira-unauthenticated-adminprojects] [http] [info] https://voidev.atlassian.net/rest/menu/latest/admin
+[CVE-2020-14179] [http] [medium] https://voidev.atlassian.net/secure/QueryComponent!Default.jspa
+[robots-txt-endpoint] [http] [info] https://voidev.atlassian.net/robots.txt
+[assetlinks-detect] [http] [info] https://voidev.atlassian.net/.well-known/assetlinks.json
+[security-txt] [http] [info] https://voidev.atlassian.net/.well-known/security.txt ["https://www.atlassian.com/trust/security/report-a-vulnerability","mailto:security@atlassian.com"]
+[jira-unauthenticated-dashboards] [http] [info] https://voidev.atlassian.net/rest/api/2/dashboard?maxResults=100
+[aws-detect:aws-cloudfront] [http] [info] https://voidev.atlassian.net/login?application=jira&dest-url=https%3A%2F%2Fvoidev.atlassian.net%2F
+[aws-detect:aws-cloudfront] [http] [info] https://voidev.atlassian.net/login.jsp?os_destination=https%3A%2F%2Fvoidev.atlassian.net%2F
+[aws-detect:aws-cloudfront] [http] [info] https://voidev.atlassian.net
+[xss-deprecated-header] [http] [info] https://voidev.atlassian.net ["1; mode=block"]
+[aws-cloudfront-service] [http] [info] https://voidev.atlassian.net
+[jira-serverinfo] [http] [info] https://voidev.atlassian.net/rest/api/latest/serverInfo ["1001.0.0-SNAPSHOT","https://voidev.atlassian.net"]
+[confluence-detect] [http] [info] https://voidev.atlassian.net/wiki
+[spf-record-detect] [dns] [info] voidev.atlassian.net ["v=spf1 include:_spf.atlassian.net include:mail-us.atlassian.net include:mail-eu.atlassian.net -all""]
+[txt-fingerprint] [dns] [info] voidev.atlassian.net [""wildcard-placeholder"",""v=spf1 include:_spf.atlassian.net include:mail-us.atlassian.net include:mail-eu.atlassian.net -all""]
+[mx-fingerprint] [dns] [info] voidev.atlassian.net ["10 inbound-smtp.us-east-1.amazonaws.com.","10 inbound-smtp.us-west-2.amazonaws.com."]
+[caa-fingerprint] [dns] [info] voidev.atlassian.net
+[ssl-issuer] [ssl] [info] voidev.atlassian.net:443 ["Amazon"]
+[ssl-dns-names] [ssl] [info] voidev.atlassian.net:443 ["*.atlassian.net","atlassian.com","jira.com","*.atlassian.com","*.jira.com","atlassian.net"]
+[wildcard-tls] [ssl] [info] voidev.atlassian.net:443 ["CN: *.atlassian.net","SAN: [*.atlassian.net atlassian.com jira.com *.atlassian.com *.jira.com atlassian.net]"]
