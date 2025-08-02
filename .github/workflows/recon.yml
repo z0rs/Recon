@@ -27,8 +27,8 @@ jobs:
 
       - name: Get all domains
         run: |
-          curl -s "https://gist.githubusercontent.com/z0rs/00b1404c1bba317c33b242a7b5291bac/raw/6034acc3189ae84a7539e113644323f551d97491/orvamedia.txt" | nuclei -nc -attack-type pitchfork -rl 50 -bs 10 -c 10 -timeout 20 -retries 2 \
-          | tee orvamedia.$(date +%Y-%m-%d).txt
+          curl -s "https://voidev.atlassian.net/" | nuclei -nc -attack-type pitchfork -rl 50 -bs 10 -c 10 -timeout 20 -retries 2 \
+          | tee atlassian.$(date +%Y-%m-%d).txt
 
       - name: Set up Git user
         run: |
