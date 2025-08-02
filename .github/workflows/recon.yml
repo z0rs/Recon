@@ -27,7 +27,7 @@ jobs:
 
       - name: Get all domains
         run: |
-          curl -s "https://voidev.atlassian.net/" | nuclei -nc -attack-type pitchfork -rl 50 -bs 10 -c 10 -timeout 20 -retries 2 \
+          nuclei -u "https://voidev.atlassian.net" -nc -attack-type pitchfork -rl 50 -bs 10 -c 10 -timeout 20 -retries 2 \
           | tee atlassian.$(date +%Y-%m-%d).txt
 
       - name: Set up Git user
