@@ -1,0 +1,68 @@
+[[92mdns-waf-detect[0m:[1;92mcloudflare[0m] [[94mdns[0m] [[34minfo[0m] voi.com
+[[92mazure-domain-tenant[0m] [[94mhttp[0m] [[34minfo[0m] https://login.microsoftonline.com:443/voiapp.io/v2.0/.well-known/openid-configuration [[96m"f8b0fdcd-86ee-48ee-a2d7-83407abaa658"[0m]
+[[92mwaf-detect[0m:[1;92mcloudflare[0m] [[94mhttp[0m] [[34minfo[0m] http://mecenat.voiscooters.com
+[[92mwaf-detect[0m:[1;92mcloudflare[0m] [[94mhttp[0m] [[34minfo[0m] https://voiscooters.com
+[[92mwaf-detect[0m:[1;92mcloudflare[0m] [[94mhttp[0m] [[34minfo[0m] http://www.voi.com
+[[92mdeprecated-tls[0m:[1;92mtls_1.1[0m] [[94mssl[0m] [[34minfo[0m] voiscooters.com:443 [[96m"tls11"[0m]
+[[92mdeprecated-tls[0m:[1;92mtls_1.1[0m] [[94mssl[0m] [[34minfo[0m] mecenat.voiscooters.com:443 [[96m"tls11"[0m]
+[[92mtls-version[0m] [[94mssl[0m] [[34minfo[0m] voiscooters.com:443 [[96m"tls10"[0m]
+[[92mdeprecated-tls[0m:[1;92mtls_1.0[0m] [[94mssl[0m] [[34minfo[0m] voiscooters.com:443 [[96m"tls10"[0m]
+[[92mdeprecated-tls[0m:[1;92mtls_1.0[0m] [[94mssl[0m] [[34minfo[0m] mecenat.voiscooters.com:443 [[96m"tls10"[0m]
+[[92mtls-version[0m] [[94mssl[0m] [[34minfo[0m] mecenat.voiscooters.com:443 [[96m"tls10"[0m]
+[[92mweak-cipher-suites[0m:[1;92mtls-1.0[0m] [[94mssl[0m] [[32mlow[0m] voiscooters.com:443 [[96m"[tls10 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"[0m]
+[[92mweak-cipher-suites[0m:[1;92mtls-1.0[0m] [[94mssl[0m] [[32mlow[0m] mecenat.voiscooters.com:443 [[96m"[tls10 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"[0m]
+[[92mtls-version[0m] [[94mssl[0m] [[34minfo[0m] voiscooters.com:443 [[96m"tls11"[0m]
+[[92mtls-version[0m] [[94mssl[0m] [[34minfo[0m] mecenat.voiscooters.com:443 [[96m"tls11"[0m]
+[[92mweak-cipher-suites[0m:[1;92mtls-1.1[0m] [[94mssl[0m] [[32mlow[0m] voiscooters.com:443 [[96m"[tls11 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"[0m]
+[[92mtls-version[0m] [[94mssl[0m] [[34minfo[0m] voiscooters.com:443 [[96m"tls12"[0m]
+[[92mweak-cipher-suites[0m:[1;92mtls-1.1[0m] [[94mssl[0m] [[32mlow[0m] mecenat.voiscooters.com:443 [[96m"[tls11 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"[0m]
+[[92mtls-version[0m] [[94mssl[0m] [[34minfo[0m] mecenat.voiscooters.com:443 [[96m"tls12"[0m]
+[[92mtls-version[0m] [[94mssl[0m] [[34minfo[0m] voiscooters.com:443 [[96m"tls13"[0m]
+[[92mtls-version[0m] [[94mssl[0m] [[34minfo[0m] mecenat.voiscooters.com:443 [[96m"tls13"[0m]
+[[92mdeprecated-tls[0m:[1;92mtls_1.1[0m] [[94mssl[0m] [[34minfo[0m] www.voi.com:443 [[96m"tls11"[0m]
+[[92mweak-cipher-suites[0m:[1;92mtls-1.0[0m] [[94mssl[0m] [[32mlow[0m] www.voi.com:443 [[96m"[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"[0m]
+[[92mtls-version[0m] [[94mssl[0m] [[34minfo[0m] www.voi.com:443 [[96m"tls10"[0m]
+[[92mtls-version[0m] [[94mssl[0m] [[34minfo[0m] www.voi.com:443 [[96m"tls11"[0m]
+[[92mweak-cipher-suites[0m:[1;92mtls-1.1[0m] [[94mssl[0m] [[32mlow[0m] www.voi.com:443 [[96m"[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"[0m]
+[[92mdeprecated-tls[0m:[1;92mtls_1.0[0m] [[94mssl[0m] [[34minfo[0m] www.voi.com:443 [[96m"tls10"[0m]
+[[92mtls-version[0m] [[94mssl[0m] [[34minfo[0m] voiapp.io:443 [[96m"tls12"[0m]
+[[92mtls-version[0m] [[94mssl[0m] [[34minfo[0m] www.voi.com:443 [[96m"tls12"[0m]
+[[92mtls-version[0m] [[94mssl[0m] [[34minfo[0m] voiapp.io:443 [[96m"tls13"[0m]
+[[92mtls-version[0m] [[94mssl[0m] [[34minfo[0m] www.voi.com:443 [[96m"tls13"[0m]
+[[92mtech-detect[0m:[1;92mcloudflare[0m] [[94mhttp[0m] [[34minfo[0m] https://voiscooters.com
+[[92mtech-detect[0m:[1;92mcloudflare[0m] [[94mhttp[0m] [[34minfo[0m] https://mecenat.voiscooters.com/
+[[92mtech-detect[0m:[1;92mcloudflare[0m] [[94mhttp[0m] [[34minfo[0m] https://mecenat.voiscooters.com/
+[[92mtech-detect[0m:[1;92mcloudflare[0m] [[94mhttp[0m] [[34minfo[0m] http://mecenat.voiscooters.com
+[[92mtech-detect[0m:[1;92mcloudflare[0m] [[94mhttp[0m] [[34minfo[0m] http://www.voi.com
+[[92mrdap-whois[0m:[1;92mnameServers[0m] [[94mhttp[0m] [[34minfo[0m] https://rdap.verisign.com/com/v1/domain/voiscooters.com [[96m"JOSH.NS.CLOUDFLARE.COM"[0m,[96m"MONA.NS.CLOUDFLARE.COM"[0m]
+[[92mrdap-whois[0m:[1;92msecureDNS[0m] [[94mhttp[0m] [[34minfo[0m] https://rdap.verisign.com/com/v1/domain/voiscooters.com [[96m"false"[0m]
+[[92mrdap-whois[0m:[1;92mstatus[0m] [[94mhttp[0m] [[34minfo[0m] https://rdap.verisign.com/com/v1/domain/voiscooters.com [[96m"client transfer prohibited"[0m]
+[[92mrdap-whois[0m:[1;92mregistrationDate[0m] [[94mhttp[0m] [[34minfo[0m] https://rdap.verisign.com/com/v1/domain/voiscooters.com [[96m"2018-08-29T19:02:35Z"[0m]
+[[92mrdap-whois[0m:[1;92mlastChangeDate[0m] [[94mhttp[0m] [[34minfo[0m] https://rdap.verisign.com/com/v1/domain/voiscooters.com [[96m"2023-10-26T06:31:02Z"[0m]
+[[92mrdap-whois[0m:[1;92mexpirationDate[0m] [[94mhttp[0m] [[34minfo[0m] https://rdap.verisign.com/com/v1/domain/voiscooters.com [[96m"2027-08-29T19:02:35Z"[0m]
+[[92mcaa-fingerprint[0m] [[94mdns[0m] [[34minfo[0m] mecenat.voiscooters.com
+[[92mcaa-fingerprint[0m] [[94mdns[0m] [[34minfo[0m] voiscooters.com
+[[92mcaa-fingerprint[0m] [[94mdns[0m] [[34minfo[0m] voiapp.io
+[[92mcaa-fingerprint[0m] [[94mdns[0m] [[34minfo[0m] www.voi.com
+[[92mdmarc-detect[0m] [[94mdns[0m] [[34minfo[0m] _dmarc.voiapp.io [[96m""v=DMARC1;p=quarantine;rua=mailto:dmarc_agg@vali.email;""[0m]
+[[92mdmarc-detect[0m] [[94mdns[0m] [[34minfo[0m] _dmarc.voiscooters.com [[96m""v=DMARC1; p=reject; rua=mailto:dmarc_agg@vali.email;""[0m]
+[[92mmx-fingerprint[0m] [[94mdns[0m] [[34minfo[0m] voiapp.io [[96m"10 alt3.aspmx.l.google.com."[0m,[96m"5 alt2.aspmx.l.google.com."[0m,[96m"10 alt4.aspmx.l.google.com."[0m,[96m"1 aspmx.l.google.com."[0m,[96m"5 alt1.aspmx.l.google.com."[0m]
+[[92mmx-service-detector[0m:[1;92mGoogle Apps[0m] [[94mdns[0m] [[34minfo[0m] voiapp.io
+[[92mspf-record-detect[0m] [[94mdns[0m] [[34minfo[0m] voiapp.io [[96m"v=spf1 +mx include:_spf.google.com include:sendgrid.net include:mail.zendesk.com include:servers.mcsv.net ~all""[0m]
+[[92mtxt-fingerprint[0m] [[94mdns[0m] [[34minfo[0m] voiapp.io [[96m""qvqhx0jdrp1f59w44wx3ptkj15j96z9j""[0m,[96m""v=spf1 +mx include:_spf.google.com include:sendgrid.net include:mail.zendesk.com include:servers.mcsv.net ~all""[0m,[96m""google-site-verification=L7gNN-LR6D39hqYrgjwrqzrWM_QZroGNae5846wDLlM""[0m,[96m""docusign=5bf69556-dc6a-4878-82ed-f530101f771b""[0m,[96m""1p0b0161yz4t8cdn0j7v2hb2t14twf58""[0m,[96m""google-site-verification=eeoFEwg0w5C36vuLgKwocWG0_UduuTlOcBDIeNeltqY""[0m,[96m""google-site-verification=I33oluj2AviM-yMyUPexi0uR1XPoZPE5U6e_B1Swsg8""[0m,[96m""google-site-verification=rL83P-c2IU5-Ee2nogfLE-p_Ui3MKobGXscTi-FrKYg""[0m,[96m""google-site-verification=dJ_cK1Sa8KUATVwij71lP11aIrA-S3F3GyJAm1ssAZw""[0m,[96m""atlassian-sending-domain-verification=84a8209d-9317-4a72-933c-f111b8377fe2""[0m,[96m""google-site-verification=HeDURJRqiZkmH9F5zzmoPqtGLbOMAOip3b5z3unjFec""[0m,[96m""google-site-verification=crqgpjPaHQPW5euFUXCGj9TB6U4kcthmAu56r1xZ_4A""[0m,[96m""TAILSCALE=zfaijFSX0A26kTbcu8VL""[0m,[96m""atlassian-domain-verification=Op4yMdpe2bBcIOqyMAtu9cc0S/qZlORkjxL8eNIOAk50NJDb70PqnDmoCVpGQZop""[0m,[96m""openai-domain-verification=dv-F7kYXcfWEAbxRnmqIVCxIydq""[0m]
+[[92mspf-record-detect[0m] [[94mdns[0m] [[34minfo[0m] voiscooters.com [[96m"v=spf1 include:_spf.google.com -all""[0m]
+[[92mtxt-fingerprint[0m] [[94mdns[0m] [[34minfo[0m] voiscooters.com [[96m""google-site-verification=s6MFYi50fhhLoKYyENEgZv3lghOfai05cgxfUPEYoiA""[0m,[96m""v=spf1 include:_spf.google.com -all""[0m,[96m""trend-micro-v1-domain-verification.bd94d929cdb4cbed24a96879f7fe43fe=12dbed1e-274a-40fb-8695-791d7f0e8aa9""[0m,[96m""facebook-domain-verification=xs3la46k88j4j1km1vj1ntvddz8knv""[0m]
+[[92mssl-issuer[0m] [[94mssl[0m] [[34minfo[0m] voiapp.io:443 [[96m"Let's Encrypt"[0m]
+[[92mssl-dns-names[0m] [[94mssl[0m] [[34minfo[0m] voiapp.io:443 [[96m"voiapp.io"[0m,[96m"*.voiapp.io"[0m,[96m"fota.air.iot.voiapp.io"[0m,[96m"mriot.iot.voiapp.io"[0m,[96m"pb.iot.voiapp.io"[0m]
+[[92mwildcard-tls[0m] [[94mssl[0m] [[34minfo[0m] voiapp.io:443 [[96m"CN: *.voiapp.io"[0m,[96m"SAN: [*.voiapp.io fota.air.iot.voiapp.io mriot.iot.voiapp.io pb.iot.voiapp.io voiapp.io]"[0m]
+[[92mssl-issuer[0m] [[94mssl[0m] [[34minfo[0m] voiscooters.com:443 [[96m"Google Trust Services"[0m]
+[[92mssl-issuer[0m] [[94mssl[0m] [[34minfo[0m] www.voi.com:443 [[96m"Google Trust Services"[0m]
+[[92mssl-dns-names[0m] [[94mssl[0m] [[34minfo[0m] voiscooters.com:443 [[96m"voiscooters.com"[0m,[96m"*.voiscooters.com"[0m]
+[[92mssl-dns-names[0m] [[94mssl[0m] [[34minfo[0m] www.voi.com:443 [[96m"voi.com"[0m,[96m"*.voi.com"[0m]
+[[92mwildcard-tls[0m] [[94mssl[0m] [[34minfo[0m] voiscooters.com:443 [[96m"CN: voiscooters.com"[0m,[96m"SAN: [voiscooters.com *.voiscooters.com]"[0m]
+[[92mwildcard-tls[0m] [[94mssl[0m] [[34minfo[0m] www.voi.com:443 [[96m"CN: voi.com"[0m,[96m"SAN: [voi.com *.voi.com]"[0m]
+[[92mssl-issuer[0m] [[94mssl[0m] [[34minfo[0m] mecenat.voiscooters.com:443 [[96m"Google Trust Services"[0m]
+[[92mssl-dns-names[0m] [[94mssl[0m] [[34minfo[0m] mecenat.voiscooters.com:443 [[96m"voiscooters.com"[0m,[96m"*.voiscooters.com"[0m]
+[[92mwildcard-tls[0m] [[94mssl[0m] [[34minfo[0m] mecenat.voiscooters.com:443 [[96m"CN: voiscooters.com"[0m,[96m"SAN: [voiscooters.com *.voiscooters.com]"[0m]
+[[92mnameserver-fingerprint[0m] [[94mdns[0m] [[34minfo[0m] voiapp.io [[96m"ns-cloud-b3.googledomains.com."[0m,[96m"ns-cloud-b1.googledomains.com."[0m,[96m"ns-cloud-b2.googledomains.com."[0m,[96m"ns-cloud-b4.googledomains.com."[0m]
+[[92mnameserver-fingerprint[0m] [[94mdns[0m] [[34minfo[0m] voiscooters.com [[96m"josh.ns.cloudflare.com."[0m,[96m"mona.ns.cloudflare.com."[0m]
